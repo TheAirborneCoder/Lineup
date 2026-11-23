@@ -1,0 +1,44 @@
+# --- Never commit the game or anything made from it ---------------------------------------------------------------
+# Game archives and packages
+*.rpf
+*.ttpf
+*.etpf
+*.xvd
+*.msixvc
+# Extracted or derived game data
+*.pso
+*.sqlite3
+*.sqlite3-*
+*.glb
+*.gltf
+*.gtex
+*.dds
+*.png
+*.jpg
+*.webp
+*.bk2
+*.awc
+*.fssm
+*.dxbc
+*.spv
+*.s
+*.bin
+# Lineup's work folder and caches (indexes, databases, decoded models and textures)
+work/
+cache/
+# ------------------------------------------------------------------------------------------------------------------
+
+# Build output and caches
+.venv/
+__pycache__/
+*.pyc
+*.dll
+*.so
+*.dylib
+*.obj
+*.exp
+*.lib
+*.log
+
+# The one image in the repository
+!assets/logo.svg

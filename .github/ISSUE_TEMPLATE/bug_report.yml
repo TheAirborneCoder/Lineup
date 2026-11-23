@@ -1,0 +1,80 @@
+name: Bug report
+description: Lineup crashed, stopped, or shows something wrong.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not attach game files.** No archives, no extracted assets, no screenshots of extracted models or
+        textures, no databases or caches from your work folder. Console text and file names are fine.
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows 10
+        - Windows 11
+        - Linux
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      description: The output of `python --version` (the one inside `.venv` if you used a launcher).
+    validations:
+      required: true
+  - type: input
+    id: commit
+    attributes:
+      label: Lineup commit or version
+      description: The commit you downloaded (shown on the repository page) or the release name.
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Stage that failed
+      description: The line that starts with `[n/8]` just before the problem. `python lineup.py --status` lists them.
+      options:
+        - Before any stage (finding or checking the game)
+        - index
+        - names
+        - drawables
+        - textures
+        - inventory
+        - characters
+        - grooms
+        - animations
+        - The viewer (server or browser page)
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: Game version
+      description: The version line `lineup.py` prints at the start (Lineup supports 1.0.2.1 only).
+  - type: textarea
+    id: console
+    attributes:
+      label: Console text
+      description: Copy the text from the terminal, from the command you ran to the end. Remove anything private.
+      render: shell
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: I have not attached game files, extracted assets, screenshots of extracted assets or generated databases.
+          required: true

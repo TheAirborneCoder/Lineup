@@ -1,0 +1,5 @@
+# Lineup needs only these two packages. The code was run with numpy 2.5.5 and Pillow 13.0.0 (Python 3.14).
+# The lower bounds come from the APIs used (numpy 1.21.3 is the first release for Python 3.10; Pillow 9.1 added
+# Image.Resampling); older combinations were not run.
+numpy>=1.21.3
+Pillow>=9.1

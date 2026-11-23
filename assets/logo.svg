@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="240" height="160" role="img" aria-labelledby="t">
+  <title id="t">Lineup</title>
+  <!-- a height chart: five horizontal rules with tick marks -->
+  <g stroke="#8a94a0" stroke-width="2" stroke-linecap="round" fill="none">
+    <path d="M26 30H222M26 55H222M26 80H222M26 105H222M26 130H222"/>
+    <path d="M26 30v8M26 55v8M26 80v8M26 105v8M26 130v-8"/>
+    <path d="M38 30v4M38 55v4M38 80v4M38 105v4M50 30v4M50 55v4M50 80v4M50 105v4"/>
+  </g>
+  <!-- three plain standing figures of different heights -->
+  <g fill="#1f9e8f">
+    <circle cx="88" cy="50" r="10"/>
+    <rect x="75" y="64" width="26" height="66" rx="13"/>
+  </g>
+  <g fill="#e8a33d">
+    <circle cx="130" cy="72" r="9"/>
+    <rect x="118" y="85" width="24" height="45" rx="12"/>
+  </g>
+  <g fill="#1f9e8f">
+    <circle cx="170" cy="94" r="8"/>
+    <rect x="160" y="106" width="20" height="24" rx="10"/>
+  </g>
+</svg>

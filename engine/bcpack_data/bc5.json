@@ -1,0 +1,4905 @@
+{
+ "description": "BC5 BCPack rebuild data. symbolToPair: 6-bit index symbol -> [left pixel index, right pixel index] (raw 3-bit indices). history: built-in entries [r0, r1, g0, g1] that are not in the file; confirmed is per channel. Confirmed channels are pinned by blocks known exactly (flat areas of a larger mip whose four covering blocks are known exactly, identical and flat, in mip pairs whose flat-copy assumption checked out on blocks with no history; bcexact345.py, field exact); the others are pooled fits against neighbour mips, accurate to about 1. See bcpack_research/README.md sections 12 and 19.",
+ "symbolToPair": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   6,
+   6
+  ],
+  [
+   7,
+   7
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   5,
+   5
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   6,
+   1
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   7,
+   1
+  ],
+  [
+   6,
+   0
+  ],
+  [
+   0,
+   6
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   3,
+   2
+  ],
+  [
+   4,
+   6
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   4,
+   1
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   7,
+   4
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   0,
+   7
+  ],
+  [
+   7,
+   3
+  ],
+  [
+   3,
+   7
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   2,
+   5
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   2,
+   6
+  ],
+  [
+   7,
+   2
+  ],
+  [
+   2,
+   7
+  ]
+ ],
+ "history": {
+  "3": {
+   "value": [
+    130,
+    218,
+    45,
+    192
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "4": {
+   "value": [
+    172,
+    109,
+    158,
+    94
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 89345,
+   "chunks": 33,
+   "fitBlocks": 8946,
+   "fitChunks": 24,
+   "references": "LS"
+  },
+  "5": {
+   "value": [
+    183,
+    136,
+    113,
+    69
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 15,
+   "chunks": 2,
+   "fitBlocks": 15,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "6": {
+   "value": [
+    125,
+    129,
+    86,
+    34
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 83,
+   "chunks": 3,
+   "fitBlocks": 80,
+   "fitChunks": 2,
+   "references": "L"
+  },
+  "7": {
+   "value": [
+    171,
+    196,
+    33,
+    82
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 223,
+   "chunks": 2,
+   "fitBlocks": 223,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "9": {
+   "value": [
+    142,
+    149,
+    102,
+    118
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 7065,
+   "chunks": 3,
+   "fitBlocks": 82,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "14": {
+   "value": [
+    82,
+    62,
+    26,
+    23
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "15": {
+   "value": [
+    100,
+    94,
+    32,
+    32
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 137,
+   "chunks": 3,
+   "fitBlocks": 76,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "16": {
+   "value": [
+    97,
+    123,
+    61,
+    97
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "19": {
+   "value": [
+    133,
+    140,
+    118,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3569,
+   "chunks": 1,
+   "fitBlocks": 600,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "20": {
+   "value": [
+    206,
+    194,
+    128,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11,
+   "chunks": 1,
+   "fitBlocks": 11,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "22": {
+   "value": [
+    147,
+    145,
+    64,
+    66
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 281,
+   "chunks": 4,
+   "fitBlocks": 203,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "24": {
+   "value": [
+    76,
+    189,
+    55,
+    171
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 16,
+   "chunks": 1,
+   "fitBlocks": 16,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "27": {
+   "value": [
+    94,
+    115,
+    86,
+    102
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "28": {
+   "value": [
+    163,
+    38,
+    152,
+    29
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 117475,
+   "chunks": 20,
+   "fitBlocks": 2885,
+   "fitChunks": 12,
+   "references": "LS"
+  },
+  "29": {
+   "value": [
+    143,
+    133,
+    89,
+    80
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 73,
+   "chunks": 4,
+   "fitBlocks": 73,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "30": {
+   "value": [
+    197,
+    67,
+    172,
+    50
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 95142,
+   "chunks": 69,
+   "fitBlocks": 23265,
+   "fitChunks": 56,
+   "references": "LS"
+  },
+  "31": {
+   "value": [
+    164,
+    218,
+    130,
+    127
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 87,
+   "chunks": 1,
+   "fitBlocks": 87,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "32": {
+   "value": [
+    141,
+    145,
+    111,
+    132
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 108,
+   "chunks": 8,
+   "fitBlocks": 103,
+   "fitChunks": 6,
+   "references": "S"
+  },
+  "33": {
+   "value": [
+    177,
+    125,
+    131,
+    32
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 7547,
+   "chunks": 11,
+   "fitBlocks": 1276,
+   "fitChunks": 9,
+   "references": "S"
+  },
+  "34": {
+   "value": [
+    49,
+    113,
+    26,
+    94
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5,
+   "chunks": 1,
+   "fitBlocks": 5,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "36": {
+   "value": [
+    173,
+    169,
+    40,
+    28
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "38": {
+   "value": [
+    117,
+    125,
+    43,
+    50
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1398,
+   "chunks": 3,
+   "fitBlocks": 602,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "39": {
+   "value": [
+    139,
+    111,
+    99,
+    72
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2044,
+   "chunks": 19,
+   "fitBlocks": 1511,
+   "fitChunks": 14,
+   "references": "LS"
+  },
+  "40": {
+   "value": [
+    123,
+    93,
+    83,
+    49
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2669,
+   "chunks": 11,
+   "fitBlocks": 828,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "41": {
+   "value": [
+    189,
+    166,
+    135,
+    116
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1856,
+   "chunks": 6,
+   "fitBlocks": 1187,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "42": {
+   "value": [
+    198,
+    97,
+    178,
+    73
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 109718,
+   "chunks": 79,
+   "fitBlocks": 17478,
+   "fitChunks": 66,
+   "references": "LS"
+  },
+  "43": {
+   "value": [
+    205,
+    201,
+    76,
+    86
+   ],
+   "confirmed": [
+    false,
+    false,
+    true,
+    true
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 166,
+   "chunks": 3,
+   "fitBlocks": 166,
+   "fitChunks": 3,
+   "references": "LS",
+   "exact": {
+    "1": {
+     "value": [
+      76,
+      86
+     ],
+     "votes": 1,
+     "mipPairs": [
+      [
+       "ttdb_vfx.ttpf",
+       1171,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "44": {
+   "value": [
+    172,
+    174,
+    73,
+    72
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "46": {
+   "value": [
+    157,
+    210,
+    136,
+    188
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 99,
+   "chunks": 1,
+   "fitBlocks": 99,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "47": {
+   "value": [
+    126,
+    149,
+    115,
+    129
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5,
+   "chunks": 5,
+   "fitBlocks": 3,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "48": {
+   "value": [
+    158,
+    67,
+    137,
+    41
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 27545,
+   "chunks": 36,
+   "fitBlocks": 3170,
+   "fitChunks": 28,
+   "references": "LS"
+  },
+  "49": {
+   "value": [
+    214,
+    120,
+    131,
+    80
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1188,
+   "chunks": 25,
+   "fitBlocks": 1080,
+   "fitChunks": 21,
+   "references": "LS"
+  },
+  "51": {
+   "value": [
+    147,
+    150,
+    119,
+    119
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 13,
+   "chunks": 3,
+   "fitBlocks": 12,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "52": {
+   "value": [
+    169,
+    107,
+    135,
+    65
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6226,
+   "chunks": 46,
+   "fitBlocks": 4159,
+   "fitChunks": 37,
+   "references": "LS"
+  },
+  "54": {
+   "value": [
+    231,
+    168,
+    223,
+    154
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 44,
+   "chunks": 5,
+   "fitBlocks": 28,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "55": {
+   "value": [
+    115,
+    144,
+    99,
+    120
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "56": {
+   "value": [
+    74,
+    104,
+    50,
+    83
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 53,
+   "chunks": 3,
+   "fitBlocks": 51,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "57": {
+   "value": [
+    220,
+    132,
+    32,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 30,
+   "chunks": 1,
+   "fitBlocks": 30,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "58": {
+   "value": [
+    150,
+    136,
+    110,
+    96
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1050,
+   "chunks": 20,
+   "fitBlocks": 557,
+   "fitChunks": 14,
+   "references": "LS"
+  },
+  "60": {
+   "value": [
+    139,
+    147,
+    124,
+    108
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1136,
+   "chunks": 10,
+   "fitBlocks": 10,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "61": {
+   "value": [
+    121,
+    124,
+    78,
+    94
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 65,
+   "chunks": 2,
+   "fitBlocks": 65,
+   "fitChunks": 2,
+   "references": "L"
+  },
+  "63": {
+   "value": [
+    169,
+    151,
+    124,
+    103
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 9607,
+   "chunks": 20,
+   "fitBlocks": 796,
+   "fitChunks": 13,
+   "references": "LS"
+  },
+  "64": {
+   "value": [
+    120,
+    106,
+    103,
+    88
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2438,
+   "chunks": 16,
+   "fitBlocks": 422,
+   "fitChunks": 11,
+   "references": "LS"
+  },
+  "65": {
+   "value": [
+    134,
+    147,
+    110,
+    109
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 28,
+   "chunks": 5,
+   "fitBlocks": 16,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "67": {
+   "value": [
+    133,
+    125,
+    103,
+    107
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1931,
+   "chunks": 9,
+   "fitBlocks": 619,
+   "fitChunks": 5,
+   "references": "S"
+  },
+  "68": {
+   "value": [
+    160,
+    133,
+    118,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 181,
+   "chunks": 9,
+   "fitBlocks": 93,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "69": {
+   "value": [
+    175,
+    78,
+    163,
+    68
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 281264,
+   "chunks": 114,
+   "fitBlocks": 31852,
+   "fitChunks": 94,
+   "references": "LS"
+  },
+  "70": {
+   "value": [
+    229,
+    133,
+    166,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 208,
+   "chunks": 6,
+   "fitBlocks": 207,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "71": {
+   "value": [
+    233,
+    147,
+    224,
+    134
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 10,
+   "chunks": 4,
+   "fitBlocks": 9,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "72": {
+   "value": [
+    127,
+    142,
+    104,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 85,
+   "chunks": 5,
+   "fitBlocks": 84,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "73": {
+   "value": [
+    134,
+    150,
+    99,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "continuity with neighbour blocks (one-mip texture, no mip reference)",
+   "blocks": 8,
+   "chunks": 1,
+   "fitBlocks": 8,
+   "fitChunks": 1,
+   "references": "E"
+  },
+  "74": {
+   "value": [
+    110,
+    149,
+    83,
+    129
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3,
+   "chunks": 2,
+   "fitBlocks": 3,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "75": {
+   "value": [
+    175,
+    187,
+    129,
+    141
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 26,
+   "chunks": 2,
+   "fitBlocks": 26,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "77": {
+   "value": [
+    115,
+    124,
+    96,
+    104
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 4,
+   "chunks": 2,
+   "fitBlocks": 4,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "78": {
+   "value": [
+    164,
+    128,
+    141,
+    109
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 37552,
+   "chunks": 83,
+   "fitBlocks": 7280,
+   "fitChunks": 59,
+   "references": "LS"
+  },
+  "79": {
+   "value": [
+    129,
+    85,
+    114,
+    22
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 180,
+   "chunks": 10,
+   "fitBlocks": 148,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "80": {
+   "value": [
+    246,
+    131,
+    241,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 492,
+   "chunks": 5,
+   "fitBlocks": 107,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "82": {
+   "value": [
+    168,
+    186,
+    145,
+    165
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3,
+   "chunks": 2,
+   "fitBlocks": 3,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "83": {
+   "value": [
+    192,
+    133,
+    158,
+    100
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 7028,
+   "chunks": 43,
+   "fitBlocks": 3183,
+   "fitChunks": 34,
+   "references": "LS"
+  },
+  "84": {
+   "value": [
+    107,
+    143,
+    105,
+    133
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 2,
+   "fitBlocks": 2,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "85": {
+   "value": [
+    201,
+    212,
+    172,
+    181
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 75,
+   "chunks": 1,
+   "fitBlocks": 75,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "86": {
+   "value": [
+    124,
+    138,
+    116,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 741,
+   "chunks": 9,
+   "fitBlocks": 736,
+   "fitChunks": 8,
+   "references": "S"
+  },
+  "87": {
+   "value": [
+    92,
+    60,
+    71,
+    40
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 177,
+   "chunks": 7,
+   "fitBlocks": 177,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "88": {
+   "value": [
+    203,
+    134,
+    149,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 283,
+   "chunks": 14,
+   "fitBlocks": 262,
+   "fitChunks": 12,
+   "references": "LS"
+  },
+  "90": {
+   "value": [
+    61,
+    123,
+    25,
+    114
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "91": {
+   "value": [
+    123,
+    160,
+    113,
+    145
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3498,
+   "chunks": 5,
+   "fitBlocks": 164,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "92": {
+   "value": [
+    150,
+    169,
+    135,
+    150
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 60,
+   "chunks": 2,
+   "fitBlocks": 59,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "93": {
+   "value": [
+    134,
+    139,
+    101,
+    109
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 7,
+   "chunks": 1,
+   "fitBlocks": 7,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "94": {
+   "value": [
+    253,
+    94,
+    255,
+    63
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 12813,
+   "chunks": 21,
+   "fitBlocks": 10,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "95": {
+   "value": [
+    123,
+    87,
+    106,
+    67
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 16315,
+   "chunks": 19,
+   "fitBlocks": 105,
+   "fitChunks": 13,
+   "references": "LS"
+  },
+  "96": {
+   "value": [
+    238,
+    133,
+    121,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 26,
+   "chunks": 3,
+   "fitBlocks": 26,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "98": {
+   "value": [
+    24,
+    18,
+    15,
+    10
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 277,
+   "chunks": 2,
+   "fitBlocks": 35,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "99": {
+   "value": [
+    117,
+    41,
+    97,
+    25
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 73,
+   "chunks": 10,
+   "fitBlocks": 67,
+   "fitChunks": 9,
+   "references": "LS"
+  },
+  "100": {
+   "value": [
+    123,
+    121,
+    70,
+    67
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 495,
+   "chunks": 9,
+   "fitBlocks": 102,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "101": {
+   "value": [
+    64,
+    59,
+    51,
+    49
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 10,
+   "chunks": 3,
+   "fitBlocks": 10,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "102": {
+   "value": [
+    11,
+    103,
+    12,
+    88
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11,
+   "chunks": 1,
+   "fitBlocks": 11,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "103": {
+   "value": [
+    144,
+    133,
+    111,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 241,
+   "chunks": 7,
+   "fitBlocks": 220,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "104": {
+   "value": [
+    189,
+    200,
+    65,
+    52
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 37,
+   "chunks": 1,
+   "fitBlocks": 37,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "105": {
+   "value": [
+    219,
+    153,
+    195,
+    135
+   ],
+   "confirmed": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "source": "exact",
+   "blocks": 1078,
+   "chunks": 12,
+   "fitBlocks": 937,
+   "fitChunks": 9,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      219,
+      153
+     ],
+     "votes": 3,
+     "mipPairs": [
+      [
+       "ttdb_vfx.ttpf",
+       1171,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    },
+    "1": {
+     "value": [
+      195,
+      135
+     ],
+     "votes": 2,
+     "mipPairs": [
+      [
+       "ttdb_vfx.ttpf",
+       1171,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "106": {
+   "value": [
+    150,
+    110,
+    138,
+    98
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 196573,
+   "chunks": 144,
+   "fitBlocks": 24147,
+   "fitChunks": 103,
+   "references": "LS"
+  },
+  "107": {
+   "value": [
+    118,
+    142,
+    60,
+    117
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "108": {
+   "value": [
+    139,
+    145,
+    114,
+    118
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 65296,
+   "chunks": 5,
+   "fitBlocks": 611,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "109": {
+   "value": [
+    216,
+    225,
+    191,
+    200
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 4,
+   "chunks": 2,
+   "fitBlocks": 4,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "110": {
+   "value": [
+    46,
+    46,
+    38,
+    33
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 336,
+   "chunks": 5,
+   "fitBlocks": 146,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "111": {
+   "value": [
+    91,
+    132,
+    85,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 155,
+   "chunks": 1,
+   "fitBlocks": 155,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "112": {
+   "value": [
+    154,
+    178,
+    115,
+    132
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11,
+   "chunks": 1,
+   "fitBlocks": 11,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "114": {
+   "value": [
+    132,
+    126,
+    122,
+    15
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "flat-copy blocks of an unvalidated mip pair (94 + 10 votes, all agreeing); pooled fit was [131, 127, 125, 17]",
+   "blocks": 16241,
+   "chunks": 6,
+   "fitBlocks": 15,
+   "fitChunks": 2,
+   "references": "L"
+  },
+  "115": {
+   "value": [
+    136,
+    134,
+    15,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 85,
+   "chunks": 2,
+   "fitBlocks": 40,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "116": {
+   "value": [
+    131,
+    129,
+    105,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1661,
+   "chunks": 8,
+   "fitBlocks": 645,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "119": {
+   "value": [
+    132,
+    215,
+    122,
+    149
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 880,
+   "chunks": 2,
+   "fitBlocks": 880,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "120": {
+   "value": [
+    129,
+    138,
+    112,
+    111
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2419,
+   "chunks": 7,
+   "fitBlocks": 60,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "123": {
+   "value": [
+    136,
+    145,
+    119,
+    131
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 409,
+   "chunks": 6,
+   "fitBlocks": 401,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "124": {
+   "value": [
+    179,
+    196,
+    165,
+    183
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 15,
+   "chunks": 2,
+   "fitBlocks": 15,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "125": {
+   "value": [
+    126,
+    125,
+    111,
+    92
+   ],
+   "confirmed": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 17018,
+   "chunks": 16,
+   "fitBlocks": 519,
+   "fitChunks": 9,
+   "references": "S",
+   "exact": {
+    "0": {
+     "value": [
+      126,
+      125
+     ],
+     "votes": 292,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1461,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "126": {
+   "value": [
+    136,
+    150,
+    122,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 372,
+   "chunks": 8,
+   "fitBlocks": 370,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "127": {
+   "value": [
+    168,
+    158,
+    136,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 742,
+   "chunks": 12,
+   "fitBlocks": 673,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "128": {
+   "value": [
+    146,
+    153,
+    129,
+    134
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 74,
+   "chunks": 7,
+   "fitBlocks": 71,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "129": {
+   "value": [
+    127,
+    130,
+    85,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11,
+   "chunks": 4,
+   "fitBlocks": 6,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "130": {
+   "value": [
+    132,
+    241,
+    120,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 63,
+   "chunks": 3,
+   "fitBlocks": 53,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "131": {
+   "value": [
+    155,
+    124,
+    125,
+    85
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 4952,
+   "chunks": 76,
+   "fitBlocks": 2411,
+   "fitChunks": 55,
+   "references": "LS"
+  },
+  "132": {
+   "value": [
+    121,
+    115,
+    115,
+    108
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 24064,
+   "chunks": 34,
+   "fitBlocks": 2709,
+   "fitChunks": 21,
+   "references": "LS"
+  },
+  "133": {
+   "value": [
+    106,
+    72,
+    89,
+    51
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2297,
+   "chunks": 15,
+   "fitBlocks": 656,
+   "fitChunks": 11,
+   "references": "LS"
+  },
+  "134": {
+   "value": [
+    136,
+    155,
+    118,
+    137
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 258,
+   "chunks": 7,
+   "fitBlocks": 253,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "135": {
+   "value": [
+    121,
+    145,
+    106,
+    133
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 10,
+   "chunks": 4,
+   "fitBlocks": 9,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "136": {
+   "value": [
+    119,
+    220,
+    102,
+    209
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "137": {
+   "value": [
+    179,
+    136,
+    150,
+    122
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2786,
+   "chunks": 31,
+   "fitBlocks": 1713,
+   "fitChunks": 22,
+   "references": "LS"
+  },
+  "138": {
+   "value": [
+    120,
+    133,
+    102,
+    113
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 7,
+   "chunks": 5,
+   "fitBlocks": 4,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "139": {
+   "value": [
+    145,
+    142,
+    111,
+    112
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5215,
+   "chunks": 11,
+   "fitBlocks": 1386,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "140": {
+   "value": [
+    130,
+    108,
+    123,
+    62
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 374,
+   "chunks": 30,
+   "fitBlocks": 240,
+   "fitChunks": 24,
+   "references": "LS"
+  },
+  "141": {
+   "value": [
+    121,
+    132,
+    37,
+    122
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 77,
+   "chunks": 2,
+   "fitBlocks": 76,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "142": {
+   "value": [
+    157,
+    142,
+    135,
+    119
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6558,
+   "chunks": 48,
+   "fitBlocks": 2372,
+   "fitChunks": 34,
+   "references": "LS"
+  },
+  "143": {
+   "value": [
+    80,
+    201,
+    59,
+    191
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "144": {
+   "value": [
+    130,
+    133,
+    122,
+    104
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1627,
+   "chunks": 22,
+   "fitBlocks": 961,
+   "fitChunks": 14,
+   "references": "S"
+  },
+  "145": {
+   "value": [
+    138,
+    136,
+    112,
+    120
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3661,
+   "chunks": 5,
+   "fitBlocks": 603,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "146": {
+   "value": [
+    131,
+    107,
+    123,
+    37
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 188,
+   "chunks": 17,
+   "fitBlocks": 136,
+   "fitChunks": 10,
+   "references": "LS"
+  },
+  "147": {
+   "value": [
+    122,
+    120,
+    107,
+    119
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 89,
+   "chunks": 3,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "148": {
+   "value": [
+    126,
+    181,
+    121,
+    146
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3,
+   "chunks": 2,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "149": {
+   "value": [
+    143,
+    141,
+    137,
+    135
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2571,
+   "chunks": 18,
+   "fitBlocks": 838,
+   "fitChunks": 10,
+   "references": "LS"
+  },
+  "150": {
+   "value": [
+    134,
+    178,
+    121,
+    161
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6,
+   "chunks": 1,
+   "fitBlocks": 6,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "151": {
+   "value": [
+    103,
+    135,
+    55,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "152": {
+   "value": [
+    193,
+    132,
+    128,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 519,
+   "chunks": 14,
+   "fitBlocks": 485,
+   "fitChunks": 10,
+   "references": "LS"
+  },
+  "153": {
+   "value": [
+    141,
+    129,
+    111,
+    114
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 12175,
+   "chunks": 29,
+   "fitBlocks": 2801,
+   "fitChunks": 19,
+   "references": "LS"
+  },
+  "154": {
+   "value": [
+    79,
+    77,
+    53,
+    51
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3498,
+   "chunks": 4,
+   "fitBlocks": 664,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "155": {
+   "value": [
+    133,
+    72,
+    127,
+    64
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 59053,
+   "chunks": 56,
+   "fitBlocks": 3232,
+   "fitChunks": 40,
+   "references": "LS"
+  },
+  "157": {
+   "value": [
+    102,
+    101,
+    83,
+    80
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 108,
+   "chunks": 10,
+   "fitBlocks": 49,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "159": {
+   "value": [
+    92,
+    137,
+    39,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3,
+   "chunks": 1,
+   "fitBlocks": 3,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "160": {
+   "value": [
+    108,
+    136,
+    87,
+    122
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 564,
+   "chunks": 2,
+   "fitBlocks": 564,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "161": {
+   "value": [
+    102,
+    97,
+    65,
+    57
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 77,
+   "chunks": 7,
+   "fitBlocks": 14,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "162": {
+   "value": [
+    163,
+    149,
+    151,
+    134
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1923,
+   "chunks": 26,
+   "fitBlocks": 1457,
+   "fitChunks": 23,
+   "references": "LS"
+  },
+  "163": {
+   "value": [
+    133,
+    17,
+    121,
+    15
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 86,
+   "chunks": 8,
+   "fitBlocks": 83,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "165": {
+   "value": [
+    179,
+    162,
+    153,
+    133
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 553,
+   "chunks": 11,
+   "fitBlocks": 540,
+   "fitChunks": 8,
+   "references": "LS"
+  },
+  "166": {
+   "value": [
+    119,
+    132,
+    98,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5,
+   "chunks": 4,
+   "fitBlocks": 4,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "167": {
+   "value": [
+    175,
+    132,
+    130,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 450,
+   "chunks": 20,
+   "fitBlocks": 434,
+   "fitChunks": 15,
+   "references": "LS"
+  },
+  "169": {
+   "value": [
+    132,
+    92,
+    124,
+    81
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 32490,
+   "chunks": 59,
+   "fitBlocks": 3041,
+   "fitChunks": 43,
+   "references": "LS"
+  },
+  "170": {
+   "value": [
+    40,
+    31,
+    27,
+    19
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 4143,
+   "chunks": 6,
+   "fitBlocks": 644,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "171": {
+   "value": [
+    188,
+    211,
+    180,
+    202
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 162,
+   "chunks": 3,
+   "fitBlocks": 14,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "172": {
+   "value": [
+    139,
+    121,
+    117,
+    101
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 12234,
+   "chunks": 72,
+   "fitBlocks": 3922,
+   "fitChunks": 45,
+   "references": "LS"
+  },
+  "173": {
+   "value": [
+    150,
+    125,
+    130,
+    106
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 119270,
+   "chunks": 107,
+   "fitBlocks": 5426,
+   "fitChunks": 66,
+   "references": "LS"
+  },
+  "174": {
+   "value": [
+    129,
+    184,
+    123,
+    131
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6,
+   "chunks": 3,
+   "fitBlocks": 6,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "175": {
+   "value": [
+    132,
+    158,
+    126,
+    148
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5,
+   "chunks": 3,
+   "fitBlocks": 2,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "176": {
+   "value": [
+    130,
+    155,
+    126,
+    129
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 9,
+   "chunks": 4,
+   "fitBlocks": 9,
+   "fitChunks": 4,
+   "references": "S"
+  },
+  "177": {
+   "value": [
+    131,
+    167,
+    124,
+    127
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 581,
+   "chunks": 5,
+   "fitBlocks": 579,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "178": {
+   "value": [
+    155,
+    131,
+    132,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 12436,
+   "chunks": 51,
+   "fitBlocks": 2100,
+   "fitChunks": 35,
+   "references": "LS"
+  },
+  "179": {
+   "value": [
+    198,
+    139,
+    170,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 945,
+   "chunks": 25,
+   "fitBlocks": 915,
+   "fitChunks": 19,
+   "references": "LS"
+  },
+  "180": {
+   "value": [
+    200,
+    196,
+    190,
+    186
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3,
+   "chunks": 2,
+   "fitBlocks": 3,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "182": {
+   "value": [
+    133,
+    126,
+    124,
+    55
+   ],
+   "confirmed": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "source": "exact",
+   "blocks": 72277,
+   "chunks": 29,
+   "fitBlocks": 1464,
+   "fitChunks": 17,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      133,
+      126
+     ],
+     "votes": 17818,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2885,
+       1,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       3293,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1461,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    },
+    "1": {
+     "value": [
+      124,
+      55
+     ],
+     "votes": 1035,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2885,
+       1,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       3293,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "183": {
+   "value": [
+    128,
+    126,
+    116,
+    112
+   ],
+   "confirmed": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "source": "exact",
+   "blocks": 357710,
+   "chunks": 39,
+   "fitBlocks": 1666,
+   "fitChunks": 20,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      128,
+      126
+     ],
+     "votes": 11525,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2428,
+       1,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2988,
+       1,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2988,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    },
+    "1": {
+     "value": [
+      116,
+      112
+     ],
+     "votes": 6,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2988,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "184": {
+   "value": [
+    173,
+    157,
+    163,
+    147
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 50,
+   "chunks": 11,
+   "fitBlocks": 42,
+   "fitChunks": 9,
+   "references": "LS"
+  },
+  "185": {
+   "value": [
+    197,
+    175,
+    158,
+    137
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 796,
+   "chunks": 15,
+   "fitBlocks": 661,
+   "fitChunks": 12,
+   "references": "LS"
+  },
+  "186": {
+   "value": [
+    102,
+    129,
+    98,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 46,
+   "chunks": 3,
+   "fitBlocks": 32,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "187": {
+   "value": [
+    131,
+    216,
+    121,
+    198
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 26,
+   "chunks": 2,
+   "fitBlocks": 26,
+   "fitChunks": 2,
+   "references": "LS"
+  },
+  "188": {
+   "value": [
+    127,
+    135,
+    115,
+    130
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 23,
+   "chunks": 7,
+   "fitBlocks": 21,
+   "fitChunks": 5,
+   "references": "S"
+  },
+  "189": {
+   "value": [
+    139,
+    196,
+    94,
+    111
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "continuity with neighbour blocks (one-mip texture, no mip reference)",
+   "blocks": 77,
+   "chunks": 1,
+   "fitBlocks": 77,
+   "fitChunks": 1,
+   "references": "E"
+  },
+  "190": {
+   "value": [
+    132,
+    106,
+    123,
+    94
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 217661,
+   "chunks": 81,
+   "fitBlocks": 5156,
+   "fitChunks": 58,
+   "references": "LS"
+  },
+  "191": {
+   "value": [
+    219,
+    130,
+    193,
+    116
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1783,
+   "chunks": 35,
+   "fitBlocks": 921,
+   "fitChunks": 26,
+   "references": "LS"
+  },
+  "192": {
+   "value": [
+    212,
+    133,
+    127,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 405,
+   "chunks": 18,
+   "fitBlocks": 388,
+   "fitChunks": 14,
+   "references": "LS"
+  },
+  "193": {
+   "value": [
+    196,
+    176,
+    173,
+    151
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1627,
+   "chunks": 5,
+   "fitBlocks": 737,
+   "fitChunks": 5,
+   "references": "LS"
+  },
+  "194": {
+   "value": [
+    56,
+    192,
+    15,
+    27
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "195": {
+   "value": [
+    129,
+    198,
+    124,
+    131
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "196": {
+   "value": [
+    131,
+    124,
+    125,
+    99
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 72646,
+   "chunks": 69,
+   "fitBlocks": 2395,
+   "fitChunks": 41,
+   "references": "LS"
+  },
+  "197": {
+   "value": [
+    176,
+    130,
+    169,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5834,
+   "chunks": 47,
+   "fitBlocks": 3525,
+   "fitChunks": 44,
+   "references": "LS"
+  },
+  "198": {
+   "value": [
+    137,
+    127,
+    121,
+    111
+   ],
+   "confirmed": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 185711,
+   "chunks": 60,
+   "fitBlocks": 4132,
+   "fitChunks": 32,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      137,
+      127
+     ],
+     "votes": 2176,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2922,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "199": {
+   "value": [
+    144,
+    137,
+    131,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 4950,
+   "chunks": 54,
+   "fitBlocks": 2233,
+   "fitChunks": 32,
+   "references": "LS"
+  },
+  "200": {
+   "value": [
+    132,
+    130,
+    114,
+    120
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6584,
+   "chunks": 8,
+   "fitBlocks": 606,
+   "fitChunks": 5,
+   "references": "S"
+  },
+  "201": {
+   "value": [
+    182,
+    165,
+    169,
+    153
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 54,
+   "chunks": 7,
+   "fitBlocks": 51,
+   "fitChunks": 6,
+   "references": "S"
+  },
+  "202": {
+   "value": [
+    138,
+    136,
+    113,
+    109
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 3115,
+   "chunks": 9,
+   "fitBlocks": 1204,
+   "fitChunks": 5,
+   "references": "S"
+  },
+  "203": {
+   "value": [
+    185,
+    172,
+    179,
+    164
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 98,
+   "chunks": 9,
+   "fitBlocks": 96,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "204": {
+   "value": [
+    131,
+    127,
+    123,
+    81
+   ],
+   "confirmed": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 297292,
+   "chunks": 33,
+   "fitBlocks": 454,
+   "fitChunks": 14,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      131,
+      127
+     ],
+     "votes": 10451,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2922,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1461,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "205": {
+   "value": [
+    124,
+    141,
+    121,
+    137
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 43,
+   "chunks": 9,
+   "fitBlocks": 20,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "206": {
+   "value": [
+    173,
+    131,
+    136,
+    92
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 18504,
+   "chunks": 70,
+   "fitBlocks": 3862,
+   "fitChunks": 53,
+   "references": "LS"
+  },
+  "208": {
+   "value": [
+    120,
+    133,
+    108,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 44,
+   "chunks": 10,
+   "fitBlocks": 40,
+   "fitChunks": 8,
+   "references": "LS"
+  },
+  "209": {
+   "value": [
+    147,
+    134,
+    123,
+    110
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 41255,
+   "chunks": 45,
+   "fitBlocks": 4517,
+   "fitChunks": 28,
+   "references": "LS"
+  },
+  "210": {
+   "value": [
+    130,
+    142,
+    125,
+    129
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 6197,
+   "chunks": 8,
+   "fitBlocks": 2476,
+   "fitChunks": 7,
+   "references": "S"
+  },
+  "211": {
+   "value": [
+    136,
+    137,
+    122,
+    131
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 222,
+   "chunks": 10,
+   "fitBlocks": 38,
+   "fitChunks": 6,
+   "references": "S"
+  },
+  "212": {
+   "value": [
+    130,
+    119,
+    127,
+    114
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 163639,
+   "chunks": 107,
+   "fitBlocks": 7753,
+   "fitChunks": 68,
+   "references": "LS"
+  },
+  "214": {
+   "value": [
+    117,
+    136,
+    111,
+    131
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 22,
+   "chunks": 8,
+   "fitBlocks": 20,
+   "fitChunks": 6,
+   "references": "LS"
+  },
+  "215": {
+   "value": [
+    199,
+    181,
+    187,
+    167
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 70,
+   "chunks": 8,
+   "fitBlocks": 28,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "216": {
+   "value": [
+    132,
+    215,
+    124,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 50,
+   "chunks": 1,
+   "fitBlocks": 50,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "217": {
+   "value": [
+    135,
+    138,
+    120,
+    114
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 8906,
+   "chunks": 22,
+   "fitBlocks": 469,
+   "fitChunks": 12,
+   "references": "LS"
+  },
+  "218": {
+   "value": [
+    131,
+    85,
+    123,
+    45
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5830,
+   "chunks": 42,
+   "fitBlocks": 2163,
+   "fitChunks": 30,
+   "references": "LS"
+  },
+  "219": {
+   "value": [
+    197,
+    131,
+    193,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11030,
+   "chunks": 52,
+   "fitBlocks": 9867,
+   "fitChunks": 45,
+   "references": "LS"
+  },
+  "221": {
+   "value": [
+    69,
+    206,
+    57,
+    195
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled, second round (references decoded with first-round values)",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L"
+  },
+  "222": {
+   "value": [
+    131,
+    128,
+    123,
+    37
+   ],
+   "confirmed": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "source": "exact",
+   "blocks": 14199,
+   "chunks": 22,
+   "fitBlocks": 1848,
+   "fitChunks": 13,
+   "references": "LS",
+   "exact": {
+    "1": {
+     "value": [
+      123,
+      37
+     ],
+     "votes": 17,
+     "mipPairs": [
+      [
+       "ttdb_vfx.ttpf",
+       1171,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    },
+    "0": {
+     "value": [
+      131,
+      128
+     ],
+     "votes": 12287,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       2909,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "223": {
+   "value": [
+    161,
+    156,
+    96,
+    92
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 189,
+   "chunks": 18,
+   "fitBlocks": 106,
+   "fitChunks": 9,
+   "references": "LS"
+  },
+  "225": {
+   "value": [
+    130,
+    136,
+    123,
+    121
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 812,
+   "chunks": 7,
+   "fitBlocks": 116,
+   "fitChunks": 4,
+   "references": "LS"
+  },
+  "226": {
+   "value": [
+    126,
+    60,
+    118,
+    46
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1831,
+   "chunks": 41,
+   "fitBlocks": 878,
+   "fitChunks": 31,
+   "references": "LS"
+  },
+  "227": {
+   "value": [
+    139,
+    137,
+    120,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 111,
+   "chunks": 8,
+   "fitBlocks": 4,
+   "fitChunks": 2,
+   "references": "S"
+  },
+  "228": {
+   "value": [
+    140,
+    130,
+    124,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 5907,
+   "chunks": 38,
+   "fitBlocks": 2130,
+   "fitChunks": 22,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      141,
+      129
+     ],
+     "votes": 1,
+     "mipPairs": [
+      [
+       "ttdb_vehicles.ttpf",
+       188,
+       2,
+       0
+      ]
+     ],
+     "used": false
+    }
+   }
+  },
+  "229": {
+   "value": [
+    122,
+    127,
+    118,
+    123
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 967,
+   "chunks": 10,
+   "fitBlocks": 90,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "231": {
+   "value": [
+    130,
+    141,
+    127,
+    138
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 16,
+   "chunks": 8,
+   "fitBlocks": 15,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "232": {
+   "value": [
+    54,
+    205,
+    50,
+    185
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "233": {
+   "value": [
+    75,
+    74,
+    69,
+    68
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 107,
+   "chunks": 4,
+   "fitBlocks": 106,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "234": {
+   "value": [
+    223,
+    130,
+    217,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1059,
+   "chunks": 22,
+   "fitBlocks": 730,
+   "fitChunks": 17,
+   "references": "LS"
+  },
+  "235": {
+   "value": [
+    111,
+    129,
+    108,
+    127
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2426,
+   "chunks": 8,
+   "fitBlocks": 1233,
+   "fitChunks": 7,
+   "references": "LS"
+  },
+  "236": {
+   "value": [
+    160,
+    129,
+    157,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 13917,
+   "chunks": 70,
+   "fitBlocks": 3857,
+   "fitChunks": 48,
+   "references": "LS"
+  },
+  "237": {
+   "value": [
+    129,
+    217,
+    126,
+    217
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 21,
+   "chunks": 1,
+   "fitBlocks": 21,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "238": {
+   "value": [
+    148,
+    128,
+    146,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 199626,
+   "chunks": 105,
+   "fitBlocks": 10012,
+   "fitChunks": 66,
+   "references": "LS"
+  },
+  "239": {
+   "value": [
+    130,
+    129,
+    127,
+    118
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 183352,
+   "chunks": 66,
+   "fitBlocks": 4103,
+   "fitChunks": 34,
+   "references": "LS"
+  },
+  "241": {
+   "value": [
+    60,
+    200,
+    50,
+    200
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "S"
+  },
+  "242": {
+   "value": [
+    131,
+    130,
+    120,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 2272,
+   "chunks": 8,
+   "fitBlocks": 604,
+   "fitChunks": 5,
+   "references": "S"
+  },
+  "243": {
+   "value": [
+    123,
+    132,
+    116,
+    127
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 521,
+   "chunks": 18,
+   "fitBlocks": 509,
+   "fitChunks": 10,
+   "references": "LS"
+  },
+  "244": {
+   "value": [
+    132,
+    135,
+    130,
+    132
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 11574,
+   "chunks": 13,
+   "fitBlocks": 2820,
+   "fitChunks": 6,
+   "references": "S"
+  },
+  "245": {
+   "value": [
+    129,
+    41,
+    126,
+    37
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 221,
+   "chunks": 24,
+   "fitBlocks": 180,
+   "fitChunks": 19,
+   "references": "LS"
+  },
+  "246": {
+   "value": [
+    122,
+    133,
+    120,
+    133
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 14,
+   "chunks": 8,
+   "fitBlocks": 6,
+   "fitChunks": 3,
+   "references": "LS"
+  },
+  "247": {
+   "value": [
+    118,
+    128,
+    116,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 1618,
+   "chunks": 9,
+   "fitBlocks": 1256,
+   "fitChunks": 6,
+   "references": "S"
+  },
+  "248": {
+   "value": [
+    136,
+    128,
+    133,
+    126
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 214121,
+   "chunks": 109,
+   "fitBlocks": 15531,
+   "fitChunks": 66,
+   "references": "LS"
+  },
+  "249": {
+   "value": [
+    128,
+    133,
+    123,
+    131
+   ],
+   "confirmed": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 160,
+   "chunks": 15,
+   "fitBlocks": 138,
+   "fitChunks": 11,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      128,
+      133
+     ],
+     "votes": 15,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       2909,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "250": {
+   "value": [
+    82,
+    81,
+    78,
+    77
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 375,
+   "chunks": 4,
+   "fitBlocks": 374,
+   "fitChunks": 3,
+   "references": "S"
+  },
+  "251": {
+   "value": [
+    124,
+    130,
+    122,
+    128
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 260,
+   "chunks": 9,
+   "fitBlocks": 258,
+   "fitChunks": 8,
+   "references": "LS"
+  },
+  "252": {
+   "value": [
+    130,
+    130,
+    125,
+    124
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 16105,
+   "chunks": 21,
+   "fitBlocks": 2683,
+   "fitChunks": 12,
+   "references": "LS"
+  },
+  "253": {
+   "value": [
+    128,
+    128,
+    127,
+    127
+   ],
+   "confirmed": [
+    true,
+    true,
+    false,
+    false
+   ],
+   "source": "pooled, partly exact",
+   "blocks": 6098,
+   "chunks": 27,
+   "fitBlocks": 2421,
+   "fitChunks": 20,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      128,
+      128
+     ],
+     "votes": 4,
+     "mipPairs": [
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2428,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1461,
+       1,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1636,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  },
+  "254": {
+   "value": [
+    127,
+    126,
+    126,
+    125
+   ],
+   "confirmed": [
+    false,
+    false,
+    false,
+    false
+   ],
+   "source": "pooled",
+   "blocks": 34151,
+   "chunks": 42,
+   "fitBlocks": 3492,
+   "fitChunks": 24,
+   "references": "LS"
+  },
+  "255": {
+   "value": [
+    129,
+    127,
+    128,
+    126
+   ],
+   "confirmed": [
+    true,
+    true,
+    true,
+    true
+   ],
+   "source": "exact",
+   "blocks": 560023,
+   "chunks": 92,
+   "fitBlocks": 16591,
+   "fitChunks": 53,
+   "references": "LS",
+   "exact": {
+    "0": {
+     "value": [
+      129,
+      127
+     ],
+     "votes": 22,
+     "mipPairs": [
+      [
+       "ttdb_vehicles.ttpf",
+       188,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2922,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_0_1.ttpf",
+       2988,
+       2,
+       0
+      ],
+      [
+       "ttdb_vehicles_loose_1_1.ttpf",
+       1636,
+       1,
+       0
+      ]
+     ],
+     "used": true
+    },
+    "1": {
+     "value": [
+      128,
+      126
+     ],
+     "votes": 1,
+     "mipPairs": [
+      [
+       "ttdb_vehicles.ttpf",
+       188,
+       2,
+       0
+      ]
+     ],
+     "used": true
+    }
+   }
+  }
+ }
+}

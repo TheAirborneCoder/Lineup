@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.os }}, Python ${{ matrix.python }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.10", "3.x"]
+    env:
+      # The unit tests fail (instead of skipping) when no C compiler is found: that is how the gcc, clang and MSVC
+      # paths of engine/native_build.py get exercised.
+      LINEUP_REQUIRE_COMPILER: "1"
+    steps:
+      - name: Use a throwaway work folder
+        shell: bash
+        run: echo "LINEUP_WORK=$RUNNER_TEMP/lineup-work" >> "$GITHUB_ENV"
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - name: Install the requirements and the linter
+        run: python -m pip install -r requirements.txt pyflakes
+      - name: Byte-compile
+        run: python -m compileall -q engine tools tests lineup.py
+      - name: Lint (undefined names, unused imports)
+        run: python -m pyflakes engine tools tests lineup.py
+      - name: Unit tests (no game files needed)
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+      - name: Import every engine module
+        run: python tests/imports.py
+      - name: Compile the two C helpers
+        run: python engine/native_build.py --force
+      - name: Check that both libraries were built
+        run: >
+          python -c "import os, pathlib, sys;
+          folder = pathlib.Path(os.environ['LINEUP_WORK']) / 'native';
+          built = sorted(p.name for p in folder.iterdir() if p.name.startswith('bcpack_'));
+          print(built);
+          sys.exit(0 if len(built) == 2 else 1)"

@@ -1,0 +1,7 @@
+# Text files use LF; Windows batch files need CRLF.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh text eol=lf
+*.command text eol=lf
+*.svg text eol=lf

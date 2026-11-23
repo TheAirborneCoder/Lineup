@@ -1,0 +1,6484 @@
+{
+ "description": "BC4 BCPack rebuild data. symbolToPair: 6-bit index symbol -> [left pixel index, right pixel index]. history: built-in endpoint entries (alpha0, alpha1) that are not in the file. 'confirmed' only where the encoder's one-index-block convention leaves a single value and the reference fit agrees; every other value is a pooled fit against neighbour mips (provisional) or, with 'lastResort', a block-edge continuity fit (values can be visibly off). See bcpack_research/README.md sections 9 and 19.",
+ "symbolToPair": [
+  [
+   1,
+   1
+  ],
+  [
+   0,
+   0
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   6,
+   6
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   5,
+   5
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   6,
+   1
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   7,
+   7
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   4,
+   1
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   6,
+   0
+  ],
+  [
+   0,
+   6
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   4,
+   6
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   2,
+   6
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   7,
+   3
+  ],
+  [
+   3,
+   7
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   0,
+   7
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   2,
+   5
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   7,
+   4
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   3,
+   2
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   7,
+   1
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   2,
+   7
+  ],
+  [
+   7,
+   2
+  ]
+ ],
+ "history": {
+  "3": {
+   "value": [
+    122,
+    77
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      122,
+      77
+     ],
+     "refblocks": 1,
+     "L": 1,
+     "S": 0,
+     "chunks": [
+      "ui 5007"
+     ],
+     "error": 37.35,
+     "margin": 1.133,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       110,
+       101
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 0.813
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "15": {
+   "value": [
+    67,
+    91
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      67,
+      91
+     ],
+     "refblocks": 8,
+     "L": 1,
+     "S": 7,
+     "chunks": [
+      "ui 10227",
+      "ui 10228"
+     ],
+     "error": 26.29,
+     "margin": 0.264,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63744
+    }
+   ]
+  },
+  "25": {
+   "value": [
+    83,
+    49
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      81,
+      50
+     ],
+     "blocks": 1,
+     "error": 0.67,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      83,
+      49
+     ],
+     "refblocks": 2,
+     "L": 1,
+     "S": 1,
+     "chunks": [
+      "ui 5295",
+      "weapon_liveries 5136"
+     ],
+     "error": 21.11,
+     "margin": 2.092,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "subFits": {
+      "ui": {
+       "value": [
+        84,
+        49
+       ],
+       "refblocks": 1,
+       "margin": 1.061
+      },
+      "weapons": {
+       "value": [
+        81,
+        50
+       ],
+       "refblocks": 1,
+       "margin": 0.327
+      }
+     },
+     "lastResortReason": "mip fit on 2 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       57,
+       56
+      ],
+      "refblocks": 2,
+      "nextToKnown": 2,
+      "margin": 5.786
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "32": {
+   "value": [
+    114,
+    158
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      114,
+      158
+     ],
+     "refblocks": 1,
+     "L": 0,
+     "S": 1,
+     "chunks": [
+      "ui 6604"
+     ],
+     "error": 14.45,
+     "margin": 2.491,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       131,
+       125
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 2.39
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "33": {
+   "value": [
+    58,
+    31
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      58,
+      31
+     ],
+     "blocks": 7,
+     "error": 1.94,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "34": {
+   "value": [
+    83,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      83,
+      58
+     ],
+     "refblocks": 152,
+     "L": 0,
+     "S": 152,
+     "chunks": [
+      "ui 7212"
+     ],
+     "error": 15.76,
+     "margin": 2.365,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58880
+    }
+   ]
+  },
+  "35": {
+   "value": [
+    103,
+    121
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      103,
+      121
+     ],
+     "refblocks": 1,
+     "L": 0,
+     "S": 1,
+     "chunks": [
+      "ui 5008"
+     ],
+     "error": 0.96,
+     "margin": 0.451,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       101,
+       116
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 3.275
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "40": {
+   "value": [
+    246,
+    65
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      246,
+      65
+     ],
+     "refblocks": 5,
+     "L": 0,
+     "S": 5,
+     "chunks": [
+      "ui 6949",
+      "ui 8225"
+     ],
+     "error": 350.71,
+     "margin": 1.363,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64512,
+     "lastResortReason": "mip fit on 5 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       165,
+       155
+      ],
+      "refblocks": 5,
+      "nextToKnown": 5,
+      "margin": 1.174
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "41": {
+   "value": [
+    244,
+    137
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      244,
+      137
+     ],
+     "refblocks": 19,
+     "L": 0,
+     "S": 19,
+     "chunks": [
+      "ui 4997"
+     ],
+     "error": 99.98,
+     "margin": 0.433,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61952
+    }
+   ]
+  },
+  "42": {
+   "value": [
+    101,
+    141
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      101,
+      141
+     ],
+     "refblocks": 1,
+     "L": 1,
+     "S": 0,
+     "chunks": [
+      "ui 6172"
+     ],
+     "error": 134.78,
+     "margin": 2.611,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       148,
+       117
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 2.076
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "43": {
+   "value": [
+    181,
+    141
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      181,
+      141
+     ],
+     "refblocks": 19,
+     "L": 19,
+     "S": 0,
+     "chunks": [
+      "ui 2040"
+     ],
+     "error": 20.43,
+     "margin": 2.415,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64256
+    }
+   ]
+  },
+  "49": {
+   "value": [
+    224,
+    201
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      224,
+      201
+     ],
+     "refblocks": 35,
+     "L": 35,
+     "S": 0,
+     "chunks": [
+      "ui 2836"
+     ],
+     "error": 3.24,
+     "margin": 2.905,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63488
+    }
+   ]
+  },
+  "52": {
+   "value": [
+    217,
+    182
+   ],
+   "confirmed": true,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      217,
+      182
+     ],
+     "refblocks": 3843,
+     "L": 0,
+     "S": 3843,
+     "chunks": [
+      "ui 4997"
+     ],
+     "error": 100.37,
+     "margin": null,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 1
+    },
+    {
+     "kind": "independent pooled fit, first run (bc4hist_run1.txt, rule eq0 only: the white blocks do not constrain it)",
+     "value": [
+      217,
+      182
+     ],
+     "refblocks": 3843,
+     "L": 0,
+     "S": 3843,
+     "chunks": [
+      "ui 4997"
+     ],
+     "error": 100.37,
+     "margin": 28.3,
+     "reference": "zlib mip 1 of ui texture 4198"
+    }
+   ],
+   "confidence": "encoder convention for one-index blocks leaves this single value (bc4degen.py, no exception in 6.25 million zlib blocks of these packs); the pooled reference fit agrees"
+  },
+  "55": {
+   "value": [
+    227,
+    73
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      227,
+      73
+     ],
+     "refblocks": 5896,
+     "L": 3,
+     "S": 5893,
+     "chunks": [
+      "ui 6949",
+      "ui 7703",
+      "ui 8225"
+     ],
+     "error": 190.75,
+     "margin": 0.177,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 21760
+    }
+   ]
+  },
+  "57": {
+   "value": [
+    213,
+    205
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      213,
+      205
+     ],
+     "refblocks": 205,
+     "L": 23,
+     "S": 182,
+     "chunks": [
+      "ui 1760",
+      "ui 2836"
+     ],
+     "error": 1.7,
+     "margin": 3.829,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 59648
+    }
+   ]
+  },
+  "60": {
+   "value": [
+    125,
+    83
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      125,
+      83
+     ],
+     "refblocks": 49,
+     "L": 10,
+     "S": 39,
+     "chunks": [
+      "ui 11254",
+      "ui 1404",
+      "ui 2075",
+      "ui 5008",
+      "ui 5295",
+      "ui 5560",
+      "ui 7604"
+     ],
+     "error": 40.72,
+     "margin": 1.863,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 56320
+    }
+   ]
+  },
+  "62": {
+   "value": [
+    243,
+    91
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      243,
+      91
+     ],
+     "refblocks": 25,
+     "L": 0,
+     "S": 25,
+     "chunks": [
+      "ui 8225"
+     ],
+     "error": 232.35,
+     "margin": 0.995,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60672
+    }
+   ]
+  },
+  "63": {
+   "value": [
+    214,
+    190
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      214,
+      190
+     ],
+     "refblocks": 1,
+     "L": 1,
+     "S": 0,
+     "chunks": [
+      "ui 7703"
+     ],
+     "error": 282.76,
+     "margin": 3.786,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       45,
+       160
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 1.849
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "64": {
+   "value": [
+    226,
+    53
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      226,
+      53
+     ],
+     "refblocks": 22,
+     "L": 17,
+     "S": 5,
+     "chunks": [
+      "ui 6949",
+      "ui 7703"
+     ],
+     "error": 437.87,
+     "margin": 3.487,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61184
+    }
+   ]
+  },
+  "66": {
+   "value": [
+    230,
+    227
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      230,
+      227
+     ],
+     "refblocks": 111,
+     "L": 111,
+     "S": 0,
+     "chunks": [
+      "ui 2836"
+     ],
+     "error": 2.06,
+     "margin": 2.903,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62976
+    }
+   ]
+  },
+  "69": {
+   "value": [
+    156,
+    116
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      156,
+      116
+     ],
+     "refblocks": 89,
+     "L": 85,
+     "S": 4,
+     "chunks": [
+      "ui 11255",
+      "ui 5560"
+     ],
+     "error": 25.81,
+     "margin": 4.069,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 25600
+    }
+   ]
+  },
+  "70": {
+   "value": [
+    250,
+    174
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      250,
+      174
+     ],
+     "refblocks": 34,
+     "L": 0,
+     "S": 34,
+     "chunks": [
+      "ui 4997"
+     ],
+     "error": 56.95,
+     "margin": 1.427,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60416
+    }
+   ]
+  },
+  "71": {
+   "value": [
+    220,
+    86
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      220,
+      86
+     ],
+     "refblocks": 178,
+     "L": 140,
+     "S": 38,
+     "chunks": [
+      "ui 6949",
+      "ui 7703",
+      "ui 8225"
+     ],
+     "error": 312.03,
+     "margin": 0.155,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 48128
+    }
+   ]
+  },
+  "72": {
+   "value": [
+    238,
+    115
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      238,
+      115
+     ],
+     "refblocks": 126,
+     "L": 0,
+     "S": 126,
+     "chunks": [
+      "ui 4997",
+      "ui 8225"
+     ],
+     "error": 137.15,
+     "margin": 0.725,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 50432
+    }
+   ]
+  },
+  "73": {
+   "value": [
+    227,
+    42
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      227,
+      42
+     ],
+     "refblocks": 3,
+     "L": 0,
+     "S": 3,
+     "chunks": [
+      "ui 6949"
+     ],
+     "error": 165.79,
+     "margin": 0.415,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64768,
+     "lastResortReason": "mip fit on 3 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       151,
+       136
+      ],
+      "refblocks": 3,
+      "nextToKnown": 3,
+      "margin": 1.56
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "74": {
+   "value": [
+    166,
+    80
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      166,
+      80
+     ],
+     "refblocks": 55,
+     "L": 0,
+     "S": 55,
+     "chunks": [
+      "ui 1404",
+      "ui 6173"
+     ],
+     "error": 147.61,
+     "margin": 1.476,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 44288
+    }
+   ]
+  },
+  "75": {
+   "value": [
+    200,
+    166
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      200,
+      166
+     ],
+     "refblocks": 180,
+     "L": 15,
+     "S": 165,
+     "chunks": [
+      "ui 10332",
+      "ui 11020",
+      "ui 5007",
+      "ui 6934"
+     ],
+     "error": 12.38,
+     "margin": 1.696,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 56320
+    }
+   ]
+  },
+  "77": {
+   "value": [
+    164,
+    124
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      164,
+      124
+     ],
+     "blocks": 13,
+     "error": 1.84,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      164,
+      124
+     ],
+     "refblocks": 192,
+     "L": 79,
+     "S": 113,
+     "chunks": [
+      "ui 10534",
+      "ui 5560",
+      "weapon_liveries 806"
+     ],
+     "error": 21.0,
+     "margin": 3.498,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 39936,
+     "subFits": {
+      "ui": {
+       "value": [
+        164,
+        124
+       ],
+       "refblocks": 179,
+       "margin": 4.128
+      },
+      "weapons": {
+       "value": [
+        165,
+        124
+       ],
+       "refblocks": 13,
+       "margin": 0.069
+      }
+     }
+    }
+   ]
+  },
+  "80": {
+   "value": [
+    74,
+    115
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      74,
+      115
+     ],
+     "refblocks": 2,
+     "L": 2,
+     "S": 0,
+     "chunks": [
+      "ui 5274"
+     ],
+     "error": 25.0,
+     "margin": 2.593,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 2 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       79,
+       98
+      ],
+      "refblocks": 2,
+      "nextToKnown": 2,
+      "margin": 0.593
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "81": {
+   "value": [
+    83,
+    99
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      83,
+      99
+     ],
+     "refblocks": 27,
+     "L": 1,
+     "S": 26,
+     "chunks": [
+      "ui 10227",
+      "ui 10228",
+      "ui 5008"
+     ],
+     "error": 21.39,
+     "margin": 0.372,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60160
+    }
+   ]
+  },
+  "82": {
+   "value": [
+    186,
+    74
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      186,
+      74
+     ],
+     "refblocks": 141,
+     "L": 140,
+     "S": 1,
+     "chunks": [
+      "ui 1213",
+      "ui 7703"
+     ],
+     "error": 259.52,
+     "margin": 1.98,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 40960
+    }
+   ]
+  },
+  "83": {
+   "value": [
+    140,
+    148
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      140,
+      148
+     ],
+     "refblocks": 10,
+     "L": 0,
+     "S": 10,
+     "chunks": [
+      "ui 3950",
+      "ui 4086"
+     ],
+     "error": 1.7,
+     "margin": 1.235,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64512
+    }
+   ]
+  },
+  "84": {
+   "value": [
+    204,
+    141
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      204,
+      140
+     ],
+     "blocks": 4,
+     "error": 1.89,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.fit, as the other 806 entries)",
+     "value": [
+      204,
+      141
+     ],
+     "refblocks": 4,
+     "L": 0,
+     "S": 4,
+     "chunks": [
+      "weapon_liveries 806"
+     ],
+     "error": 55.09,
+     "margin": 1.3,
+     "rules": [
+      "degen",
+      "eq"
+     ]
+    }
+   ]
+  },
+  "85": {
+   "value": [
+    220,
+    103
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      220,
+      103
+     ],
+     "refblocks": 1973,
+     "L": 48,
+     "S": 1925,
+     "chunks": [
+      "ui 6949",
+      "ui 7703",
+      "ui 8225"
+     ],
+     "error": 174.41,
+     "margin": 0.08,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 27648
+    }
+   ]
+  },
+  "86": {
+   "value": [
+    208,
+    44
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      208,
+      44
+     ],
+     "refblocks": 1,
+     "L": 0,
+     "S": 1,
+     "chunks": [
+      "ui 1213"
+     ],
+     "error": 446.3,
+     "margin": 1.469,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       136,
+       107
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 0.85
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "87": {
+   "value": [
+    147,
+    108
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      147,
+      108
+     ],
+     "refblocks": 1090,
+     "L": 400,
+     "S": 690,
+     "chunks": [
+      "ui 11020",
+      "ui 11021",
+      "ui 11254",
+      "ui 11255",
+      "ui 1403",
+      "ui 2074",
+      "ui 5560",
+      "ui 6173",
+      "ui 6603",
+      "ui 6604",
+      "ui 7603"
+     ],
+     "error": 49.66,
+     "margin": 3.194,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 33280
+    }
+   ]
+  },
+  "88": {
+   "value": [
+    190,
+    88
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      190,
+      88
+     ],
+     "refblocks": 266,
+     "L": 260,
+     "S": 6,
+     "chunks": [
+      "ui 1213",
+      "ui 7703"
+     ],
+     "error": 235.73,
+     "margin": 1.675,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 45056
+    }
+   ]
+  },
+  "90": {
+   "value": [
+    203,
+    82
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      203,
+      82
+     ],
+     "refblocks": 125,
+     "L": 63,
+     "S": 62,
+     "chunks": [
+      "ui 1213",
+      "ui 7703",
+      "ui 8225"
+     ],
+     "error": 213.33,
+     "margin": 1.63,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 43264
+    }
+   ]
+  },
+  "91": {
+   "value": [
+    222,
+    142
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      222,
+      142
+     ],
+     "refblocks": 241,
+     "L": 0,
+     "S": 241,
+     "chunks": [
+      "ui 4499",
+      "ui 4997"
+     ],
+     "error": 4.98,
+     "margin": 2.745,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58880
+    }
+   ]
+  },
+  "92": {
+   "value": [
+    218,
+    217
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      218,
+      217
+     ],
+     "refblocks": 154,
+     "L": 154,
+     "S": 0,
+     "chunks": [
+      "ui 1162",
+      "ui 2836",
+      "ui 6750",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 3.17,
+     "margin": 2.372,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 59648
+    }
+   ]
+  },
+  "93": {
+   "value": [
+    206,
+    63
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      208,
+      61
+     ],
+     "blocks": 1,
+     "error": 4.89,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      206,
+      63
+     ],
+     "refblocks": 125,
+     "L": 119,
+     "S": 6,
+     "chunks": [
+      "ui 6949",
+      "ui 7703",
+      "weapon_liveries 5136"
+     ],
+     "error": 359.86,
+     "margin": 1.342,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55552,
+     "subFits": {
+      "ui": {
+       "value": [
+        206,
+        63
+       ],
+       "refblocks": 124,
+       "margin": 1.188
+      },
+      "weapons": {
+       "value": [
+        208,
+        62
+       ],
+       "refblocks": 1,
+       "margin": 0.735
+      }
+     }
+    }
+   ]
+  },
+  "94": {
+   "value": [
+    186,
+    189
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      186,
+      189
+     ],
+     "refblocks": 240,
+     "L": 16,
+     "S": 224,
+     "chunks": [
+      "ui 10534",
+      "ui 1162"
+     ],
+     "error": 4.89,
+     "margin": 3.824,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55552
+    }
+   ]
+  },
+  "96": {
+   "value": [
+    197,
+    48
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      197,
+      48
+     ],
+     "refblocks": 78,
+     "L": 75,
+     "S": 3,
+     "chunks": [
+      "ui 6949",
+      "ui 7703",
+      "ui 8225"
+     ],
+     "error": 398.95,
+     "margin": 1.479,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 54272
+    }
+   ]
+  },
+  "98": {
+   "value": [
+    203,
+    203
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      203,
+      203
+     ],
+     "refblocks": 766,
+     "L": 172,
+     "S": 594,
+     "chunks": [
+      "ui 1760",
+      "ui 2836",
+      "ui 9302"
+     ],
+     "error": 2.06,
+     "margin": 4.658,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58368
+    }
+   ]
+  },
+  "99": {
+   "value": [
+    147,
+    116
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      147,
+      116
+     ],
+     "refblocks": 150,
+     "L": 144,
+     "S": 6,
+     "chunks": [
+      "ui 5274",
+      "ui 5560",
+      "ui 6604",
+      "ui 7604"
+     ],
+     "error": 39.9,
+     "margin": 3.3,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 38400
+    }
+   ]
+  },
+  "100": {
+   "value": [
+    196,
+    14
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      196,
+      14
+     ],
+     "refblocks": 45,
+     "L": 0,
+     "S": 45,
+     "chunks": [
+      "ui 1213"
+     ],
+     "error": 271.1,
+     "margin": 1.886,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55808
+    }
+   ]
+  },
+  "101": {
+   "value": [
+    172,
+    137
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      171,
+      137
+     ],
+     "blocks": 372,
+     "error": 1.53,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      172,
+      137
+     ],
+     "refblocks": 373,
+     "L": 1,
+     "S": 372,
+     "chunks": [
+      "ui 9302",
+      "weapon_liveries 806"
+     ],
+     "error": 36.73,
+     "margin": 1.819,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 37888,
+     "subFits": {
+      "ui": {
+       "value": [
+        172,
+        137
+       ],
+       "refblocks": 1,
+       "margin": 0.0
+      },
+      "weapons": {
+       "value": [
+        172,
+        137
+       ],
+       "refblocks": 372,
+       "margin": 1.805
+      }
+     }
+    }
+   ]
+  },
+  "102": {
+   "value": [
+    214,
+    124
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      212,
+      125
+     ],
+     "blocks": 9,
+     "error": 2.94,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      214,
+      124
+     ],
+     "refblocks": 229,
+     "L": 72,
+     "S": 157,
+     "chunks": [
+      "ui 4997",
+      "ui 7703",
+      "ui 8225",
+      "ui 9969",
+      "weapon_liveries 806"
+     ],
+     "error": 165.46,
+     "margin": 1.054,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 45056,
+     "subFits": {
+      "ui": {
+       "value": [
+        214,
+        124
+       ],
+       "refblocks": 220,
+       "margin": 1.593
+      },
+      "weapons": {
+       "value": [
+        213,
+        125
+       ],
+       "refblocks": 9,
+       "margin": 0.61
+      }
+     }
+    }
+   ]
+  },
+  "103": {
+   "value": [
+    200,
+    174
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      200,
+      174
+     ],
+     "refblocks": 1265,
+     "L": 5,
+     "S": 1260,
+     "chunks": [
+      "ui 1760",
+      "ui 9302"
+     ],
+     "error": 2.59,
+     "margin": 3.301,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 52480
+    }
+   ]
+  },
+  "104": {
+   "value": [
+    122,
+    83
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      122,
+      83
+     ],
+     "refblocks": 42,
+     "L": 8,
+     "S": 34,
+     "chunks": [
+      "ui 11255",
+      "ui 1403",
+      "ui 2075",
+      "ui 5008",
+      "ui 5274",
+      "ui 5295",
+      "ui 7212",
+      "ui 7604",
+      "ui 9303"
+     ],
+     "error": 32.78,
+     "margin": 2.449,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58624
+    }
+   ]
+  },
+  "105": {
+   "value": [
+    152,
+    157
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      152,
+      157
+     ],
+     "refblocks": 76,
+     "L": 68,
+     "S": 8,
+     "chunks": [
+      "ui 10534",
+      "ui 4499",
+      "ui 4801",
+      "ui 5007",
+      "ui 6750",
+      "ui 6933"
+     ],
+     "error": 6.15,
+     "margin": 3.934,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 59648
+    }
+   ]
+  },
+  "106": {
+   "value": [
+    88,
+    51
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      88,
+      51
+     ],
+     "refblocks": 18,
+     "L": 15,
+     "S": 3,
+     "chunks": [
+      "ui 5295",
+      "ui 7212"
+     ],
+     "error": 29.85,
+     "margin": 4.264,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62464
+    }
+   ]
+  },
+  "107": {
+   "value": [
+    178,
+    87
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      178,
+      87
+     ],
+     "refblocks": 202,
+     "L": 40,
+     "S": 162,
+     "chunks": [
+      "ui 1212",
+      "ui 1213",
+      "ui 6173",
+      "ui 6604"
+     ],
+     "error": 212.4,
+     "margin": 1.84,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 34560
+    }
+   ]
+  },
+  "108": {
+   "value": [
+    169,
+    149
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      169,
+      149
+     ],
+     "refblocks": 149,
+     "L": 140,
+     "S": 9,
+     "chunks": [
+      "ui 10534",
+      "ui 4997",
+      "ui 5560",
+      "ui 9302",
+      "ui 9969"
+     ],
+     "error": 16.81,
+     "margin": 3.312,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 49664
+    }
+   ]
+  },
+  "109": {
+   "value": [
+    170,
+    98
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      170,
+      98
+     ],
+     "refblocks": 468,
+     "L": 0,
+     "S": 468,
+     "chunks": [
+      "ui 11021",
+      "ui 11255",
+      "ui 1404",
+      "ui 6173",
+      "ui 6604"
+     ],
+     "error": 55.88,
+     "margin": 1.48,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 36096
+    }
+   ]
+  },
+  "110": {
+   "value": [
+    171,
+    71
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      171,
+      71
+     ],
+     "refblocks": 289,
+     "L": 61,
+     "S": 228,
+     "chunks": [
+      "ui 1212",
+      "ui 1213",
+      "ui 2075",
+      "ui 6173",
+      "ui 8225"
+     ],
+     "error": 133.74,
+     "margin": 1.761,
+     "round": 2,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 48896
+    }
+   ]
+  },
+  "111": {
+   "value": [
+    202,
+    183
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      202,
+      183
+     ],
+     "refblocks": 116,
+     "L": 85,
+     "S": 31,
+     "chunks": [
+      "ui 10534",
+      "ui 1162",
+      "ui 139",
+      "ui 6750",
+      "ui 8841",
+      "ui 9302",
+      "ui 9969"
+     ],
+     "error": 7.06,
+     "margin": 3.786,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 53760
+    }
+   ]
+  },
+  "112": {
+   "value": [
+    138,
+    100
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      138,
+      100
+     ],
+     "refblocks": 118,
+     "L": 118,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5560",
+      "ui 7603"
+     ],
+     "error": 56.45,
+     "margin": 3.622,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 36864
+    }
+   ]
+  },
+  "114": {
+   "value": [
+    153,
+    148
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      153,
+      148
+     ],
+     "refblocks": 2157,
+     "L": 1996,
+     "S": 161,
+     "chunks": [
+      "ui 10534",
+      "ui 1162",
+      "ui 139",
+      "ui 3346",
+      "ui 371",
+      "ui 3949",
+      "ui 4085",
+      "ui 4800",
+      "ui 5560",
+      "ui 6750",
+      "ui 6803",
+      "ui 8212",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 2.38,
+     "margin": 12.52,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 255
+    }
+   ],
+   "exactDifference": "b0 - b1 fixed by the one-index-block convention; the level is the pooled fit"
+  },
+  "116": {
+   "value": [
+    77,
+    34
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      77,
+      34
+     ],
+     "blocks": 2,
+     "error": 2.43,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "117": {
+   "value": [
+    140,
+    82
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      140,
+      82
+     ],
+     "refblocks": 41,
+     "L": 41,
+     "S": 0,
+     "chunks": [
+      "ui 5295",
+      "ui 5560"
+     ],
+     "error": 69.18,
+     "margin": 3.759,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 50176
+    }
+   ]
+  },
+  "118": {
+   "value": [
+    171,
+    106
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      171,
+      106
+     ],
+     "refblocks": 40,
+     "L": 10,
+     "S": 30,
+     "chunks": [
+      "ui 11021",
+      "ui 1212",
+      "ui 2041",
+      "ui 6603",
+      "ui 6604"
+     ],
+     "error": 61.03,
+     "margin": 1.043,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 53504
+    }
+   ]
+  },
+  "119": {
+   "value": [
+    194,
+    127
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      193,
+      127
+     ],
+     "blocks": 291,
+     "error": 2.21,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      194,
+      127
+     ],
+     "refblocks": 291,
+     "L": 0,
+     "S": 291,
+     "chunks": [
+      "weapon_liveries 806"
+     ],
+     "error": 76.88,
+     "margin": 2.021,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 47360,
+     "subFits": {
+      "weapons": {
+       "value": [
+        194,
+        127
+       ],
+       "refblocks": 291,
+       "margin": 2.021
+      }
+     }
+    }
+   ]
+  },
+  "120": {
+   "value": [
+    197,
+    193
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      197,
+      193
+     ],
+     "refblocks": 1729,
+     "L": 733,
+     "S": 996,
+     "chunks": [
+      "ui 139",
+      "ui 1760",
+      "ui 2836",
+      "ui 6750",
+      "ui 6803",
+      "ui 8841",
+      "ui 9302"
+     ],
+     "error": 2.0,
+     "margin": 15.875,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 231
+    }
+   ],
+   "exactDifference": "b0 - b1 fixed by the one-index-block convention; the level is the pooled fit"
+  },
+  "121": {
+   "value": [
+    179,
+    118
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      178,
+      118
+     ],
+     "blocks": 96,
+     "error": 1.68,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      179,
+      118
+     ],
+     "refblocks": 96,
+     "L": 0,
+     "S": 96,
+     "chunks": [
+      "weapon_liveries 806"
+     ],
+     "error": 44.02,
+     "margin": 1.42,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 52224,
+     "subFits": {
+      "weapons": {
+       "value": [
+        179,
+        118
+       ],
+       "refblocks": 96,
+       "margin": 1.42
+      }
+     }
+    }
+   ]
+  },
+  "123": {
+   "value": [
+    190,
+    161
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      190,
+      161
+     ],
+     "refblocks": 54,
+     "L": 54,
+     "S": 0,
+     "chunks": [
+      "ui 1162",
+      "ui 9302",
+      "ui 9969"
+     ],
+     "error": 6.72,
+     "margin": 3.026,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 49920
+    }
+   ]
+  },
+  "124": {
+   "value": [
+    179,
+    167
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      179,
+      167
+     ],
+     "refblocks": 1463,
+     "L": 400,
+     "S": 1063,
+     "chunks": [
+      "ui 10534",
+      "ui 1162",
+      "ui 139",
+      "ui 1760",
+      "ui 3346",
+      "ui 4085",
+      "ui 4800",
+      "ui 5818",
+      "ui 6750",
+      "ui 6803",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 3.27,
+     "margin": 14.491,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 255
+    }
+   ],
+   "exactDifference": "b0 - b1 fixed by the one-index-block convention; the level is the pooled fit"
+  },
+  "125": {
+   "value": [
+    115,
+    126
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      115,
+      126
+     ],
+     "refblocks": 10,
+     "L": 5,
+     "S": 5,
+     "chunks": [
+      "ui 11255",
+      "ui 5817",
+      "ui 8212"
+     ],
+     "error": 7.03,
+     "margin": 3.194,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63232
+    }
+   ]
+  },
+  "126": {
+   "value": [
+    139,
+    108
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      138,
+      108
+     ],
+     "blocks": 2,
+     "error": 1.84,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      139,
+      108
+     ],
+     "refblocks": 115,
+     "L": 113,
+     "S": 2,
+     "chunks": [
+      "ui 11020",
+      "ui 5274",
+      "ui 5560",
+      "ui 7603",
+      "weapon_liveries 806"
+     ],
+     "error": 23.72,
+     "margin": 2.961,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 47616,
+     "subFits": {
+      "ui": {
+       "value": [
+        139,
+        108
+       ],
+       "refblocks": 113,
+       "margin": 2.943
+      },
+      "weapons": {
+       "value": [
+        139,
+        108
+       ],
+       "refblocks": 2,
+       "margin": 3.041
+      }
+     }
+    }
+   ]
+  },
+  "127": {
+   "value": [
+    132,
+    115
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      132,
+      115
+     ],
+     "blocks": 4,
+     "error": 1.23,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      132,
+      115
+     ],
+     "refblocks": 74,
+     "L": 70,
+     "S": 4,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 5560",
+      "weapon_liveries 806"
+     ],
+     "error": 23.05,
+     "margin": 3.36,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55296,
+     "subFits": {
+      "ui": {
+       "value": [
+        132,
+        115
+       ],
+       "refblocks": 70,
+       "margin": 3.075
+      },
+      "weapons": {
+       "value": [
+        133,
+        115
+       ],
+       "refblocks": 4,
+       "margin": 0.568
+      }
+     }
+    }
+   ]
+  },
+  "128": {
+   "value": [
+    161,
+    89
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      161,
+      89
+     ],
+     "refblocks": 225,
+     "L": 52,
+     "S": 173,
+     "chunks": [
+      "ui 11021",
+      "ui 11254",
+      "ui 11255",
+      "ui 1213",
+      "ui 1404",
+      "ui 2074",
+      "ui 2075",
+      "ui 6172",
+      "ui 6173",
+      "ui 6604",
+      "ui 7604"
+     ],
+     "error": 70.7,
+     "margin": 1.367,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 46080
+    }
+   ]
+  },
+  "129": {
+   "value": [
+    182,
+    152
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      182,
+      152
+     ],
+     "refblocks": 145,
+     "L": 28,
+     "S": 117,
+     "chunks": [
+      "ui 4997",
+      "ui 6750"
+     ],
+     "error": 54.51,
+     "margin": 2.293,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 36096
+    }
+   ]
+  },
+  "130": {
+   "value": [
+    186,
+    61
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      186,
+      61
+     ],
+     "refblocks": 95,
+     "L": 91,
+     "S": 4,
+     "chunks": [
+      "ui 6949",
+      "ui 7703"
+     ],
+     "error": 301.44,
+     "margin": 2.522,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 47104
+    }
+   ]
+  },
+  "131": {
+   "value": [
+    165,
+    56
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      165,
+      52
+     ],
+     "blocks": 1,
+     "error": 3.73,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      165,
+      56
+     ],
+     "refblocks": 62,
+     "L": 0,
+     "S": 62,
+     "chunks": [
+      "ui 1213",
+      "ui 1404",
+      "ui 6173",
+      "weapon_liveries 5136"
+     ],
+     "error": 182.92,
+     "margin": 0.262,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 46080,
+     "subFits": {
+      "ui": {
+       "value": [
+        165,
+        56
+       ],
+       "refblocks": 61,
+       "margin": 0.373
+      },
+      "weapons": {
+       "value": [
+        165,
+        52
+       ],
+       "refblocks": 1,
+       "margin": 0.832
+      }
+     }
+    }
+   ]
+  },
+  "132": {
+   "value": [
+    170,
+    175
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      170,
+      175
+     ],
+     "refblocks": 33,
+     "L": 12,
+     "S": 21,
+     "chunks": [
+      "ui 3346",
+      "ui 6803",
+      "ui 8841"
+     ],
+     "error": 2.11,
+     "margin": 3.615,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 59904
+    }
+   ]
+  },
+  "133": {
+   "value": [
+    186,
+    177
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      186,
+      177
+     ],
+     "refblocks": 621,
+     "L": 207,
+     "S": 414,
+     "chunks": [
+      "ui 10534",
+      "ui 1162",
+      "ui 139",
+      "ui 1760",
+      "ui 2836",
+      "ui 3346",
+      "ui 6750",
+      "ui 6803",
+      "ui 8841"
+     ],
+     "error": 3.49,
+     "margin": 14.63,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 255
+    }
+   ],
+   "exactDifference": "b0 - b1 fixed by the one-index-block convention; the level is the pooled fit"
+  },
+  "134": {
+   "value": [
+    167,
+    159
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      167,
+      159
+     ],
+     "refblocks": 1783,
+     "L": 476,
+     "S": 1307,
+     "chunks": [
+      "ui 10534",
+      "ui 139",
+      "ui 3346",
+      "ui 371",
+      "ui 4085",
+      "ui 4498",
+      "ui 4800",
+      "ui 5560",
+      "ui 6750",
+      "ui 6803",
+      "ui 6934",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 9.99,
+     "margin": 3.997,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 42496
+    }
+   ]
+  },
+  "135": {
+   "value": [
+    153,
+    81
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      153,
+      81
+     ],
+     "refblocks": 148,
+     "L": 119,
+     "S": 29,
+     "chunks": [
+      "ui 11254",
+      "ui 2074",
+      "ui 2075",
+      "ui 6173",
+      "ui 7603",
+      "ui 7604",
+      "ui 7703"
+     ],
+     "error": 89.89,
+     "margin": 3.152,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 46080
+    }
+   ]
+  },
+  "137": {
+   "value": [
+    145,
+    140
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      145,
+      140
+     ],
+     "refblocks": 479,
+     "L": 419,
+     "S": 60,
+     "chunks": [
+      "ui 10534",
+      "ui 1162",
+      "ui 371",
+      "ui 3949",
+      "ui 4085",
+      "ui 4800",
+      "ui 5560",
+      "ui 6803",
+      "ui 8212",
+      "ui 8213",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 2.77,
+     "margin": 3.828,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 39168
+    }
+   ]
+  },
+  "139": {
+   "value": [
+    151,
+    94
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      151,
+      94
+     ],
+     "refblocks": 124,
+     "L": 123,
+     "S": 1,
+     "chunks": [
+      "ui 5560",
+      "ui 7603",
+      "ui 7604"
+     ],
+     "error": 78.3,
+     "margin": 3.067,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 34816
+    }
+   ]
+  },
+  "140": {
+   "value": [
+    57,
+    74
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      57,
+      74
+     ],
+     "refblocks": 10,
+     "L": 0,
+     "S": 10,
+     "chunks": [
+      "ui 6949"
+     ],
+     "error": 270.32,
+     "margin": 3.919,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63232
+    }
+   ]
+  },
+  "141": {
+   "value": [
+    112,
+    107
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      112,
+      107
+     ],
+     "refblocks": 18,
+     "L": 17,
+     "S": 1,
+     "chunks": [
+      "ui 8212",
+      "ui 9303"
+     ],
+     "error": 3.94,
+     "margin": 3.399,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63232
+    }
+   ]
+  },
+  "142": {
+   "value": [
+    132,
+    91
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      142,
+      80
+     ],
+     "blocks": 1,
+     "error": 2.25,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      132,
+      91
+     ],
+     "refblocks": 212,
+     "L": 211,
+     "S": 1,
+     "chunks": [
+      "ui 5295",
+      "ui 5560",
+      "ui 9302",
+      "weapon_liveries 5136"
+     ],
+     "error": 18.64,
+     "margin": 3.249,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 38144,
+     "subFits": {
+      "ui": {
+       "value": [
+        132,
+        91
+       ],
+       "refblocks": 211,
+       "margin": 3.214
+      },
+      "weapons": {
+       "value": [
+        142,
+        80
+       ],
+       "refblocks": 1,
+       "margin": 0.245
+      }
+     }
+    }
+   ]
+  },
+  "145": {
+   "value": [
+    74,
+    16
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      74,
+      16
+     ],
+     "blocks": 25,
+     "error": 2.02,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "147": {
+   "value": [
+    177,
+    43
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      177,
+      43
+     ],
+     "refblocks": 50,
+     "L": 0,
+     "S": 50,
+     "chunks": [
+      "ui 1213",
+      "ui 6173",
+      "ui 7604"
+     ],
+     "error": 209.38,
+     "margin": 0.939,
+     "round": 2,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 57088
+    }
+   ]
+  },
+  "148": {
+   "value": [
+    151,
+    124
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      150,
+      124
+     ],
+     "blocks": 308,
+     "error": 1.6,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      151,
+      124
+     ],
+     "refblocks": 483,
+     "L": 175,
+     "S": 308,
+     "chunks": [
+      "ui 11020",
+      "ui 4498",
+      "ui 5274",
+      "ui 5560",
+      "ui 7603",
+      "ui 9302",
+      "weapon_liveries 806"
+     ],
+     "error": 31.86,
+     "margin": 3.893,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 34816,
+     "subFits": {
+      "ui": {
+       "value": [
+        151,
+        124
+       ],
+       "refblocks": 175,
+       "margin": 2.625
+      },
+      "weapons": {
+       "value": [
+        151,
+        124
+       ],
+       "refblocks": 308,
+       "margin": 2.89
+      }
+     }
+    }
+   ]
+  },
+  "149": {
+   "value": [
+    123,
+    107
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      123,
+      107
+     ],
+     "refblocks": 76,
+     "L": 76,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 9302"
+     ],
+     "error": 14.8,
+     "margin": 3.434,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55808
+    }
+   ]
+  },
+  "150": {
+   "value": [
+    145,
+    73
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      145,
+      73
+     ],
+     "refblocks": 71,
+     "L": 29,
+     "S": 42,
+     "chunks": [
+      "ui 11254",
+      "ui 11255",
+      "ui 1404",
+      "ui 5295",
+      "ui 5560",
+      "ui 6173",
+      "ui 6604",
+      "ui 7603",
+      "ui 7604"
+     ],
+     "error": 65.26,
+     "margin": 0.825,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 57088
+    }
+   ]
+  },
+  "151": {
+   "value": [
+    113,
+    75
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      113,
+      75
+     ],
+     "refblocks": 388,
+     "L": 388,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 9302"
+     ],
+     "error": 34.89,
+     "margin": 3.231,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 45824
+    }
+   ]
+  },
+  "152": {
+   "value": [
+    75,
+    71
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      75,
+      71
+     ],
+     "refblocks": 23,
+     "L": 0,
+     "S": 23,
+     "chunks": [
+      "ui 7212",
+      "ui 9303"
+     ],
+     "error": 11.42,
+     "margin": 1.358,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62976
+    }
+   ]
+  },
+  "153": {
+   "value": [
+    107,
+    90
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      107,
+      90
+     ],
+     "refblocks": 371,
+     "L": 23,
+     "S": 348,
+     "chunks": [
+      "ui 5007",
+      "ui 5008",
+      "ui 7212",
+      "ui 7603",
+      "ui 9303"
+     ],
+     "error": 18.66,
+     "margin": 2.301,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 53760
+    }
+   ]
+  },
+  "154": {
+   "value": [
+    194,
+    106
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      195,
+      103
+     ],
+     "blocks": 1,
+     "error": 1.46,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      194,
+      106
+     ],
+     "refblocks": 193,
+     "L": 37,
+     "S": 156,
+     "chunks": [
+      "ui 1212",
+      "ui 1213",
+      "weapon_liveries 806"
+     ],
+     "error": 197.33,
+     "margin": 3.044,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 45824,
+     "subFits": {
+      "ui": {
+       "value": [
+        194,
+        106
+       ],
+       "refblocks": 192,
+       "margin": 3.024
+      },
+      "weapons": {
+       "value": [
+        195,
+        104
+       ],
+       "refblocks": 1,
+       "margin": 0.49
+      }
+     }
+    }
+   ]
+  },
+  "155": {
+   "value": [
+    158,
+    69
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      158,
+      69
+     ],
+     "refblocks": 222,
+     "L": 0,
+     "S": 222,
+     "chunks": [
+      "ui 11021",
+      "ui 11255",
+      "ui 1213",
+      "ui 1404",
+      "ui 2041",
+      "ui 2075",
+      "ui 6173",
+      "ui 6604",
+      "ui 7604"
+     ],
+     "error": 133.49,
+     "margin": 0.465,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 42496
+    }
+   ]
+  },
+  "156": {
+   "value": [
+    159,
+    40
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      159,
+      40
+     ],
+     "refblocks": 1,
+     "L": 0,
+     "S": 1,
+     "chunks": [
+      "ui 6604"
+     ],
+     "error": 3.68,
+     "margin": 2.117,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       132,
+       111
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 11.88
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "157": {
+   "value": [
+    71,
+    51
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      71,
+      51
+     ],
+     "blocks": 1,
+     "error": 0.37,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "158": {
+   "value": [
+    144,
+    132
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      144,
+      132
+     ],
+     "refblocks": 631,
+     "L": 493,
+     "S": 138,
+     "chunks": [
+      "ui 10534",
+      "ui 11020",
+      "ui 4498",
+      "ui 5560",
+      "ui 5674",
+      "ui 5817",
+      "ui 6803",
+      "ui 8212",
+      "ui 8213",
+      "ui 8841",
+      "ui 9969"
+     ],
+     "error": 2.55,
+     "margin": 4.465,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 45056
+    }
+   ]
+  },
+  "159": {
+   "value": [
+    156,
+    15
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      156,
+      15
+     ],
+     "refblocks": 8,
+     "L": 0,
+     "S": 8,
+     "chunks": [
+      "ui 6173"
+     ],
+     "error": 147.0,
+     "margin": 1.895,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63744
+    }
+   ]
+  },
+  "160": {
+   "value": [
+    144,
+    62
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      144,
+      62
+     ],
+     "refblocks": 202,
+     "L": 9,
+     "S": 193,
+     "chunks": [
+      "ui 10227",
+      "ui 11255",
+      "ui 1213",
+      "ui 1404",
+      "ui 2075",
+      "ui 5560",
+      "ui 6173",
+      "ui 6604",
+      "ui 7604"
+     ],
+     "error": 52.27,
+     "margin": 1.126,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 43008
+    }
+   ]
+  },
+  "161": {
+   "value": [
+    81,
+    75
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      81,
+      75
+     ],
+     "refblocks": 2,
+     "L": 0,
+     "S": 2,
+     "chunks": [
+      "ui 9303"
+     ],
+     "error": 6.54,
+     "margin": 1.327,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 2 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       80,
+       80
+      ],
+      "refblocks": 2,
+      "nextToKnown": 2,
+      "margin": 6.564
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "162": {
+   "value": [
+    122,
+    91
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      122,
+      91
+     ],
+     "refblocks": 495,
+     "L": 495,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 9302"
+     ],
+     "error": 17.17,
+     "margin": 2.717,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 46336
+    }
+   ]
+  },
+  "163": {
+   "value": [
+    55,
+    33
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      55,
+      33
+     ],
+     "blocks": 74,
+     "error": 2.37,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "164": {
+   "value": [
+    76,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      76,
+      58
+     ],
+     "refblocks": 27,
+     "L": 27,
+     "S": 0,
+     "chunks": [
+      "ui 5295",
+      "ui 7211"
+     ],
+     "error": 8.81,
+     "margin": 2.887,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60928
+    }
+   ]
+  },
+  "165": {
+   "value": [
+    152,
+    53
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      152,
+      53
+     ],
+     "refblocks": 28,
+     "L": 28,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 56.25,
+     "margin": 3.688,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 53248
+    }
+   ]
+  },
+  "167": {
+   "value": [
+    89,
+    83
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      89,
+      83
+     ],
+     "refblocks": 5,
+     "L": 1,
+     "S": 4,
+     "chunks": [
+      "ui 7211",
+      "ui 9303"
+     ],
+     "error": 12.02,
+     "margin": 1.28,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63744,
+     "lastResortReason": "mip fit on 5 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       87,
+       86
+      ],
+      "refblocks": 12,
+      "nextToKnown": 12,
+      "margin": 1.189
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "168": {
+   "value": [
+    114,
+    83
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      114,
+      83
+     ],
+     "refblocks": 753,
+     "L": 432,
+     "S": 321,
+     "chunks": [
+      "ui 10228",
+      "ui 1404",
+      "ui 2074",
+      "ui 2075",
+      "ui 5007",
+      "ui 5008",
+      "ui 5274",
+      "ui 5560",
+      "ui 7212",
+      "ui 7603",
+      "ui 9302"
+     ],
+     "error": 21.9,
+     "margin": 2.951,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 50432
+    }
+   ]
+  },
+  "169": {
+   "value": [
+    65,
+    74
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      65,
+      74
+     ],
+     "refblocks": 2,
+     "L": 0,
+     "S": 2,
+     "chunks": [
+      "ui 7212"
+     ],
+     "error": 19.41,
+     "margin": 0.336,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 2 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       74,
+       65
+      ],
+      "refblocks": 2,
+      "nextToKnown": 2,
+      "margin": 0.391
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "171": {
+   "value": [
+    152,
+    39
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      152,
+      39
+     ],
+     "refblocks": 1,
+     "L": 0,
+     "S": 1,
+     "chunks": [
+      "ui 6949"
+     ],
+     "error": 48.35,
+     "margin": 0.74,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       148,
+       144
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 15.714
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "172": {
+   "value": [
+    140,
+    119
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      139,
+      119
+     ],
+     "blocks": 18,
+     "error": 1.79,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      140,
+      119
+     ],
+     "refblocks": 89,
+     "L": 69,
+     "S": 20,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 5560",
+      "ui 7604",
+      "ui 8213",
+      "ui 9302",
+      "weapon_liveries 806"
+     ],
+     "error": 26.16,
+     "margin": 3.193,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 33024,
+     "subFits": {
+      "ui": {
+       "value": [
+        140,
+        119
+       ],
+       "refblocks": 71,
+       "margin": 3.278
+      },
+      "weapons": {
+       "value": [
+        140,
+        119
+       ],
+       "refblocks": 18,
+       "margin": 0.973
+      }
+     }
+    }
+   ]
+  },
+  "173": {
+   "value": [
+    42,
+    15
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      42,
+      15
+     ],
+     "blocks": 4,
+     "error": 0.96,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "174": {
+   "value": [
+    65,
+    41
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      65,
+      41
+     ],
+     "refblocks": 3,
+     "L": 3,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 8.42,
+     "margin": 3.276,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 3 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       66,
+       48
+      ],
+      "refblocks": 3,
+      "nextToKnown": 3,
+      "margin": 0.375
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "175": {
+   "value": [
+    114,
+    91
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      114,
+      91
+     ],
+     "refblocks": 53,
+     "L": 53,
+     "S": 0,
+     "chunks": [
+      "ui 5007",
+      "ui 5560",
+      "ui 7603",
+      "ui 9302"
+     ],
+     "error": 14.44,
+     "margin": 3.758,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55808
+    }
+   ]
+  },
+  "178": {
+   "value": [
+    90,
+    50
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      91,
+      47
+     ],
+     "blocks": 1,
+     "error": 1.95,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      90,
+      50
+     ],
+     "refblocks": 32,
+     "L": 31,
+     "S": 1,
+     "chunks": [
+      "ui 5295",
+      "weapon_liveries 5136"
+     ],
+     "error": 54.08,
+     "margin": 1.173,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58624,
+     "subFits": {
+      "ui": {
+       "value": [
+        90,
+        50
+       ],
+       "refblocks": 31,
+       "margin": 1.432
+      },
+      "weapons": {
+       "value": [
+        91,
+        47
+       ],
+       "refblocks": 1,
+       "margin": 0.842
+      }
+     }
+    }
+   ]
+  },
+  "179": {
+   "value": [
+    48,
+    8
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      48,
+      8
+     ],
+     "blocks": 21,
+     "error": 1.49,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "180": {
+   "value": [
+    102,
+    102
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      102,
+      102
+     ],
+     "refblocks": 26,
+     "L": 22,
+     "S": 4,
+     "chunks": [
+      "ui 2074",
+      "ui 8212",
+      "ui 9303"
+     ],
+     "error": 12.29,
+     "margin": 4.053,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61184
+    }
+   ]
+  },
+  "181": {
+   "value": [
+    132,
+    70
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      132,
+      70
+     ],
+     "refblocks": 77,
+     "L": 16,
+     "S": 61,
+     "chunks": [
+      "ui 11254",
+      "ui 11255",
+      "ui 1403",
+      "ui 1404",
+      "ui 2075",
+      "ui 5295",
+      "ui 5560",
+      "ui 7603",
+      "ui 7604"
+     ],
+     "error": 51.19,
+     "margin": 1.72,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 51200
+    }
+   ]
+  },
+  "182": {
+   "value": [
+    73,
+    56
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      73,
+      56
+     ],
+     "refblocks": 17,
+     "L": 3,
+     "S": 14,
+     "chunks": [
+      "ui 5295",
+      "ui 7212"
+     ],
+     "error": 13.17,
+     "margin": 2.639,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62464
+    }
+   ]
+  },
+  "183": {
+   "value": [
+    123,
+    119
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      123,
+      119
+     ],
+     "refblocks": 84,
+     "L": 33,
+     "S": 51,
+     "chunks": [
+      "ui 10534",
+      "ui 5674",
+      "ui 5817",
+      "ui 8212",
+      "ui 8213",
+      "ui 9969"
+     ],
+     "error": 2.55,
+     "margin": 3.058,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61696
+    }
+   ]
+  },
+  "184": {
+   "value": [
+    72,
+    34
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      72,
+      34
+     ],
+     "blocks": 14,
+     "error": 2.06,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "185": {
+   "value": [
+    159,
+    136
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      158,
+      136
+     ],
+     "blocks": 2971,
+     "error": 1.87,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      159,
+      136
+     ],
+     "refblocks": 3010,
+     "L": 39,
+     "S": 2971,
+     "chunks": [
+      "ui 1162",
+      "ui 4498",
+      "ui 5560",
+      "ui 9302",
+      "weapon_liveries 806"
+     ],
+     "error": 54.58,
+     "margin": 3.158,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 33536,
+     "subFits": {
+      "ui": {
+       "value": [
+        159,
+        136
+       ],
+       "refblocks": 39,
+       "margin": 3.553
+      },
+      "weapons": {
+       "value": [
+        159,
+        136
+       ],
+       "refblocks": 2971,
+       "margin": 3.153
+      }
+     }
+    }
+   ]
+  },
+  "186": {
+   "value": [
+    131,
+    107
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      131,
+      107
+     ],
+     "refblocks": 148,
+     "L": 147,
+     "S": 1,
+     "chunks": [
+      "ui 10534",
+      "ui 5274",
+      "ui 5560",
+      "ui 9302"
+     ],
+     "error": 16.64,
+     "margin": 2.562,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 49920
+    }
+   ]
+  },
+  "187": {
+   "value": [
+    105,
+    12
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      105,
+      12
+     ],
+     "blocks": 1,
+     "error": 2.74,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "188": {
+   "value": [
+    143,
+    40
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      142,
+      38
+     ],
+     "blocks": 3,
+     "error": 2.36,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      143,
+      40
+     ],
+     "refblocks": 56,
+     "L": 0,
+     "S": 56,
+     "chunks": [
+      "ui 10228",
+      "ui 6173",
+      "weapon_liveries 5136"
+     ],
+     "error": 176.74,
+     "margin": 0.349,
+     "round": 2,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 56832,
+     "subFits": {
+      "ui": {
+       "value": [
+        143,
+        41
+       ],
+       "refblocks": 53,
+       "margin": 0.768
+      },
+      "weapons": {
+       "value": [
+        142,
+        38
+       ],
+       "refblocks": 3,
+       "margin": 0.837
+      }
+     }
+    }
+   ]
+  },
+  "189": {
+   "value": [
+    113,
+    99
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      113,
+      99
+     ],
+     "refblocks": 30,
+     "L": 30,
+     "S": 0,
+     "chunks": [
+      "ui 7603",
+      "ui 8212",
+      "ui 9302"
+     ],
+     "error": 6.43,
+     "margin": 3.142,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 58880
+    }
+   ]
+  },
+  "190": {
+   "value": [
+    43,
+    25
+   ],
+   "confirmed": true,
+   "evidence": [
+    {
+     "value": [
+      43,
+      25
+     ],
+     "blocks": 34,
+     "error": 0.93,
+     "chunk": "weapon_liveries 5136"
+    }
+   ],
+   "confidence": "encoder convention for one-index blocks leaves this single value (bc4degen.py, no exception in 6.25 million zlib blocks of these packs); the earlier per-chunk reference fit (bc4presets.py) is that value"
+  },
+  "192": {
+   "value": [
+    79,
+    85
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      79,
+      85
+     ],
+     "refblocks": 31,
+     "L": 0,
+     "S": 31,
+     "chunks": [
+      "ui 10228",
+      "ui 7212"
+     ],
+     "error": 12.78,
+     "margin": 2.296,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60928
+    }
+   ]
+  },
+  "193": {
+   "value": [
+    126,
+    100
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      126,
+      100
+     ],
+     "refblocks": 96,
+     "L": 96,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 5560",
+      "ui 5817",
+      "ui 7603",
+      "ui 9302"
+     ],
+     "error": 27.19,
+     "margin": 3.627,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 52736
+    }
+   ]
+  },
+  "195": {
+   "value": [
+    98,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      98,
+      58
+     ],
+     "refblocks": 112,
+     "L": 112,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 51.99,
+     "margin": 2.849,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 50432
+    }
+   ]
+  },
+  "196": {
+   "value": [
+    90,
+    74
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      90,
+      74
+     ],
+     "refblocks": 32,
+     "L": 32,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 9302"
+     ],
+     "error": 11.04,
+     "margin": 3.311,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 47360
+    }
+   ]
+  },
+  "197": {
+   "value": [
+    133,
+    135
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      133,
+      133
+     ],
+     "blocks": 1,
+     "error": 0.95,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      133,
+      135
+     ],
+     "refblocks": 111,
+     "L": 110,
+     "S": 1,
+     "chunks": [
+      "ui 5674",
+      "ui 5817",
+      "ui 8841",
+      "ui 9969",
+      "weapon_liveries 806"
+     ],
+     "error": 2.31,
+     "margin": 3.483,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61184,
+     "subFits": {
+      "ui": {
+       "value": [
+        133,
+        135
+       ],
+       "refblocks": 110,
+       "margin": 3.558
+      },
+      "weapons": {
+       "value": [
+        134,
+        133
+       ],
+       "refblocks": 1,
+       "margin": 0.664
+      }
+     }
+    }
+   ]
+  },
+  "198": {
+   "value": [
+    96,
+    90
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      96,
+      90
+     ],
+     "refblocks": 20,
+     "L": 17,
+     "S": 3,
+     "chunks": [
+      "ui 10227",
+      "ui 10228",
+      "ui 5007",
+      "ui 5274",
+      "ui 5295",
+      "ui 7212",
+      "ui 9302"
+     ],
+     "error": 8.72,
+     "margin": 4.395,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62976
+    }
+   ]
+  },
+  "200": {
+   "value": [
+    55,
+    17
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      55,
+      17
+     ],
+     "blocks": 355,
+     "error": 2.21,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "202": {
+   "value": [
+    82,
+    42
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      82,
+      43
+     ],
+     "blocks": 1,
+     "error": 2.09,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      82,
+      42
+     ],
+     "refblocks": 73,
+     "L": 72,
+     "S": 1,
+     "chunks": [
+      "ui 5295",
+      "weapon_liveries 5136"
+     ],
+     "error": 36.24,
+     "margin": 3.18,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 56320,
+     "subFits": {
+      "ui": {
+       "value": [
+        82,
+        42
+       ],
+       "refblocks": 72,
+       "margin": 2.967
+      },
+      "weapons": {
+       "value": [
+        82,
+        44
+       ],
+       "refblocks": 1,
+       "margin": 2.699
+      }
+     }
+    }
+   ]
+  },
+  "203": {
+   "value": [
+    71,
+    66
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      71,
+      66
+     ],
+     "refblocks": 4,
+     "L": 4,
+     "S": 0,
+     "chunks": [
+      "ui 5295",
+      "ui 7211"
+     ],
+     "error": 4.14,
+     "margin": 2.459,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64768,
+     "lastResortReason": "mip fit on 4 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       69,
+       69
+      ],
+      "refblocks": 8,
+      "nextToKnown": 8,
+      "margin": 2.471
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "204": {
+   "value": [
+    133,
+    52
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      133,
+      52
+     ],
+     "refblocks": 18,
+     "L": 1,
+     "S": 17,
+     "chunks": [
+      "ui 10228",
+      "ui 5008",
+      "ui 5295",
+      "ui 6173",
+      "ui 7604"
+     ],
+     "error": 98.28,
+     "margin": 0.616,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61696
+    }
+   ]
+  },
+  "205": {
+   "value": [
+    89,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      89,
+      58
+     ],
+     "refblocks": 32,
+     "L": 32,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295"
+     ],
+     "error": 37.28,
+     "margin": 2.018,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 52224
+    }
+   ]
+  },
+  "206": {
+   "value": [
+    113,
+    6
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      113,
+      6
+     ],
+     "refblocks": 2,
+     "L": 0,
+     "S": 2,
+     "chunks": [
+      "ui 10228"
+     ],
+     "error": 103.72,
+     "margin": 0.969,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 2 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       89,
+       72
+      ],
+      "refblocks": 2,
+      "nextToKnown": 2,
+      "margin": 1.796
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "207": {
+   "value": [
+    132,
+    123
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      127,
+      129
+     ],
+     "blocks": 1,
+     "error": 0.15,
+     "chunk": "weapon_liveries 806"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      132,
+      123
+     ],
+     "refblocks": 216,
+     "L": 178,
+     "S": 38,
+     "chunks": [
+      "ui 10534",
+      "ui 5274",
+      "ui 5560",
+      "ui 5674",
+      "ui 5817",
+      "ui 7604",
+      "ui 8212",
+      "ui 8213",
+      "ui 9969",
+      "weapon_liveries 806"
+     ],
+     "error": 3.47,
+     "margin": 3.722,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 57600,
+     "subFits": {
+      "ui": {
+       "value": [
+        132,
+        123
+       ],
+       "refblocks": 215,
+       "margin": 3.672
+      },
+      "weapons": {
+       "value": [
+        163,
+        175
+       ],
+       "refblocks": 1,
+       "margin": 0.6
+      }
+     }
+    }
+   ]
+  },
+  "208": {
+   "value": [
+    39,
+    9
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      39,
+      9
+     ],
+     "blocks": 284,
+     "error": 1.22,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "209": {
+   "value": [
+    136,
+    27
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      134,
+      27
+     ],
+     "blocks": 5,
+     "error": 4.19,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      136,
+      27
+     ],
+     "refblocks": 6,
+     "L": 0,
+     "S": 6,
+     "chunks": [
+      "ui 6173",
+      "weapon_liveries 5136"
+     ],
+     "error": 271.99,
+     "margin": 1.111,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64000,
+     "subFits": {
+      "ui": {
+       "value": [
+        137,
+        26
+       ],
+       "refblocks": 1,
+       "margin": 3.02
+      },
+      "weapons": {
+       "value": [
+        135,
+        27
+       ],
+       "refblocks": 5,
+       "margin": 0.367
+      }
+     },
+     "lastResortReason": "mip fit on 6 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       91,
+       53
+      ],
+      "refblocks": 6,
+      "nextToKnown": 6,
+      "margin": 0.935
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "211": {
+   "value": [
+    39,
+    23
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      39,
+      23
+     ],
+     "blocks": 575,
+     "error": 1.7,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "212": {
+   "value": [
+    81,
+    50
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      81,
+      50
+     ],
+     "refblocks": 3,
+     "L": 3,
+     "S": 0,
+     "chunks": [
+      "ui 10227"
+     ],
+     "error": 37.92,
+     "margin": 3.452,
+     "round": 4,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65024,
+     "lastResortReason": "mip fit on 3 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       78,
+       66
+      ],
+      "refblocks": 3,
+      "nextToKnown": 3,
+      "margin": 1.198
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "213": {
+   "value": [
+    19,
+    41
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      19,
+      41
+     ],
+     "blocks": 2,
+     "error": 1.01,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "214": {
+   "value": [
+    39,
+    17
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      39,
+      17
+     ],
+     "blocks": 647,
+     "error": 1.72,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "215": {
+   "value": [
+    103,
+    82
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      103,
+      82
+     ],
+     "refblocks": 146,
+     "L": 146,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 9302"
+     ],
+     "error": 17.77,
+     "margin": 2.579,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 44544
+    }
+   ]
+  },
+  "217": {
+   "value": [
+    115,
+    21
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      115,
+      21
+     ],
+     "blocks": 2,
+     "error": 1.89,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "218": {
+   "value": [
+    120,
+    60
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      118,
+      60
+     ],
+     "blocks": 1,
+     "error": 0.76,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      120,
+      60
+     ],
+     "refblocks": 88,
+     "L": 84,
+     "S": 4,
+     "chunks": [
+      "ui 5295",
+      "ui 6949",
+      "weapon_liveries 5136"
+     ],
+     "error": 72.56,
+     "margin": 3.709,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 42496,
+     "subFits": {
+      "ui": {
+       "value": [
+        120,
+        60
+       ],
+       "refblocks": 87,
+       "margin": 3.757
+      },
+      "weapons": {
+       "value": [
+        118,
+        62
+       ],
+       "refblocks": 1,
+       "margin": 0.612
+      }
+     }
+    }
+   ]
+  },
+  "219": {
+   "value": [
+    81,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      81,
+      58
+     ],
+     "refblocks": 46,
+     "L": 46,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 16.62,
+     "margin": 3.193,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60672
+    }
+   ]
+  },
+  "220": {
+   "value": [
+    73,
+    42
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      73,
+      42
+     ],
+     "refblocks": 7,
+     "L": 7,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 15.66,
+     "margin": 4.117,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64000,
+     "lastResortReason": "mip fit on 7 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       74,
+       55
+      ],
+      "refblocks": 7,
+      "nextToKnown": 7,
+      "margin": 0.483
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "221": {
+   "value": [
+    47,
+    17
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      47,
+      17
+     ],
+     "blocks": 178,
+     "error": 1.91,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "223": {
+   "value": [
+    64,
+    25
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      64,
+      25
+     ],
+     "blocks": 367,
+     "error": 2.05,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "224": {
+   "value": [
+    119,
+    34
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      119,
+      33
+     ],
+     "blocks": 3,
+     "error": 2.61,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      119,
+      34
+     ],
+     "refblocks": 15,
+     "L": 7,
+     "S": 8,
+     "chunks": [
+      "ui 10228",
+      "ui 5295",
+      "weapon_liveries 5136"
+     ],
+     "error": 95.66,
+     "margin": 2.903,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 61952,
+     "subFits": {
+      "ui": {
+       "value": [
+        119,
+        34
+       ],
+       "refblocks": 12,
+       "margin": 3.651
+      },
+      "weapons": {
+       "value": [
+        121,
+        32
+       ],
+       "refblocks": 3,
+       "margin": 0.408
+      }
+     }
+    }
+   ]
+  },
+  "226": {
+   "value": [
+    66,
+    58
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      66,
+      58
+     ],
+     "refblocks": 7,
+     "L": 1,
+     "S": 6,
+     "chunks": [
+      "ui 5295",
+      "ui 7212"
+     ],
+     "error": 5.85,
+     "margin": 0.163,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64256,
+     "lastResortReason": "mip fit on 7 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       63,
+       63
+      ],
+      "refblocks": 7,
+      "nextToKnown": 7,
+      "margin": 2.968
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "227": {
+   "value": [
+    33,
+    16
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      33,
+      16
+     ],
+     "blocks": 1,
+     "error": 0.49,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "228": {
+   "value": [
+    101,
+    67
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      101,
+      67
+     ],
+     "refblocks": 324,
+     "L": 324,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 9302"
+     ],
+     "error": 21.58,
+     "margin": 2.071,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 49152
+    }
+   ]
+  },
+  "229": {
+   "value": [
+    66,
+    49
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      66,
+      49
+     ],
+     "refblocks": 46,
+     "L": 46,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 19.4,
+     "margin": 3.354,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 59136
+    }
+   ]
+  },
+  "230": {
+   "value": [
+    101,
+    75
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      101,
+      75
+     ],
+     "refblocks": 899,
+     "L": 88,
+     "S": 811,
+     "chunks": [
+      "ui 10227",
+      "ui 10228",
+      "ui 11255",
+      "ui 2075",
+      "ui 5007",
+      "ui 5008",
+      "ui 5274",
+      "ui 5295",
+      "ui 5560",
+      "ui 7212",
+      "ui 9302",
+      "ui 9303"
+     ],
+     "error": 22.32,
+     "margin": 2.463,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 46336
+    }
+   ]
+  },
+  "232": {
+   "value": [
+    78,
+    5
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      78,
+      5
+     ],
+     "blocks": 266,
+     "error": 2.52,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "234": {
+   "value": [
+    33,
+    60
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      33,
+      60
+     ],
+     "blocks": 1,
+     "error": 1.74,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "235": {
+   "value": [
+    57,
+    24
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      57,
+      24
+     ],
+     "blocks": 2,
+     "error": 1.28,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "236": {
+   "value": [
+    69,
+    2
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      69,
+      2
+     ],
+     "blocks": 1,
+     "error": 0.19,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "239": {
+   "value": [
+    105,
+    25
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      105,
+      24
+     ],
+     "blocks": 3,
+     "error": 1.91,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      105,
+      25
+     ],
+     "refblocks": 9,
+     "L": 1,
+     "S": 8,
+     "chunks": [
+      "ui 10228",
+      "ui 5007",
+      "weapon_liveries 5136"
+     ],
+     "error": 45.83,
+     "margin": 0.014,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 62976,
+     "subFits": {
+      "ui": {
+       "value": [
+        104,
+        26
+       ],
+       "refblocks": 6,
+       "margin": 0.766
+      },
+      "weapons": {
+       "value": [
+        105,
+        25
+       ],
+       "refblocks": 3,
+       "margin": 2.34
+      }
+     }
+    }
+   ]
+  },
+  "240": {
+   "value": [
+    96,
+    35
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      96,
+      34
+     ],
+     "blocks": 3,
+     "error": 2.27,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      96,
+      35
+     ],
+     "refblocks": 24,
+     "L": 7,
+     "S": 17,
+     "chunks": [
+      "ui 10228",
+      "ui 5295",
+      "weapon_liveries 5136"
+     ],
+     "error": 57.26,
+     "margin": 1.814,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60672,
+     "subFits": {
+      "ui": {
+       "value": [
+        96,
+        35
+       ],
+       "refblocks": 21,
+       "margin": 2.082
+      },
+      "weapons": {
+       "value": [
+        97,
+        35
+       ],
+       "refblocks": 3,
+       "margin": 0.687
+      }
+     }
+    }
+   ]
+  },
+  "241": {
+   "value": [
+    112,
+    46
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      111,
+      44
+     ],
+     "blocks": 6,
+     "error": 1.82,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      112,
+      46
+     ],
+     "refblocks": 470,
+     "L": 5,
+     "S": 465,
+     "chunks": [
+      "ui 10228",
+      "ui 2041",
+      "ui 5008",
+      "ui 5295",
+      "ui 8225",
+      "weapon_liveries 5136"
+     ],
+     "error": 46.01,
+     "margin": 0.267,
+     "round": 1,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 51712,
+     "subFits": {
+      "ui": {
+       "value": [
+        112,
+        46
+       ],
+       "refblocks": 464,
+       "margin": 0.434
+      },
+      "weapons": {
+       "value": [
+        111,
+        45
+       ],
+       "refblocks": 6,
+       "margin": 3.278
+      }
+     }
+    }
+   ]
+  },
+  "243": {
+   "value": [
+    47,
+    25
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      47,
+      25
+     ],
+     "blocks": 27,
+     "error": 2.01,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "244": {
+   "value": [
+    88,
+    22
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      84,
+      23
+     ],
+     "blocks": 2,
+     "error": 1.98,
+     "chunk": "weapon_liveries 5136"
+    },
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      88,
+      22
+     ],
+     "refblocks": 9,
+     "L": 0,
+     "S": 9,
+     "chunks": [
+      "ui 6949",
+      "weapon_liveries 5136"
+     ],
+     "error": 196.01,
+     "margin": 0.268,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 63232,
+     "subFits": {
+      "ui": {
+       "value": [
+        89,
+        22
+       ],
+       "refblocks": 7,
+       "margin": 0.613
+      },
+      "weapons": {
+       "value": [
+        84,
+        23
+       ],
+       "refblocks": 2,
+       "margin": 0.306
+      }
+     }
+    }
+   ]
+  },
+  "245": {
+   "value": [
+    85,
+    66
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      85,
+      66
+     ],
+     "refblocks": 27,
+     "L": 27,
+     "S": 0,
+     "chunks": [
+      "ui 5274",
+      "ui 5295",
+      "ui 5560"
+     ],
+     "error": 19.23,
+     "margin": 3.323,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 55296
+    }
+   ]
+  },
+  "246": {
+   "value": [
+    49,
+    33
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      49,
+      33
+     ],
+     "refblocks": 5,
+     "L": 5,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 10.17,
+     "margin": 2.855,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 64512,
+     "lastResortReason": "mip fit on 5 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       49,
+       44
+      ],
+      "refblocks": 5,
+      "nextToKnown": 5,
+      "margin": 2.873
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "247": {
+   "value": [
+    22,
+    17
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      22,
+      17
+     ],
+     "blocks": 73,
+     "error": 0.84,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "248": {
+   "value": [
+    55,
+    41
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      55,
+      41
+     ],
+     "refblocks": 1,
+     "L": 1,
+     "S": 0,
+     "chunks": [
+      "ui 5295"
+     ],
+     "error": 6.61,
+     "margin": 0.102,
+     "round": 3,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 65280,
+     "lastResortReason": "mip fit on 1 reference blocks (fewer than 8)",
+     "continuityCheck": {
+      "value": [
+       53,
+       53
+      ],
+      "refblocks": 1,
+      "nextToKnown": 1,
+      "margin": 1.849
+     }
+    }
+   ],
+   "lastResort": true
+  },
+  "250": {
+   "value": [
+    130,
+    129
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "kind": "pooled fit (bc4hist.py)",
+     "value": [
+      130,
+      129
+     ],
+     "refblocks": 67,
+     "L": 4,
+     "S": 63,
+     "chunks": [
+      "ui 10534",
+      "ui 8213",
+      "ui 9969"
+     ],
+     "error": 2.3,
+     "margin": 2.408,
+     "round": 0,
+     "rules": [
+      "degen",
+      "eq"
+     ],
+     "feasibleValues": 60160
+    }
+   ]
+  },
+  "252": {
+   "value": [
+    27,
+    8
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      27,
+      8
+     ],
+     "blocks": 701,
+     "error": 0.97,
+     "chunk": "weapon_liveries 5136"
+    }
+   ]
+  },
+  "254": {
+   "value": [
+    12,
+    6
+   ],
+   "confirmed": false,
+   "evidence": [
+    {
+     "value": [
+      12,
+      6
+     ],
+     "blocks": 184,
+     "error": 0.7,
+     "chunk": "weapon_liveries 5136"
+    }
+   ],
+   "exactDifference": "b0 - b1 fixed by the one-index-block convention; the level is the reference fit"
+  }
+ }
+}

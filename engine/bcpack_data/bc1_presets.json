@@ -1,0 +1,5874 @@
+{
+"note": "BC1 built-in endpoint history: position -> R0 G0 B0 R1 G1 B1 (5/6/5 bits). exactVotes: textures whose flat blocks, known exactly from the neighbour mip, give this value. fitVotes: textures whose blocks fit this value best. pooled*: all packs pooled; weakestNeighbour is the +-1 alternative that the fewest textures reject. solid entries are used by decode(); provisional ones only on request.",
+"entries": {
+"1": {
+"value": [
+7,
+29,
+6,
+8,
+30,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 55,
+"pooledBlocks": 4237,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 55,
+"texturesForNeighbour": 0
+}
+},
+"2": {
+"value": [
+15,
+29,
+15,
+16,
+36,
+17
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 19,
+"fitVotes": 23,
+"rivalVotes": 0,
+"pooledTextures": 201,
+"pooledBlocks": 14583,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 191,
+"texturesForNeighbour": 10
+}
+},
+"3": {
+"value": [
+20,
+38,
+14,
+3,
+5,
+2
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 25,
+"pooledBlocks": 1007,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 16,
+"texturesForNeighbour": 9
+}
+},
+"4": {
+"value": [
+12,
+27,
+13,
+6,
+12,
+6
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 10,
+"pooledBlocks": 552,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 8,
+"texturesForNeighbour": 2
+}
+},
+"5": {
+"value": [
+10,
+22,
+11,
+6,
+14,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 14,
+"rivalVotes": 1,
+"pooledTextures": 20,
+"pooledBlocks": 1125,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 20,
+"texturesForNeighbour": 0
+}
+},
+"6": {
+"value": [
+12,
+24,
+11,
+7,
+14,
+6
+],
+"solid": false,
+"confidence": "provisional",
+"exactVotes": 0,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 9,
+"pooledBlocks": 547,
+"weakestNeighbour": {
+"component": 3,
+"step": 1,
+"texturesForValue": 8,
+"texturesForNeighbour": 1
+}
+},
+"7": {
+"value": [
+12,
+26,
+12,
+7,
+14,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 16,
+"rivalVotes": 0,
+"pooledTextures": 46,
+"pooledBlocks": 2377,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 39,
+"texturesForNeighbour": 7
+}
+},
+"8": {
+"value": [
+22,
+36,
+15,
+20,
+32,
+14
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 195,
+"fitVotes": 205,
+"rivalVotes": 1,
+"pooledTextures": 182,
+"pooledBlocks": 16791,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 180,
+"texturesForNeighbour": 2
+}
+},
+"9": {
+"value": [
+14,
+23,
+8,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 12,
+"fitVotes": 2,
+"rivalVotes": 1,
+"pooledTextures": 28,
+"pooledBlocks": 1407,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 18,
+"texturesForNeighbour": 10
+},
+"evidence": "bc1pin 2026-11-21: 12 textures in 6 packs, 27 distinct chain offsets, 6 textures calibrated; see bcpack_research/bc1pin_final.json"
+},
+"10": {
+"value": [
+23,
+5,
+30,
+9,
+5,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 73,
+"pooledBlocks": 3506,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 52,
+"texturesForNeighbour": 21
+}
+},
+"11": {
+"value": [
+11,
+22,
+11,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 28,
+"rivalVotes": 0,
+"pooledTextures": 75,
+"pooledBlocks": 3834,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 72,
+"texturesForNeighbour": 3
+}
+},
+"12": {
+"value": [
+17,
+22,
+7,
+10,
+11,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 33,
+"pooledBlocks": 1811,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 30,
+"texturesForNeighbour": 3
+}
+},
+"13": {
+"value": [
+12,
+25,
+12,
+7,
+16,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 86,
+"pooledBlocks": 5136,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 81,
+"texturesForNeighbour": 5
+}
+},
+"14": {
+"value": [
+13,
+28,
+8,
+5,
+11,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 2,
+"rivalVotes": 1,
+"pooledTextures": 13,
+"pooledBlocks": 602,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 12,
+"texturesForNeighbour": 1
+}
+},
+"15": {
+"value": [
+11,
+20,
+8,
+16,
+31,
+14
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 52,
+"pooledBlocks": 1790,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 45,
+"texturesForNeighbour": 7
+}
+},
+"16": {
+"value": [
+23,
+32,
+30,
+17,
+12,
+29
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 119,
+"pooledBlocks": 5652,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 88,
+"texturesForNeighbour": 31
+}
+},
+"17": {
+"value": [
+8,
+44,
+30,
+6,
+26,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 14,
+"fitVotes": 25,
+"rivalVotes": 1,
+"pooledTextures": 246,
+"pooledBlocks": 14492,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 223,
+"texturesForNeighbour": 22
+}
+},
+"18": {
+"value": [
+10,
+24,
+30,
+6,
+45,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 43,
+"rivalVotes": 0,
+"pooledTextures": 235,
+"pooledBlocks": 11143,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 205,
+"texturesForNeighbour": 30
+}
+},
+"19": {
+"value": [
+10,
+12,
+4,
+8,
+8,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 44,
+"pooledBlocks": 1715,
+"weakestNeighbour": {
+"component": 5,
+"step": -1,
+"texturesForValue": 40,
+"texturesForNeighbour": 4
+}
+},
+"20": {
+"value": [
+16,
+23,
+30,
+14,
+6,
+26
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 38,
+"rivalVotes": 0,
+"pooledTextures": 110,
+"pooledBlocks": 5465,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 84,
+"texturesForNeighbour": 26
+}
+},
+"21": {
+"value": [
+12,
+25,
+13,
+10,
+22,
+12
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 121,
+"pooledBlocks": 7769,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 110,
+"texturesForNeighbour": 11
+}
+},
+"22": {
+"value": [
+19,
+27,
+10,
+12,
+15,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 60,
+"pooledBlocks": 3849,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 50,
+"texturesForNeighbour": 10
+}
+},
+"23": {
+"value": [
+11,
+24,
+12,
+4,
+11,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 11,
+"rivalVotes": 0,
+"pooledTextures": 31,
+"pooledBlocks": 1315,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 24,
+"texturesForNeighbour": 7
+}
+},
+"24": {
+"value": [
+29,
+60,
+29,
+6,
+13,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 150,
+"pooledBlocks": 7906,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 119,
+"texturesForNeighbour": 31
+}
+},
+"25": {
+"value": [
+17,
+31,
+11,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 13,
+"rivalVotes": 0,
+"pooledTextures": 92,
+"pooledBlocks": 3820,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 75,
+"texturesForNeighbour": 17
+}
+},
+"26": {
+"value": [
+26,
+54,
+24,
+12,
+24,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 20,
+"rivalVotes": 1,
+"pooledTextures": 217,
+"pooledBlocks": 13344,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 159,
+"texturesForNeighbour": 57
+}
+},
+"27": {
+"value": [
+23,
+49,
+30,
+20,
+36,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 259,
+"pooledBlocks": 14145,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 194,
+"texturesForNeighbour": 65
+}
+},
+"28": {
+"value": [
+16,
+23,
+10,
+10,
+14,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 54,
+"pooledBlocks": 2961,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 46,
+"texturesForNeighbour": 8
+}
+},
+"29": {
+"value": [
+11,
+24,
+10,
+6,
+13,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 16,
+"pooledBlocks": 640,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 14,
+"texturesForNeighbour": 2
+}
+},
+"30": {
+"value": [
+18,
+52,
+30,
+14,
+22,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 9,
+"rivalVotes": 1,
+"pooledTextures": 315,
+"pooledBlocks": 12938,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 285,
+"texturesForNeighbour": 30
+}
+},
+"31": {
+"value": [
+14,
+51,
+30,
+9,
+34,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 321,
+"pooledBlocks": 13213,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 250,
+"texturesForNeighbour": 70
+}
+},
+"32": {
+"value": [
+2,
+3,
+1,
+19,
+37,
+16
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 177,
+"pooledBlocks": 10817,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 158,
+"texturesForNeighbour": 19
+}
+},
+"33": {
+"value": [
+14,
+15,
+30,
+9,
+31,
+30
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 17,
+"rivalVotes": 0,
+"pooledTextures": 269,
+"pooledBlocks": 8507,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 150,
+"texturesForNeighbour": 119
+}
+},
+"34": {
+"value": [
+29,
+57,
+27,
+27,
+52,
+25
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 36,
+"fitVotes": 66,
+"rivalVotes": 1,
+"pooledTextures": 202,
+"pooledBlocks": 15923,
+"weakestNeighbour": {
+"component": 5,
+"step": -1,
+"texturesForValue": 200,
+"texturesForNeighbour": 2
+}
+},
+"35": {
+"value": [
+13,
+29,
+15,
+8,
+20,
+11
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 21,
+"rivalVotes": 1,
+"pooledTextures": 166,
+"pooledBlocks": 11169,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 160,
+"texturesForNeighbour": 6
+}
+},
+"36": {
+"value": [
+13,
+17,
+5,
+9,
+10,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 11,
+"rivalVotes": 0,
+"pooledTextures": 66,
+"pooledBlocks": 2419,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 56,
+"texturesForNeighbour": 10
+}
+},
+"37": {
+"value": [
+18,
+50,
+29,
+15,
+10,
+29
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 13,
+"rivalVotes": 2,
+"pooledTextures": 156,
+"pooledBlocks": 8124,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 137,
+"texturesForNeighbour": 19
+}
+},
+"38": {
+"value": [
+11,
+25,
+13,
+8,
+19,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 96,
+"pooledBlocks": 5841,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 93,
+"texturesForNeighbour": 3
+}
+},
+"39": {
+"value": [
+17,
+32,
+12,
+6,
+11,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 62,
+"pooledBlocks": 3114,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 54,
+"texturesForNeighbour": 8
+}
+},
+"40": {
+"value": [
+22,
+18,
+30,
+19,
+41,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 303,
+"pooledBlocks": 13247,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 177,
+"texturesForNeighbour": 126
+}
+},
+"41": {
+"value": [
+10,
+22,
+11,
+8,
+18,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 11,
+"rivalVotes": 1,
+"pooledTextures": 65,
+"pooledBlocks": 3289,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 63,
+"texturesForNeighbour": 2
+}
+},
+"42": {
+"value": [
+18,
+30,
+31,
+10,
+44,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 12,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 347,
+"pooledBlocks": 15661,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 209,
+"texturesForNeighbour": 138
+}
+},
+"43": {
+"value": [
+25,
+50,
+24,
+2,
+4,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 20,
+"rivalVotes": 0,
+"pooledTextures": 199,
+"pooledBlocks": 9008,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 134,
+"texturesForNeighbour": 65
+}
+},
+"44": {
+"value": [
+11,
+30,
+31,
+7,
+15,
+29
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 11,
+"rivalVotes": 2,
+"pooledTextures": 328,
+"pooledBlocks": 13653,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 218,
+"texturesForNeighbour": 110
+}
+},
+"45": {
+"value": [
+12,
+19,
+8,
+11,
+16,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 44,
+"pooledBlocks": 2004,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 42,
+"texturesForNeighbour": 2
+}
+},
+"46": {
+"value": [
+19,
+29,
+30,
+14,
+55,
+28
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 220,
+"pooledBlocks": 8256,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 123,
+"texturesForNeighbour": 97
+}
+},
+"47": {
+"value": [
+9,
+20,
+10,
+4,
+10,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 67,
+"pooledBlocks": 3194,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 54,
+"texturesForNeighbour": 13
+}
+},
+"48": {
+"value": [
+12,
+24,
+10,
+7,
+13,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 46,
+"pooledBlocks": 2288,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 42,
+"texturesForNeighbour": 4
+}
+},
+"49": {
+"value": [
+26,
+53,
+25,
+6,
+13,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 241,
+"pooledBlocks": 12764,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 217,
+"texturesForNeighbour": 24
+}
+},
+"50": {
+"value": [
+19,
+27,
+31,
+11,
+19,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 9,
+"fitVotes": 14,
+"rivalVotes": 1,
+"pooledTextures": 374,
+"pooledBlocks": 15233,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 297,
+"texturesForNeighbour": 77
+}
+},
+"51": {
+"value": [
+21,
+31,
+30,
+22,
+31,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 13,
+"fitVotes": 17,
+"rivalVotes": 1,
+"pooledTextures": 235,
+"pooledBlocks": 12869,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 202,
+"texturesForNeighbour": 32
+}
+},
+"52": {
+"value": [
+10,
+19,
+5,
+11,
+21,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 78,
+"pooledBlocks": 2788,
+"weakestNeighbour": {
+"component": 5,
+"step": -1,
+"texturesForValue": 71,
+"texturesForNeighbour": 6
+}
+},
+"53": {
+"value": [
+30,
+50,
+3,
+29,
+46,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 33,
+"fitVotes": 58,
+"rivalVotes": 1,
+"pooledTextures": 177,
+"pooledBlocks": 15169,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 175,
+"texturesForNeighbour": 2
+}
+},
+"54": {
+"value": [
+15,
+9,
+30,
+7,
+9,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 138,
+"pooledBlocks": 4410,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 88,
+"texturesForNeighbour": 50
+}
+},
+"55": {
+"value": [
+14,
+18,
+6,
+11,
+14,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 82,
+"pooledBlocks": 3435,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 68,
+"texturesForNeighbour": 14
+}
+},
+"56": {
+"value": [
+28,
+56,
+26,
+4,
+7,
+3
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 36,
+"rivalVotes": 1,
+"pooledTextures": 193,
+"pooledBlocks": 8644,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 132,
+"texturesForNeighbour": 61
+}
+},
+"57": {
+"value": [
+9,
+20,
+10,
+5,
+13,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 22,
+"rivalVotes": 0,
+"pooledTextures": 55,
+"pooledBlocks": 3050,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 46,
+"texturesForNeighbour": 9
+}
+},
+"58": {
+"value": [
+28,
+58,
+26,
+15,
+32,
+14
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 208,
+"pooledBlocks": 14266,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 175,
+"texturesForNeighbour": 33
+}
+},
+"59": {
+"value": [
+11,
+19,
+8,
+6,
+9,
+4
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 44,
+"pooledBlocks": 1726,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 28,
+"texturesForNeighbour": 15
+}
+},
+"60": {
+"value": [
+16,
+22,
+9,
+13,
+17,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 23,
+"rivalVotes": 0,
+"pooledTextures": 94,
+"pooledBlocks": 4422,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 81,
+"texturesForNeighbour": 13
+}
+},
+"61": {
+"value": [
+1,
+2,
+1,
+14,
+28,
+12
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 18,
+"rivalVotes": 0,
+"pooledTextures": 142,
+"pooledBlocks": 4510,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 109,
+"texturesForNeighbour": 33
+}
+},
+"62": {
+"value": [
+22,
+45,
+30,
+9,
+15,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 338,
+"pooledBlocks": 12950,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 284,
+"texturesForNeighbour": 54
+}
+},
+"63": {
+"value": [
+19,
+22,
+30,
+16,
+23,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 9,
+"fitVotes": 19,
+"rivalVotes": 1,
+"pooledTextures": 373,
+"pooledBlocks": 15748,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 338,
+"texturesForNeighbour": 33
+}
+},
+"64": {
+"value": [
+25,
+50,
+24,
+21,
+43,
+20
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 19,
+"fitVotes": 32,
+"rivalVotes": 1,
+"pooledTextures": 236,
+"pooledBlocks": 17077,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 231,
+"texturesForNeighbour": 5
+}
+},
+"65": {
+"value": [
+6,
+11,
+4,
+16,
+31,
+13
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 54,
+"pooledBlocks": 1435,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 47,
+"texturesForNeighbour": 7
+}
+},
+"66": {
+"value": [
+13,
+25,
+8,
+3,
+6,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 51,
+"pooledBlocks": 1401,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 34,
+"texturesForNeighbour": 17
+}
+},
+"67": {
+"value": [
+5,
+9,
+3,
+12,
+24,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 6,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 31,
+"pooledBlocks": 459,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 20,
+"texturesForNeighbour": 10
+},
+"evidence": "bc1pin 2026-11-21: 6 textures in 4 packs, 7 distinct chain offsets, 1 textures calibrated; see bcpack_research/bc1pin_final.json"
+},
+"68": {
+"value": [
+16,
+29,
+13,
+7,
+13,
+5
+],
+"solid": true,
+"confidence": "pooled fit + wrap exclusion",
+"exactVotes": 0,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 75,
+"pooledBlocks": 3556,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 34,
+"texturesForNeighbour": 40
+},
+"evidence": "bc1wrap2 2026-11-21 (NB8=1 MINREF=1; reference free of the tested and open entries; negative control 99.0% of decided groups): gross blocks value:neighbour R0+ 132:20, R0- 421:9, G0+ 168:14, G0- 81:0, B0+ 688:0, B0- 1636:3, R1+ 294:8, R1- 554:15, G1+ 19:0, G1- 235:0, B1+ 679:0, B1- 1003:0. Not exact blocks. See bcpack_research README section 18."
+},
+"69": {
+"value": [
+20,
+38,
+16,
+13,
+25,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 14,
+"rivalVotes": 1,
+"pooledTextures": 201,
+"pooledBlocks": 13234,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 183,
+"texturesForNeighbour": 18
+}
+},
+"70": {
+"value": [
+18,
+35,
+15,
+5,
+9,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 63,
+"pooledBlocks": 2773,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 56,
+"texturesForNeighbour": 7
+}
+},
+"71": {
+"value": [
+13,
+25,
+11,
+6,
+11,
+4
+],
+"solid": false,
+"confidence": "provisional",
+"exactVotes": 0,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 47,
+"pooledBlocks": 1921,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 31,
+"texturesForNeighbour": 16
+}
+},
+"72": {
+"value": [
+11,
+21,
+7,
+7,
+13,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 41,
+"pooledBlocks": 1235,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 34,
+"texturesForNeighbour": 7
+}
+},
+"73": {
+"value": [
+20,
+39,
+16,
+11,
+20,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 224,
+"pooledBlocks": 13005,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 211,
+"texturesForNeighbour": 13
+}
+},
+"74": {
+"value": [
+16,
+31,
+12,
+4,
+8,
+2
+],
+"solid": true,
+"confidence": "exact blocks, uncalibrated textures",
+"exactVotes": 4,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 46,
+"pooledBlocks": 1243,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 24,
+"texturesForNeighbour": 22
+},
+"evidence": "bc1pin 2026-11-21: 4 textures in 4 packs, 9 distinct chain offsets, 0 textures calibrated; see bcpack_research/bc1pin_final.json"
+},
+"75": {
+"value": [
+22,
+41,
+30,
+18,
+23,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 340,
+"pooledBlocks": 14405,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 212,
+"texturesForNeighbour": 127
+}
+},
+"76": {
+"value": [
+24,
+50,
+24,
+9,
+19,
+8
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 279,
+"pooledBlocks": 13947,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 208,
+"texturesForNeighbour": 71
+}
+},
+"77": {
+"value": [
+3,
+12,
+7,
+4,
+16,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 10,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 116,
+"pooledBlocks": 5284,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 92,
+"texturesForNeighbour": 24
+}
+},
+"78": {
+"value": [
+18,
+27,
+12,
+16,
+22,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 151,
+"pooledBlocks": 7939,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 130,
+"texturesForNeighbour": 21
+}
+},
+"79": {
+"value": [
+24,
+49,
+23,
+13,
+28,
+12
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 37,
+"rivalVotes": 1,
+"pooledTextures": 243,
+"pooledBlocks": 15516,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 217,
+"texturesForNeighbour": 24
+}
+},
+"80": {
+"value": [
+24,
+50,
+24,
+18,
+37,
+18
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 10,
+"rivalVotes": 2,
+"pooledTextures": 226,
+"pooledBlocks": 16624,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 193,
+"texturesForNeighbour": 33
+}
+},
+"81": {
+"value": [
+17,
+33,
+12,
+14,
+27,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 165,
+"pooledBlocks": 8187,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 150,
+"texturesForNeighbour": 14
+}
+},
+"82": {
+"value": [
+20,
+10,
+31,
+13,
+10,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 24,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 415,
+"pooledBlocks": 15046,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 287,
+"texturesForNeighbour": 128
+}
+},
+"83": {
+"value": [
+7,
+8,
+2,
+5,
+5,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 19,
+"rivalVotes": 0,
+"pooledTextures": 70,
+"pooledBlocks": 2463,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 59,
+"texturesForNeighbour": 10
+}
+},
+"84": {
+"value": [
+1,
+2,
+1,
+10,
+21,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 8,
+"rivalVotes": 1,
+"pooledTextures": 180,
+"pooledBlocks": 5560,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 146,
+"texturesForNeighbour": 34
+}
+},
+"85": {
+"value": [
+10,
+18,
+6,
+1,
+1,
+0
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 138,
+"pooledBlocks": 4317,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 103,
+"texturesForNeighbour": 34
+}
+},
+"86": {
+"value": [
+22,
+46,
+21,
+1,
+3,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 43,
+"rivalVotes": 0,
+"pooledTextures": 244,
+"pooledBlocks": 10376,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 229,
+"texturesForNeighbour": 13
+}
+},
+"87": {
+"value": [
+11,
+20,
+8,
+8,
+14,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 61,
+"pooledBlocks": 2564,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 53,
+"texturesForNeighbour": 8
+}
+},
+"88": {
+"value": [
+17,
+35,
+31,
+14,
+14,
+29
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 16,
+"rivalVotes": 0,
+"pooledTextures": 449,
+"pooledBlocks": 15187,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 230,
+"texturesForNeighbour": 218
+}
+},
+"89": {
+"value": [
+16,
+22,
+31,
+12,
+40,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 29,
+"fitVotes": 17,
+"rivalVotes": 1,
+"pooledTextures": 237,
+"pooledBlocks": 16098,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 226,
+"texturesForNeighbour": 11
+}
+},
+"90": {
+"value": [
+12,
+22,
+9,
+8,
+15,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 85,
+"pooledBlocks": 3184,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 76,
+"texturesForNeighbour": 9
+}
+},
+"91": {
+"value": [
+18,
+15,
+30,
+15,
+33,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 462,
+"pooledBlocks": 15453,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 239,
+"texturesForNeighbour": 222
+}
+},
+"92": {
+"value": [
+19,
+32,
+30,
+15,
+43,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 11,
+"fitVotes": 11,
+"rivalVotes": 1,
+"pooledTextures": 341,
+"pooledBlocks": 15492,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 210,
+"texturesForNeighbour": 131
+}
+},
+"93": {
+"value": [
+18,
+35,
+15,
+8,
+15,
+5
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 0,
+"fitVotes": 13,
+"rivalVotes": 0,
+"pooledTextures": 129,
+"pooledBlocks": 6435,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 82,
+"texturesForNeighbour": 46
+}
+},
+"94": {
+"value": [
+21,
+43,
+20,
+18,
+37,
+17
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 26,
+"fitVotes": 53,
+"rivalVotes": 0,
+"pooledTextures": 258,
+"pooledBlocks": 17233,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 248,
+"texturesForNeighbour": 10
+}
+},
+"95": {
+"value": [
+10,
+17,
+6,
+9,
+15,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 81,
+"pooledBlocks": 2547,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 67,
+"texturesForNeighbour": 14
+}
+},
+"96": {
+"value": [
+14,
+27,
+12,
+7,
+13,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 65,
+"pooledBlocks": 3089,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 58,
+"texturesForNeighbour": 7
+}
+},
+"97": {
+"value": [
+8,
+16,
+7,
+12,
+25,
+11
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 71,
+"pooledBlocks": 1153,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 54,
+"texturesForNeighbour": 17
+}
+},
+"98": {
+"value": [
+18,
+37,
+17,
+1,
+1,
+0
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 24,
+"rivalVotes": 1,
+"pooledTextures": 226,
+"pooledBlocks": 8097,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 195,
+"texturesForNeighbour": 31
+}
+},
+"99": {
+"value": [
+17,
+45,
+30,
+15,
+33,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 21,
+"fitVotes": 28,
+"rivalVotes": 1,
+"pooledTextures": 311,
+"pooledBlocks": 15964,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 200,
+"texturesForNeighbour": 111
+}
+},
+"100": {
+"value": [
+13,
+25,
+11,
+8,
+16,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 84,
+"pooledBlocks": 3830,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 80,
+"texturesForNeighbour": 4
+}
+},
+"101": {
+"value": [
+23,
+47,
+22,
+16,
+32,
+15
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 209,
+"fitVotes": 222,
+"rivalVotes": 1,
+"pooledTextures": 209,
+"pooledBlocks": 17203,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 186,
+"texturesForNeighbour": 23
+}
+},
+"102": {
+"value": [
+18,
+33,
+13,
+11,
+21,
+8
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 12,
+"rivalVotes": 1,
+"pooledTextures": 165,
+"pooledBlocks": 9818,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 126,
+"texturesForNeighbour": 39
+}
+},
+"103": {
+"value": [
+4,
+10,
+4,
+8,
+17,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 82,
+"pooledBlocks": 1119,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 58,
+"texturesForNeighbour": 23
+}
+},
+"104": {
+"value": [
+1,
+2,
+1,
+3,
+7,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 156,
+"pooledBlocks": 3448,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 121,
+"texturesForNeighbour": 34
+}
+},
+"105": {
+"value": [
+11,
+22,
+9,
+6,
+11,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 60,
+"pooledBlocks": 2500,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 51,
+"texturesForNeighbour": 9
+}
+},
+"106": {
+"value": [
+16,
+29,
+11,
+13,
+23,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 163,
+"pooledBlocks": 7427,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 158,
+"texturesForNeighbour": 5
+}
+},
+"107": {
+"value": [
+12,
+24,
+12,
+6,
+12,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 16,
+"rivalVotes": 0,
+"pooledTextures": 260,
+"pooledBlocks": 12355,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 244,
+"texturesForNeighbour": 16
+}
+},
+"108": {
+"value": [
+23,
+47,
+22,
+7,
+14,
+6
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 0,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 287,
+"pooledBlocks": 13993,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 204,
+"texturesForNeighbour": 82
+}
+},
+"109": {
+"value": [
+11,
+32,
+30,
+11,
+31,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 27,
+"fitVotes": 36,
+"rivalVotes": 1,
+"pooledTextures": 258,
+"pooledBlocks": 14640,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 232,
+"texturesForNeighbour": 26
+}
+},
+"110": {
+"value": [
+14,
+26,
+11,
+10,
+18,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 14,
+"rivalVotes": 0,
+"pooledTextures": 122,
+"pooledBlocks": 5538,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 89,
+"texturesForNeighbour": 33
+}
+},
+"111": {
+"value": [
+20,
+41,
+19,
+1,
+3,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 40,
+"rivalVotes": 0,
+"pooledTextures": 244,
+"pooledBlocks": 10573,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 224,
+"texturesForNeighbour": 19
+}
+},
+"112": {
+"value": [
+14,
+28,
+12,
+8,
+16,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 106,
+"pooledBlocks": 5033,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 96,
+"texturesForNeighbour": 10
+}
+},
+"113": {
+"value": [
+11,
+21,
+9,
+8,
+15,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 53,
+"pooledBlocks": 2148,
+"weakestNeighbour": {
+"component": 3,
+"step": 1,
+"texturesForValue": 46,
+"texturesForNeighbour": 7
+}
+},
+"114": {
+"value": [
+1,
+2,
+1,
+7,
+13,
+6
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 0,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 214,
+"pooledBlocks": 3374,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 132,
+"texturesForNeighbour": 80
+}
+},
+"115": {
+"value": [
+19,
+35,
+14,
+16,
+29,
+12
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 6,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 226,
+"pooledBlocks": 13692,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 199,
+"texturesForNeighbour": 27
+}
+},
+"116": {
+"value": [
+13,
+27,
+13,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 41,
+"rivalVotes": 1,
+"pooledTextures": 262,
+"pooledBlocks": 13175,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 252,
+"texturesForNeighbour": 10
+}
+},
+"117": {
+"value": [
+15,
+33,
+16,
+8,
+18,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 247,
+"pooledBlocks": 11402,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 229,
+"texturesForNeighbour": 17
+}
+},
+"118": {
+"value": [
+15,
+42,
+31,
+11,
+22,
+30
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 14,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 356,
+"pooledBlocks": 15683,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 299,
+"texturesForNeighbour": 56
+}
+},
+"119": {
+"value": [
+23,
+48,
+23,
+4,
+9,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 280,
+"pooledBlocks": 12916,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 253,
+"texturesForNeighbour": 27
+}
+},
+"120": {
+"value": [
+22,
+45,
+21,
+11,
+22,
+10
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 25,
+"rivalVotes": 1,
+"pooledTextures": 272,
+"pooledBlocks": 16039,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 253,
+"texturesForNeighbour": 19
+}
+},
+"121": {
+"value": [
+31,
+62,
+30,
+31,
+61,
+29
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 64,
+"fitVotes": 148,
+"rivalVotes": 4,
+"pooledTextures": 199,
+"pooledBlocks": 16266,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 193,
+"texturesForNeighbour": 6
+}
+},
+"122": {
+"value": [
+13,
+26,
+11,
+5,
+8,
+3
+],
+"solid": false,
+"confidence": "provisional",
+"exactVotes": 0,
+"fitVotes": 1,
+"rivalVotes": 0,
+"pooledTextures": 56,
+"pooledBlocks": 1261,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 28,
+"texturesForNeighbour": 28
+}
+},
+"123": {
+"value": [
+19,
+39,
+19,
+9,
+20,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 20,
+"rivalVotes": 1,
+"pooledTextures": 282,
+"pooledBlocks": 15743,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 260,
+"texturesForNeighbour": 22
+}
+},
+"124": {
+"value": [
+7,
+14,
+2,
+6,
+12,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 7,
+"rivalVotes": 2,
+"pooledTextures": 138,
+"pooledBlocks": 5341,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 127,
+"texturesForNeighbour": 11
+}
+},
+"125": {
+"value": [
+21,
+42,
+20,
+3,
+7,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 250,
+"pooledBlocks": 11756,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 183,
+"texturesForNeighbour": 66
+}
+},
+"126": {
+"value": [
+10,
+17,
+7,
+8,
+13,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 14,
+"rivalVotes": 0,
+"pooledTextures": 64,
+"pooledBlocks": 1801,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 58,
+"texturesForNeighbour": 6
+}
+},
+"127": {
+"value": [
+11,
+20,
+8,
+9,
+17,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 55,
+"pooledBlocks": 1962,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 42,
+"texturesForNeighbour": 13
+}
+},
+"128": {
+"value": [
+19,
+33,
+31,
+12,
+31,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 189,
+"fitVotes": 192,
+"rivalVotes": 3,
+"pooledTextures": 162,
+"pooledBlocks": 15712,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 160,
+"texturesForNeighbour": 2
+}
+},
+"129": {
+"value": [
+21,
+43,
+20,
+5,
+11,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 11,
+"rivalVotes": 0,
+"pooledTextures": 282,
+"pooledBlocks": 13830,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 249,
+"texturesForNeighbour": 33
+}
+},
+"130": {
+"value": [
+10,
+20,
+9,
+7,
+13,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 11,
+"rivalVotes": 0,
+"pooledTextures": 45,
+"pooledBlocks": 1568,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 36,
+"texturesForNeighbour": 9
+}
+},
+"131": {
+"value": [
+10,
+21,
+10,
+6,
+13,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 207,
+"pooledBlocks": 10675,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 204,
+"texturesForNeighbour": 3
+}
+},
+"132": {
+"value": [
+15,
+29,
+12,
+11,
+20,
+8
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 153,
+"pooledBlocks": 8230,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 149,
+"texturesForNeighbour": 4
+}
+},
+"133": {
+"value": [
+21,
+43,
+20,
+9,
+18,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 279,
+"pooledBlocks": 15891,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 257,
+"texturesForNeighbour": 21
+}
+},
+"134": {
+"value": [
+3,
+8,
+3,
+5,
+11,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 102,
+"pooledBlocks": 2004,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 73,
+"texturesForNeighbour": 29
+}
+},
+"135": {
+"value": [
+16,
+31,
+13,
+9,
+17,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 11,
+"rivalVotes": 1,
+"pooledTextures": 181,
+"pooledBlocks": 9545,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 126,
+"texturesForNeighbour": 55
+}
+},
+"136": {
+"value": [
+11,
+22,
+11,
+6,
+12,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 48,
+"rivalVotes": 1,
+"pooledTextures": 242,
+"pooledBlocks": 12347,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 222,
+"texturesForNeighbour": 20
+}
+},
+"137": {
+"value": [
+10,
+21,
+10,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 21,
+"rivalVotes": 2,
+"pooledTextures": 198,
+"pooledBlocks": 9529,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 192,
+"texturesForNeighbour": 6
+}
+},
+"138": {
+"value": [
+27,
+3,
+1,
+26,
+1,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 8,
+"rivalVotes": 1,
+"pooledTextures": 140,
+"pooledBlocks": 9822,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 124,
+"texturesForNeighbour": 16
+}
+},
+"139": {
+"value": [
+18,
+37,
+18,
+16,
+32,
+16
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 33,
+"fitVotes": 56,
+"rivalVotes": 1,
+"pooledTextures": 242,
+"pooledBlocks": 17245,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 240,
+"texturesForNeighbour": 2
+}
+},
+"140": {
+"value": [
+12,
+23,
+10,
+9,
+17,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 8,
+"rivalVotes": 1,
+"pooledTextures": 66,
+"pooledBlocks": 3238,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 61,
+"texturesForNeighbour": 5
+}
+},
+"141": {
+"value": [
+12,
+25,
+12,
+8,
+17,
+8
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 249,
+"pooledBlocks": 13529,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 243,
+"texturesForNeighbour": 6
+}
+},
+"142": {
+"value": [
+11,
+21,
+9,
+2,
+4,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 121,
+"pooledBlocks": 3750,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 103,
+"texturesForNeighbour": 18
+}
+},
+"143": {
+"value": [
+7,
+15,
+7,
+8,
+18,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 2,
+"rivalVotes": 1,
+"pooledTextures": 61,
+"pooledBlocks": 1522,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 51,
+"texturesForNeighbour": 9
+}
+},
+"144": {
+"value": [
+17,
+33,
+15,
+13,
+24,
+11
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 13,
+"fitVotes": 14,
+"rivalVotes": 0,
+"pooledTextures": 253,
+"pooledBlocks": 14957,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 219,
+"texturesForNeighbour": 34
+}
+},
+"145": {
+"value": [
+9,
+19,
+9,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 18,
+"rivalVotes": 1,
+"pooledTextures": 165,
+"pooledBlocks": 7335,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 143,
+"texturesForNeighbour": 22
+}
+},
+"146": {
+"value": [
+21,
+43,
+20,
+13,
+27,
+12
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 252,
+"pooledBlocks": 17180,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 211,
+"texturesForNeighbour": 41
+}
+},
+"147": {
+"value": [
+17,
+36,
+17,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 256,
+"pooledBlocks": 9520,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 229,
+"texturesForNeighbour": 27
+}
+},
+"148": {
+"value": [
+10,
+20,
+9,
+6,
+12,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 110,
+"pooledBlocks": 3582,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 99,
+"texturesForNeighbour": 11
+}
+},
+"149": {
+"value": [
+20,
+41,
+19,
+7,
+14,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 14,
+"rivalVotes": 1,
+"pooledTextures": 311,
+"pooledBlocks": 15013,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 247,
+"texturesForNeighbour": 64
+}
+},
+"150": {
+"value": [
+3,
+9,
+6,
+2,
+8,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 194,
+"pooledBlocks": 6092,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 142,
+"texturesForNeighbour": 51
+}
+},
+"151": {
+"value": [
+13,
+24,
+10,
+11,
+20,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 87,
+"pooledBlocks": 4246,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 80,
+"texturesForNeighbour": 7
+}
+},
+"152": {
+"value": [
+18,
+38,
+18,
+4,
+7,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 292,
+"pooledBlocks": 10868,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 261,
+"texturesForNeighbour": 30
+}
+},
+"153": {
+"value": [
+19,
+38,
+18,
+8,
+17,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 343,
+"pooledBlocks": 16247,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 253,
+"texturesForNeighbour": 90
+}
+},
+"154": {
+"value": [
+16,
+35,
+17,
+4,
+10,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 316,
+"pooledBlocks": 13622,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 287,
+"texturesForNeighbour": 28
+}
+},
+"155": {
+"value": [
+11,
+23,
+11,
+10,
+21,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 18,
+"rivalVotes": 1,
+"pooledTextures": 158,
+"pooledBlocks": 8932,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 139,
+"texturesForNeighbour": 19
+}
+},
+"156": {
+"value": [
+17,
+36,
+17,
+7,
+14,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 8,
+"rivalVotes": 1,
+"pooledTextures": 320,
+"pooledBlocks": 14753,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 302,
+"texturesForNeighbour": 18
+}
+},
+"157": {
+"value": [
+13,
+27,
+13,
+6,
+12,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 13,
+"rivalVotes": 0,
+"pooledTextures": 280,
+"pooledBlocks": 13514,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 273,
+"texturesForNeighbour": 7
+}
+},
+"158": {
+"value": [
+9,
+15,
+4,
+8,
+13,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 148,
+"pooledBlocks": 3713,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 132,
+"texturesForNeighbour": 16
+}
+},
+"159": {
+"value": [
+10,
+19,
+7,
+5,
+9,
+3
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 60,
+"pooledBlocks": 1797,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 40,
+"texturesForNeighbour": 20
+}
+},
+"160": {
+"value": [
+19,
+40,
+19,
+11,
+24,
+11
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 287,
+"pooledBlocks": 16967,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 264,
+"texturesForNeighbour": 22
+}
+},
+"161": {
+"value": [
+11,
+23,
+11,
+8,
+17,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 21,
+"rivalVotes": 0,
+"pooledTextures": 232,
+"pooledBlocks": 10655,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 210,
+"texturesForNeighbour": 21
+}
+},
+"162": {
+"value": [
+14,
+29,
+14,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 32,
+"rivalVotes": 0,
+"pooledTextures": 270,
+"pooledBlocks": 15012,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 260,
+"texturesForNeighbour": 9
+}
+},
+"163": {
+"value": [
+12,
+22,
+9,
+5,
+8,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 67,
+"pooledBlocks": 2093,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 60,
+"texturesForNeighbour": 7
+}
+},
+"164": {
+"value": [
+10,
+20,
+9,
+8,
+17,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 18,
+"rivalVotes": 0,
+"pooledTextures": 161,
+"pooledBlocks": 6678,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 152,
+"texturesForNeighbour": 9
+}
+},
+"165": {
+"value": [
+21,
+42,
+19,
+15,
+31,
+14
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 12,
+"fitVotes": 27,
+"rivalVotes": 1,
+"pooledTextures": 258,
+"pooledBlocks": 17256,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 222,
+"texturesForNeighbour": 35
+}
+},
+"166": {
+"value": [
+14,
+29,
+13,
+1,
+1,
+0
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 18,
+"rivalVotes": 1,
+"pooledTextures": 263,
+"pooledBlocks": 7407,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 230,
+"texturesForNeighbour": 32
+}
+},
+"167": {
+"value": [
+8,
+16,
+8,
+7,
+14,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 95,
+"pooledBlocks": 3391,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 86,
+"texturesForNeighbour": 9
+}
+},
+"168": {
+"value": [
+9,
+18,
+8,
+8,
+16,
+7
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 92,
+"pooledBlocks": 2849,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 82,
+"texturesForNeighbour": 10
+}
+},
+"169": {
+"value": [
+10,
+17,
+7,
+3,
+4,
+1
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 0,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 77,
+"pooledBlocks": 1588,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 48,
+"texturesForNeighbour": 28
+}
+},
+"170": {
+"value": [
+14,
+28,
+13,
+2,
+4,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 281,
+"pooledBlocks": 10577,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 224,
+"texturesForNeighbour": 57
+}
+},
+"171": {
+"value": [
+14,
+30,
+14,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 307,
+"pooledBlocks": 11524,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 255,
+"texturesForNeighbour": 52
+}
+},
+"172": {
+"value": [
+19,
+38,
+18,
+5,
+11,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 289,
+"pooledBlocks": 14503,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 257,
+"texturesForNeighbour": 32
+}
+},
+"173": {
+"value": [
+12,
+26,
+12,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 9,
+"rivalVotes": 0,
+"pooledTextures": 284,
+"pooledBlocks": 11516,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 228,
+"texturesForNeighbour": 56
+}
+},
+"174": {
+"value": [
+9,
+16,
+6,
+8,
+13,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 80,
+"pooledBlocks": 2514,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 72,
+"texturesForNeighbour": 8
+}
+},
+"175": {
+"value": [
+8,
+13,
+4,
+7,
+11,
+4
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 1,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 114,
+"pooledBlocks": 2524,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 75,
+"texturesForNeighbour": 39
+}
+},
+"176": {
+"value": [
+16,
+34,
+16,
+3,
+7,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 13,
+"rivalVotes": 1,
+"pooledTextures": 289,
+"pooledBlocks": 12642,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 223,
+"texturesForNeighbour": 66
+}
+},
+"177": {
+"value": [
+13,
+28,
+13,
+4,
+9,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 289,
+"pooledBlocks": 12781,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 265,
+"texturesForNeighbour": 24
+}
+},
+"178": {
+"value": [
+15,
+31,
+15,
+6,
+13,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 309,
+"pooledBlocks": 15823,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 273,
+"texturesForNeighbour": 34
+}
+},
+"179": {
+"value": [
+12,
+24,
+11,
+9,
+19,
+9
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 19,
+"rivalVotes": 1,
+"pooledTextures": 221,
+"pooledBlocks": 8258,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 213,
+"texturesForNeighbour": 8
+}
+},
+"180": {
+"value": [
+9,
+19,
+8,
+7,
+14,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 81,
+"pooledBlocks": 3156,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 73,
+"texturesForNeighbour": 8
+}
+},
+"181": {
+"value": [
+14,
+28,
+13,
+5,
+10,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 288,
+"pooledBlocks": 12454,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 276,
+"texturesForNeighbour": 12
+}
+},
+"182": {
+"value": [
+10,
+20,
+7,
+4,
+6,
+2
+],
+"solid": true,
+"confidence": "agreeing fits",
+"exactVotes": 0,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 78,
+"pooledBlocks": 1973,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 48,
+"texturesForNeighbour": 30
+}
+},
+"183": {
+"value": [
+16,
+34,
+17,
+11,
+25,
+12
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 6,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 325,
+"pooledBlocks": 17151,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 307,
+"texturesForNeighbour": 18
+}
+},
+"184": {
+"value": [
+15,
+30,
+15,
+8,
+16,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 239,
+"pooledBlocks": 15846,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 232,
+"texturesForNeighbour": 6
+}
+},
+"185": {
+"value": [
+13,
+27,
+13,
+10,
+20,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 28,
+"rivalVotes": 1,
+"pooledTextures": 269,
+"pooledBlocks": 12168,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 262,
+"texturesForNeighbour": 7
+}
+},
+"186": {
+"value": [
+9,
+20,
+9,
+0,
+1,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 41,
+"rivalVotes": 0,
+"pooledTextures": 377,
+"pooledBlocks": 11783,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 318,
+"texturesForNeighbour": 59
+}
+},
+"187": {
+"value": [
+16,
+32,
+15,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 295,
+"pooledBlocks": 13053,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 264,
+"texturesForNeighbour": 30
+}
+},
+"188": {
+"value": [
+13,
+27,
+12,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 254,
+"pooledBlocks": 13537,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 235,
+"texturesForNeighbour": 19
+}
+},
+"189": {
+"value": [
+13,
+26,
+12,
+12,
+23,
+11
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 17,
+"rivalVotes": 0,
+"pooledTextures": 215,
+"pooledBlocks": 8467,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 196,
+"texturesForNeighbour": 19
+}
+},
+"190": {
+"value": [
+12,
+25,
+12,
+5,
+10,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 296,
+"pooledBlocks": 13241,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 261,
+"texturesForNeighbour": 35
+}
+},
+"191": {
+"value": [
+11,
+23,
+11,
+5,
+11,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 284,
+"pooledBlocks": 12919,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 253,
+"texturesForNeighbour": 31
+}
+},
+"192": {
+"value": [
+16,
+34,
+16,
+6,
+12,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 294,
+"pooledBlocks": 14758,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 275,
+"texturesForNeighbour": 19
+}
+},
+"193": {
+"value": [
+16,
+35,
+31,
+15,
+25,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 162,
+"fitVotes": 245,
+"rivalVotes": 3,
+"pooledTextures": 177,
+"pooledBlocks": 16548,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 150,
+"texturesForNeighbour": 27
+}
+},
+"194": {
+"value": [
+16,
+33,
+16,
+7,
+15,
+7
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 294,
+"pooledBlocks": 16065,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 283,
+"texturesForNeighbour": 11
+}
+},
+"195": {
+"value": [
+13,
+27,
+13,
+8,
+18,
+8
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 257,
+"pooledBlocks": 14389,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 242,
+"texturesForNeighbour": 15
+}
+},
+"196": {
+"value": [
+18,
+36,
+17,
+11,
+22,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 280,
+"pooledBlocks": 16830,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 252,
+"texturesForNeighbour": 28
+}
+},
+"197": {
+"value": [
+18,
+37,
+18,
+13,
+27,
+13
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 9,
+"rivalVotes": 1,
+"pooledTextures": 270,
+"pooledBlocks": 17313,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 260,
+"texturesForNeighbour": 10
+}
+},
+"198": {
+"value": [
+12,
+25,
+12,
+4,
+8,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 311,
+"pooledBlocks": 12777,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 283,
+"texturesForNeighbour": 27
+}
+},
+"199": {
+"value": [
+9,
+18,
+7,
+6,
+11,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 86,
+"pooledBlocks": 3255,
+"weakestNeighbour": {
+"component": 2,
+"step": 1,
+"texturesForValue": 76,
+"texturesForNeighbour": 10
+}
+},
+"200": {
+"value": [
+15,
+30,
+14,
+9,
+19,
+9
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 64,
+"rivalVotes": 1,
+"pooledTextures": 251,
+"pooledBlocks": 14925,
+"weakestNeighbour": {
+"component": 3,
+"step": -1,
+"texturesForValue": 245,
+"texturesForNeighbour": 6
+}
+},
+"201": {
+"value": [
+17,
+35,
+16,
+9,
+18,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 7,
+"fitVotes": 3,
+"rivalVotes": 0,
+"pooledTextures": 261,
+"pooledBlocks": 16390,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 241,
+"texturesForNeighbour": 19
+}
+},
+"202": {
+"value": [
+11,
+24,
+11,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 13,
+"rivalVotes": 1,
+"pooledTextures": 259,
+"pooledBlocks": 13110,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 214,
+"texturesForNeighbour": 45
+}
+},
+"203": {
+"value": [
+16,
+33,
+16,
+0,
+1,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 9,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 334,
+"pooledBlocks": 12865,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 271,
+"texturesForNeighbour": 62
+}
+},
+"204": {
+"value": [
+15,
+31,
+15,
+4,
+9,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 22,
+"rivalVotes": 1,
+"pooledTextures": 292,
+"pooledBlocks": 15852,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 274,
+"texturesForNeighbour": 18
+}
+},
+"205": {
+"value": [
+16,
+31,
+15,
+14,
+27,
+13
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 22,
+"fitVotes": 53,
+"rivalVotes": 0,
+"pooledTextures": 311,
+"pooledBlocks": 17259,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 288,
+"texturesForNeighbour": 23
+}
+},
+"206": {
+"value": [
+14,
+29,
+14,
+13,
+25,
+12
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 23,
+"rivalVotes": 0,
+"pooledTextures": 312,
+"pooledBlocks": 14880,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 275,
+"texturesForNeighbour": 37
+}
+},
+"207": {
+"value": [
+11,
+23,
+11,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 258,
+"pooledBlocks": 12049,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 243,
+"texturesForNeighbour": 14
+}
+},
+"208": {
+"value": [
+16,
+32,
+16,
+10,
+21,
+10
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 9,
+"fitVotes": 20,
+"rivalVotes": 1,
+"pooledTextures": 296,
+"pooledBlocks": 17262,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 289,
+"texturesForNeighbour": 7
+}
+},
+"209": {
+"value": [
+11,
+22,
+11,
+4,
+9,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 17,
+"rivalVotes": 0,
+"pooledTextures": 283,
+"pooledBlocks": 13202,
+"weakestNeighbour": {
+"component": 4,
+"step": -1,
+"texturesForValue": 260,
+"texturesForNeighbour": 23
+}
+},
+"210": {
+"value": [
+11,
+22,
+10,
+1,
+2,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 315,
+"pooledBlocks": 12145,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 268,
+"texturesForNeighbour": 47
+}
+},
+"211": {
+"value": [
+8,
+14,
+5,
+2,
+4,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 3,
+"rivalVotes": 1,
+"pooledTextures": 140,
+"pooledBlocks": 4145,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 109,
+"texturesForNeighbour": 30
+}
+},
+"212": {
+"value": [
+9,
+16,
+6,
+6,
+10,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 110,
+"pooledBlocks": 3270,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 84,
+"texturesForNeighbour": 26
+}
+},
+"213": {
+"value": [
+10,
+21,
+10,
+9,
+19,
+9
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 10,
+"rivalVotes": 0,
+"pooledTextures": 170,
+"pooledBlocks": 6083,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 138,
+"texturesForNeighbour": 31
+}
+},
+"214": {
+"value": [
+14,
+30,
+14,
+11,
+22,
+11
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 32,
+"rivalVotes": 1,
+"pooledTextures": 313,
+"pooledBlocks": 16160,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 275,
+"texturesForNeighbour": 38
+}
+},
+"215": {
+"value": [
+9,
+18,
+8,
+6,
+13,
+6
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 21,
+"rivalVotes": 0,
+"pooledTextures": 253,
+"pooledBlocks": 11085,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 241,
+"texturesForNeighbour": 12
+}
+},
+"216": {
+"value": [
+6,
+13,
+6,
+5,
+11,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 9,
+"rivalVotes": 0,
+"pooledTextures": 165,
+"pooledBlocks": 6030,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 142,
+"texturesForNeighbour": 23
+}
+},
+"217": {
+"value": [
+7,
+14,
+6,
+0,
+1,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 14,
+"rivalVotes": 0,
+"pooledTextures": 323,
+"pooledBlocks": 12810,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 293,
+"texturesForNeighbour": 29
+}
+},
+"218": {
+"value": [
+4,
+7,
+2,
+3,
+4,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 4,
+"rivalVotes": 1,
+"pooledTextures": 80,
+"pooledBlocks": 3710,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 64,
+"texturesForNeighbour": 16
+}
+},
+"219": {
+"value": [
+10,
+20,
+9,
+4,
+8,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 26,
+"rivalVotes": 1,
+"pooledTextures": 276,
+"pooledBlocks": 12348,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 253,
+"texturesForNeighbour": 23
+}
+},
+"220": {
+"value": [
+9,
+17,
+7,
+5,
+9,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 0,
+"pooledTextures": 70,
+"pooledBlocks": 2809,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 63,
+"texturesForNeighbour": 7
+}
+},
+"221": {
+"value": [
+7,
+14,
+7,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 301,
+"pooledBlocks": 12803,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 240,
+"texturesForNeighbour": 60
+}
+},
+"222": {
+"value": [
+10,
+20,
+10,
+5,
+10,
+5
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 242,
+"pooledBlocks": 13545,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 233,
+"texturesForNeighbour": 9
+}
+},
+"223": {
+"value": [
+8,
+15,
+5,
+4,
+6,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 4,
+"rivalVotes": 0,
+"pooledTextures": 109,
+"pooledBlocks": 3446,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 96,
+"texturesForNeighbour": 13
+}
+},
+"224": {
+"value": [
+8,
+17,
+8,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 22,
+"rivalVotes": 1,
+"pooledTextures": 339,
+"pooledBlocks": 13885,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 285,
+"texturesForNeighbour": 53
+}
+},
+"225": {
+"value": [
+10,
+20,
+10,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 239,
+"pooledBlocks": 13798,
+"weakestNeighbour": {
+"component": 0,
+"step": -1,
+"texturesForValue": 229,
+"texturesForNeighbour": 10
+}
+},
+"226": {
+"value": [
+7,
+10,
+3,
+6,
+8,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 12,
+"rivalVotes": 0,
+"pooledTextures": 101,
+"pooledBlocks": 2927,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 83,
+"texturesForNeighbour": 18
+}
+},
+"227": {
+"value": [
+8,
+15,
+7,
+6,
+12,
+6
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 20,
+"rivalVotes": 1,
+"pooledTextures": 231,
+"pooledBlocks": 8483,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 200,
+"texturesForNeighbour": 31
+}
+},
+"228": {
+"value": [
+9,
+19,
+9,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 12,
+"rivalVotes": 1,
+"pooledTextures": 290,
+"pooledBlocks": 13033,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 227,
+"texturesForNeighbour": 61
+}
+},
+"229": {
+"value": [
+6,
+11,
+4,
+3,
+4,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 2,
+"rivalVotes": 0,
+"pooledTextures": 88,
+"pooledBlocks": 2959,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 67,
+"texturesForNeighbour": 21
+}
+},
+"230": {
+"value": [
+6,
+11,
+4,
+0,
+1,
+0
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 32,
+"rivalVotes": 2,
+"pooledTextures": 318,
+"pooledBlocks": 11259,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 256,
+"texturesForNeighbour": 62
+}
+},
+"231": {
+"value": [
+8,
+16,
+7,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 7,
+"rivalVotes": 1,
+"pooledTextures": 279,
+"pooledBlocks": 13610,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 252,
+"texturesForNeighbour": 27
+}
+},
+"232": {
+"value": [
+16,
+34,
+16,
+15,
+29,
+15
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 74,
+"fitVotes": 155,
+"rivalVotes": 2,
+"pooledTextures": 237,
+"pooledBlocks": 17291,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 231,
+"texturesForNeighbour": 6
+}
+},
+"233": {
+"value": [
+7,
+16,
+7,
+5,
+10,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 208,
+"pooledBlocks": 8769,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 186,
+"texturesForNeighbour": 22
+}
+},
+"234": {
+"value": [
+8,
+14,
+5,
+5,
+9,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 5,
+"rivalVotes": 1,
+"pooledTextures": 118,
+"pooledBlocks": 3202,
+"weakestNeighbour": {
+"component": 2,
+"step": -1,
+"texturesForValue": 103,
+"texturesForNeighbour": 15
+}
+},
+"235": {
+"value": [
+9,
+18,
+8,
+4,
+8,
+4
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 8,
+"rivalVotes": 0,
+"pooledTextures": 264,
+"pooledBlocks": 13739,
+"weakestNeighbour": {
+"component": 5,
+"step": 1,
+"texturesForValue": 240,
+"texturesForNeighbour": 24
+}
+},
+"236": {
+"value": [
+5,
+9,
+3,
+4,
+7,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 6,
+"rivalVotes": 0,
+"pooledTextures": 92,
+"pooledBlocks": 2499,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 67,
+"texturesForNeighbour": 25
+}
+},
+"237": {
+"value": [
+9,
+18,
+8,
+5,
+10,
+5
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 18,
+"rivalVotes": 1,
+"pooledTextures": 262,
+"pooledBlocks": 13706,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 249,
+"texturesForNeighbour": 13
+}
+},
+"238": {
+"value": [
+6,
+12,
+6,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 19,
+"rivalVotes": 1,
+"pooledTextures": 276,
+"pooledBlocks": 12848,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 236,
+"texturesForNeighbour": 40
+}
+},
+"239": {
+"value": [
+7,
+12,
+5,
+4,
+7,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 128,
+"pooledBlocks": 3319,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 96,
+"texturesForNeighbour": 32
+}
+},
+"240": {
+"value": [
+5,
+11,
+5,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 24,
+"rivalVotes": 1,
+"pooledTextures": 321,
+"pooledBlocks": 13096,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 252,
+"texturesForNeighbour": 65
+}
+},
+"241": {
+"value": [
+8,
+17,
+8,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 1,
+"fitVotes": 34,
+"rivalVotes": 1,
+"pooledTextures": 279,
+"pooledBlocks": 12591,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 236,
+"texturesForNeighbour": 43
+}
+},
+"242": {
+"value": [
+16,
+31,
+31,
+16,
+32,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 527,
+"fitVotes": 460,
+"rivalVotes": 16,
+"pooledTextures": 196,
+"pooledBlocks": 16336,
+"weakestNeighbour": {
+"component": 5,
+"step": -1,
+"texturesForValue": 193,
+"texturesForNeighbour": 3
+}
+},
+"243": {
+"value": [
+7,
+14,
+7,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 15,
+"rivalVotes": 1,
+"pooledTextures": 259,
+"pooledBlocks": 13213,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 222,
+"texturesForNeighbour": 37
+}
+},
+"244": {
+"value": [
+5,
+11,
+6,
+4,
+9,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 4,
+"fitVotes": 10,
+"rivalVotes": 1,
+"pooledTextures": 217,
+"pooledBlocks": 6851,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 175,
+"texturesForNeighbour": 42
+}
+},
+"245": {
+"value": [
+7,
+15,
+7,
+4,
+8,
+4
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 26,
+"rivalVotes": 3,
+"pooledTextures": 241,
+"pooledBlocks": 12634,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 218,
+"texturesForNeighbour": 23
+}
+},
+"246": {
+"value": [
+2,
+4,
+2,
+0,
+0,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 83,
+"rivalVotes": 2,
+"pooledTextures": 336,
+"pooledBlocks": 14475,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 277,
+"texturesForNeighbour": 59
+}
+},
+"247": {
+"value": [
+5,
+11,
+5,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 5,
+"fitVotes": 19,
+"rivalVotes": 1,
+"pooledTextures": 233,
+"pooledBlocks": 9028,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 212,
+"texturesForNeighbour": 21
+}
+},
+"248": {
+"value": [
+4,
+8,
+4,
+1,
+1,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 90,
+"rivalVotes": 2,
+"pooledTextures": 300,
+"pooledBlocks": 13929,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 245,
+"texturesForNeighbour": 55
+}
+},
+"249": {
+"value": [
+3,
+6,
+3,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "pooled fit",
+"exactVotes": 0,
+"fitVotes": 60,
+"rivalVotes": 2,
+"pooledTextures": 305,
+"pooledBlocks": 11505,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 264,
+"texturesForNeighbour": 41
+}
+},
+"250": {
+"value": [
+2,
+4,
+1,
+1,
+2,
+1
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 14,
+"rivalVotes": 1,
+"pooledTextures": 285,
+"pooledBlocks": 10688,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 236,
+"texturesForNeighbour": 49
+}
+},
+"251": {
+"value": [
+4,
+8,
+4,
+3,
+6,
+3
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 3,
+"fitVotes": 7,
+"rivalVotes": 0,
+"pooledTextures": 142,
+"pooledBlocks": 3384,
+"weakestNeighbour": {
+"component": 4,
+"step": 1,
+"texturesForValue": 113,
+"texturesForNeighbour": 27
+}
+},
+"252": {
+"value": [
+3,
+6,
+3,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 8,
+"fitVotes": 6,
+"rivalVotes": 1,
+"pooledTextures": 174,
+"pooledBlocks": 4728,
+"weakestNeighbour": {
+"component": 1,
+"step": 1,
+"texturesForValue": 137,
+"texturesForNeighbour": 37
+}
+},
+"253": {
+"value": [
+4,
+9,
+4,
+2,
+4,
+2
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 2,
+"fitVotes": 21,
+"rivalVotes": 1,
+"pooledTextures": 221,
+"pooledBlocks": 7981,
+"weakestNeighbour": {
+"component": 1,
+"step": -1,
+"texturesForValue": 203,
+"texturesForNeighbour": 18
+}
+},
+"254": {
+"value": [
+17,
+27,
+31,
+15,
+34,
+31
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 159,
+"fitVotes": 237,
+"rivalVotes": 3,
+"pooledTextures": 186,
+"pooledBlocks": 16240,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 182,
+"texturesForNeighbour": 4
+}
+},
+"255": {
+"value": [
+0,
+0,
+1,
+0,
+0,
+0
+],
+"solid": true,
+"confidence": "exact blocks",
+"exactVotes": 72,
+"fitVotes": 242,
+"rivalVotes": 2,
+"pooledTextures": 185,
+"pooledBlocks": 16288,
+"weakestNeighbour": {
+"component": 0,
+"step": 1,
+"texturesForValue": 183,
+"texturesForNeighbour": 2
+}
+}
+}
+}

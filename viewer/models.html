@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Characters · Lineup</title>
+    <link rel="stylesheet" href="/world.css" />
+    <link rel="stylesheet" href="/textures.css" />
+    <link rel="stylesheet" href="/models.css" />
+    <script defer src="/model-view.js"></script>
+    <script defer src="/char-effects.js"></script>
+    <script defer src="/models.js"></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/"><span class="brandmark">◇</span>Lineup</a
+      ><span class="divider"></span>
+      <a class="nav active" href="/" aria-current="page">Characters</a
+      ><a class="nav" href="/grooms" title="Strand hair, beards, brows, lashes and fur">Grooms</a>
+    </header>
+    <div class="layout models-layout">
+      <aside class="rail">
+        <div class="rail-head"><h2>Characters</h2><span id="count" class="pill"></span></div>
+        <div class="group stack" id="filters">
+          <label title="Part of a native model name, or a 0x-prefixed 32-bit name hash"
+            >Search<input id="q" placeholder="Name or 0x hash" spellcheck="false" autocomplete="off"
+          /></label>
+          <div class="row2">
+            <label title="Source archive">Archive<select id="archive"><option value="">All</option></select></label>
+            <label title="List order"
+              >Sort<select id="sort">
+                <option value="name">Name</option>
+                <option value="detail">Detail (size)</option>
+                <option value="parts">Parts / variants</option>
+                <option value="textures">Textures found</option>
+              </select></label
+            >
+          </div>
+          <label class="check"><input type="checkbox" id="textured" /> Has textures in local packs</label>
+        </div>
+        <div class="rail-scroll">
+          <nav id="tree" class="cat-tree" aria-label="Categories"></nav>
+          <div id="list" class="model-list" aria-label="Models"></div>
+        </div>
+        <div class="pager">
+          <button id="prev" aria-label="Previous page">‹</button><span id="pageLabel"></span
+          ><button id="next" aria-label="Next page">›</button>
+        </div>
+      </aside>
+      <main>
+        <div class="heading">
+          <div>
+            <div class="crumb" id="crumb">Characters</div>
+            <h1 id="title">Character library</h1>
+            <div class="subtitle" id="subtitle">Choose a category or search, then select a character.</div>
+          </div>
+          <div class="head-actions">
+            <button id="exportTexturedGlb" class="btn primary" hidden title="Export Blender-ready glTF 2.0 (.glb) with embedded PNG textures, normal maps, active parts, wheels, and live tint/palette edits">Export Textured GLB</button>
+            <a id="downloadGlb" class="btn" hidden download title="Download raw geometry-only GLB">Raw GLB</a>
+          </div>
+        </div>
+        <div class="toolbar" id="toolbar">
+          <span class="seg" id="modes" role="group" aria-label="Viewport display mode">
+            <button data-mode="wire" title="Edges only (1)">Wireframe</button
+            ><button data-mode="solid" title="Neutral shaded surfaces (2)">Solid</button
+            ><button data-mode="material" title="One flat color per material (3)">Material</button
+            ><button data-mode="textured" aria-pressed="true" title="Material color textures (4)">Textured</button>
+          </span>
+          <span class="seg" id="lods" role="group" aria-label="Level of detail" hidden></span>
+          <label class="tex-res" title="Texture mip resolution ceiling (Highest loads full native mip 0 for every albedo, normal, and specular map)">Tex
+            <select id="texRes" aria-label="Texture resolution">
+              <option value="8192" selected>Highest (Native)</option>
+              <option value="4096">4096 px</option>
+              <option value="2048">2048 px</option>
+              <option value="1024">1024 px</option>
+              <option value="512">512 px</option>
+              <option value="256">256 px</option>
+              <option value="128">128 px</option>
+            </select>
+          </label>
+          <label title="Draw edges over surfaces (W)"><input type="checkbox" id="overlay" /> Wire</label>
+          <label title="Perturb surface shading with material normal/bump maps"><input type="checkbox" id="normals" checked /> Normals</label>
+          <label title="Ground grid (G)"><input type="checkbox" id="grid" checked /> Grid</label>
+          <label title="Model bounding box wireframe (B)"><input type="checkbox" id="box" /> Bounds</label>
+          <label title="3D skeleton bone overlay (S)"><input type="checkbox" id="skeleton" /> Skeleton</label>
+          <label title="Draw back faces"><input type="checkbox" id="backfaces" checked /> Back faces</label>
+          <label title="Use the texture alpha channel as a cutout"><input type="checkbox" id="alpha" /> Alpha</label>
+          <label title="Flip the V texture coordinate"><input type="checkbox" id="flipv" /> Flip V</label>
+          <label title="Slowly orbit the camera (T)"><input type="checkbox" id="spin" /> Spin</label>
+          <span class="seg" id="views" role="group" aria-label="Camera presets">
+            <button data-view="iso" title="3/4 view (R)">3/4</button
+            ><button data-view="front" title="Front view">Front</button
+            ><button data-view="side" title="Side view">Side</button
+            ><button data-view="top" title="Top view">Top</button
+            ><button id="fit" title="Frame the model (F)">Fit</button>
+          </span>
+          <label class="tex-res studio-quick" title="Quick studio lighting preset (Shift+L to cycle)">Light
+            <select id="studioLightQuick" aria-label="Studio lighting preset"></select>
+          </label>
+          <button type="button" id="studioToggle" class="studio-btn" aria-expanded="false" aria-controls="studioPanel" title="Studio lighting &amp; background controls (L)">Studio</button>
+        </div>
+        <div class="stage" id="stage">
+          <canvas id="view" tabindex="0" aria-label="3D viewport. Drag to orbit, right-drag or shift-drag to pan, scroll to zoom, F to fit, L for studio lighting, arrow keys to browse models."></canvas>
+          <div id="studioPanel" class="studio-panel" role="region" aria-label="Studio lighting and background" hidden></div>
+          <div id="load" role="status" hidden></div>
+          <div id="empty" class="empty">No model selected.</div>
+        </div>
+        <div class="mapstatus"><span id="legend"></span><span id="stats"></span></div>
+      </main>
+      <aside class="inspector" id="inspect" aria-label="Model details"></aside>
+    </div>
+    <footer><span id="status" role="status">Opening the model inventory…</span></footer>
+  </body>
+</html>

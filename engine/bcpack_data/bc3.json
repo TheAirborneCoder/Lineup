@@ -1,0 +1,1695 @@
+{
+ "description": "BC3 BCPack rebuild data. alphaSymbolToPair: 6-bit symbol -> [left pixel index, right pixel index] (raw 3-bit BC4 indices). colourSymbolToQuadrant: 8-bit symbol -> byte with the 2-bit indices of the quadrant pixels TL, TR, BL, BR in bits 0-1, 2-3, 4-5, 6-7; colourSymbolsSupported lists the symbols whose pattern is well supported by reference pixels. history: built-in entries [alpha0, alpha1, R0, G0, B0, R1, G1, B1] that are not in the file, fitted against neighbour mips (L larger mip, S next smaller mip). See bcpack_research/README.md section 13. orderRule: the colour order convention c0 >= c1 (no exception in zlib or chain-free BCPack blocks) is a hard constraint on refits; exactColour: flat-copy evidence that is not trusted. README section 19.",
+ "alphaSymbolToPair": [
+  [
+   0,
+   0
+  ],
+  [
+   1,
+   1
+  ],
+  [
+   6,
+   6
+  ],
+  [
+   4,
+   4
+  ],
+  [
+   3,
+   3
+  ],
+  [
+   5,
+   5
+  ],
+  [
+   7,
+   7
+  ],
+  [
+   1,
+   6
+  ],
+  [
+   6,
+   1
+  ],
+  [
+   0,
+   1
+  ],
+  [
+   1,
+   0
+  ],
+  [
+   7,
+   1
+  ],
+  [
+   1,
+   7
+  ],
+  [
+   0,
+   3
+  ],
+  [
+   3,
+   0
+  ],
+  [
+   0,
+   2
+  ],
+  [
+   2,
+   0
+  ],
+  [
+   2,
+   2
+  ],
+  [
+   5,
+   4
+  ],
+  [
+   3,
+   4
+  ],
+  [
+   4,
+   3
+  ],
+  [
+   4,
+   5
+  ],
+  [
+   1,
+   5
+  ],
+  [
+   5,
+   1
+  ],
+  [
+   0,
+   4
+  ],
+  [
+   4,
+   0
+  ],
+  [
+   2,
+   3
+  ],
+  [
+   3,
+   2
+  ],
+  [
+   5,
+   3
+  ],
+  [
+   3,
+   5
+  ],
+  [
+   6,
+   5
+  ],
+  [
+   5,
+   6
+  ],
+  [
+   6,
+   7
+  ],
+  [
+   7,
+   6
+  ],
+  [
+   5,
+   7
+  ],
+  [
+   4,
+   6
+  ],
+  [
+   6,
+   4
+  ],
+  [
+   7,
+   5
+  ],
+  [
+   6,
+   0
+  ],
+  [
+   0,
+   6
+  ],
+  [
+   4,
+   2
+  ],
+  [
+   2,
+   4
+  ],
+  [
+   4,
+   1
+  ],
+  [
+   1,
+   4
+  ],
+  [
+   5,
+   0
+  ],
+  [
+   0,
+   5
+  ],
+  [
+   6,
+   3
+  ],
+  [
+   3,
+   6
+  ],
+  [
+   3,
+   1
+  ],
+  [
+   5,
+   2
+  ],
+  [
+   1,
+   3
+  ],
+  [
+   2,
+   5
+  ],
+  [
+   7,
+   4
+  ],
+  [
+   4,
+   7
+  ],
+  [
+   7,
+   3
+  ],
+  [
+   3,
+   7
+  ],
+  [
+   2,
+   6
+  ],
+  [
+   6,
+   2
+  ],
+  [
+   2,
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   0,
+   7
+  ],
+  [
+   7,
+   0
+  ],
+  [
+   2,
+   7
+  ],
+  [
+   7,
+   2
+  ]
+ ],
+ "colourSymbolToQuadrant": [
+  85,
+  170,
+  255,
+  0,
+  80,
+  5,
+  175,
+  250,
+  174,
+  234,
+  171,
+  186,
+  238,
+  187,
+  254,
+  191,
+  239,
+  251,
+  165,
+  90,
+  240,
+  17,
+  15,
+  68,
+  245,
+  95,
+  160,
+  10,
+  138,
+  162,
+  168,
+  42,
+  127,
+  247,
+  119,
+  223,
+  253,
+  221,
+  102,
+  153,
+  136,
+  190,
+  235,
+  34,
+  204,
+  51,
+  143,
+  248,
+  87,
+  117,
+  213,
+  93,
+  47,
+  242,
+  122,
+  133,
+  167,
+  218,
+  88,
+  37,
+  173,
+  82,
+  63,
+  243,
+  207,
+  232,
+  252,
+  142,
+  43,
+  126,
+  106,
+  166,
+  154,
+  112,
+  7,
+  13,
+  169,
+  120,
+  128,
+  8,
+  2,
+  231,
+  178,
+  32,
+  219,
+  208,
+  135,
+  94,
+  189,
+  124,
+  45,
+  229,
+  199,
+  236,
+  206,
+  91,
+  179,
+  210,
+  46,
+  181,
+  59,
+  224,
+  230,
+  110,
+  104,
+  139,
+  155,
+  226,
+  185,
+  14,
+  184,
+  11,
+  61,
+  211,
+  81,
+  134,
+  39,
+  69,
+  21,
+  222,
+  84,
+  141,
+  183,
+  237,
+  123,
+  176,
+  216,
+  41,
+  114,
+  146,
+  125,
+  215,
+  53,
+  163,
+  197,
+  130,
+  55,
+  83,
+  40,
+  92,
+  86,
+  101,
+  118,
+  149,
+  89,
+  205,
+  159,
+  58,
+  115,
+  137,
+  202,
+  172,
+  103,
+  157,
+  246,
+  217,
+  249,
+  145,
+  25,
+  220,
+  152,
+  108,
+  70,
+  100,
+  111,
+  38,
+  57,
+  98,
+  198,
+  147,
+  9,
+  35,
+  6,
+  96,
+  140,
+  200,
+  144,
+  50,
+  3,
+  62,
+  192,
+  19,
+  49,
+  227,
+  76,
+  158,
+  12,
+  196,
+  203,
+  188,
+  182,
+  233,
+  48,
+  107,
+  31,
+  241,
+  29,
+  209,
+  71,
+  116,
+  79,
+  16,
+  64,
+  244,
+  1,
+  4,
+  161,
+  26,
+  164,
+  27,
+  74,
+  177,
+  228,
+  78,
+  54,
+  201,
+  156,
+  99,
+  151,
+  113,
+  121,
+  23,
+  72,
+  105,
+  33,
+  18,
+  60,
+  132,
+  131,
+  109,
+  214,
+  150,
+  195,
+  56,
+  30,
+  77,
+  225,
+  212,
+  194,
+  44,
+  24,
+  129,
+  180,
+  75,
+  22,
+  97,
+  193,
+  36,
+  28,
+  73,
+  20,
+  66,
+  148,
+  65,
+  52,
+  67
+ ],
+ "colourSymbolsSupported": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  30,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  45,
+  46,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59,
+  60,
+  61,
+  62,
+  63,
+  64,
+  65,
+  66,
+  67,
+  68,
+  69,
+  70,
+  71,
+  72,
+  73,
+  74,
+  75,
+  76,
+  77,
+  78,
+  79,
+  80,
+  81,
+  82,
+  83,
+  84,
+  85,
+  86,
+  87,
+  88,
+  89,
+  90,
+  91,
+  92,
+  93,
+  94,
+  95,
+  96,
+  97,
+  98,
+  99,
+  100,
+  101,
+  102,
+  103,
+  104,
+  105,
+  106,
+  107,
+  108,
+  109,
+  110,
+  111,
+  112,
+  113,
+  114,
+  115,
+  116,
+  117,
+  118,
+  119,
+  120,
+  121,
+  122,
+  123,
+  124,
+  125,
+  126,
+  127,
+  128,
+  129,
+  130,
+  131,
+  132,
+  133,
+  134,
+  135,
+  136,
+  137,
+  138,
+  139,
+  140,
+  141,
+  142,
+  143,
+  144,
+  145,
+  146,
+  147,
+  148,
+  149,
+  150,
+  151,
+  152,
+  153,
+  154,
+  155,
+  156,
+  157,
+  158,
+  159,
+  160,
+  161,
+  162,
+  163,
+  164,
+  165,
+  166,
+  167,
+  168,
+  169,
+  170,
+  171,
+  172,
+  173,
+  174,
+  175,
+  176,
+  177,
+  178,
+  179,
+  180,
+  181,
+  182,
+  183,
+  184,
+  185,
+  186,
+  187,
+  188,
+  189,
+  190,
+  191,
+  192,
+  193,
+  194,
+  195,
+  196,
+  197,
+  198,
+  199,
+  200,
+  201,
+  202,
+  203,
+  204,
+  205,
+  206,
+  207,
+  208,
+  209,
+  210,
+  211,
+  212,
+  213,
+  214,
+  215,
+  216,
+  217,
+  218,
+  219,
+  220,
+  221,
+  222,
+  223,
+  224,
+  225,
+  226,
+  227,
+  228,
+  229,
+  230,
+  231,
+  232,
+  233,
+  234,
+  235,
+  236,
+  237,
+  238,
+  239,
+  240,
+  241,
+  242,
+  243,
+  244,
+  245,
+  246,
+  247,
+  248,
+  249,
+  250,
+  251,
+  252,
+  253,
+  254,
+  255
+ ],
+ "history": {
+  "2": {
+   "value": [
+    177,
+    134,
+    27,
+    55,
+    24,
+    14,
+    54,
+    24
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 107114,
+   "chunks": 6,
+   "fitBlocks": 3000,
+   "fitChunks": 6,
+   "references": "LS",
+   "error": [
+    101.43,
+    56.55,
+    56.05,
+    56.55
+   ]
+  },
+  "26": {
+   "value": [
+    255,
+    255,
+    21,
+    34,
+    8,
+    15,
+    22,
+    3
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 974,
+   "chunks": 1,
+   "fitBlocks": 500,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    33.96,
+    203.01,
+    39.85,
+    117.38
+   ]
+  },
+  "29": {
+   "value": [
+    220,
+    109,
+    17,
+    35,
+    17,
+    15,
+    30,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 9,
+   "chunks": 1,
+   "fitBlocks": 9,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    15.44,
+    7.75,
+    4.55,
+    7.75
+   ]
+  },
+  "30": {
+   "value": [
+    219,
+    96,
+    2,
+    53,
+    14,
+    2,
+    59,
+    16
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 15,
+   "chunks": 1,
+   "fitBlocks": 15,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    23.96,
+    79.66,
+    73.89,
+    79.66
+   ]
+  },
+  "35": {
+   "value": [
+    95,
+    65,
+    16,
+    31,
+    16,
+    15,
+    31,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 11,
+   "chunks": 1,
+   "fitBlocks": 11,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    16.95,
+    45.87,
+    40.7,
+    45.87
+   ]
+  },
+  "37": {
+   "value": [
+    136,
+    13,
+    16,
+    33,
+    16,
+    15,
+    32,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 75589,
+   "chunks": 3,
+   "fitBlocks": 1500,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    126.63,
+    9.21,
+    12.23,
+    9.21
+   ]
+  },
+  "47": {
+   "value": [
+    146,
+    108,
+    18,
+    37,
+    18,
+    13,
+    26,
+    13
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 4414,
+   "chunks": 3,
+   "fitBlocks": 797,
+   "fitChunks": 3,
+   "references": "L",
+   "error": [
+    216.69,
+    133.69,
+    127.59,
+    133.69
+   ]
+  },
+  "52": {
+   "value": [
+    255,
+    255,
+    20,
+    38,
+    16,
+    3,
+    5,
+    2
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 60549,
+   "chunks": 2,
+   "fitBlocks": 502,
+   "fitChunks": 2,
+   "references": "LS",
+   "error": [
+    16.14,
+    46.91,
+    44.9,
+    46.86
+   ]
+  },
+  "71": {
+   "value": [
+    200,
+    51,
+    17,
+    34,
+    17,
+    15,
+    31,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 7501,
+   "chunks": 2,
+   "fitBlocks": 567,
+   "fitChunks": 2,
+   "references": "LS",
+   "error": [
+    124.84,
+    10.96,
+    9.06,
+    10.96
+   ]
+  },
+  "76": {
+   "value": [
+    170,
+    150,
+    2,
+    60,
+    20,
+    1,
+    61,
+    20
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 59087,
+   "chunks": 1,
+   "fitBlocks": 500,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    38.21,
+    37.59,
+    37.43,
+    37.59
+   ]
+  },
+  "78": {
+   "value": [
+    248,
+    10,
+    3,
+    4,
+    2,
+    0,
+    1,
+    0
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 66332,
+   "chunks": 3,
+   "fitBlocks": 1148,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    7.65,
+    7.4,
+    7.41,
+    7.4
+   ]
+  },
+  "95": {
+   "value": [
+    237,
+    229,
+    26,
+    51,
+    25,
+    1,
+    3,
+    1
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 9289,
+   "chunks": 3,
+   "fitBlocks": 1016,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    87.23,
+    61.81,
+    60.57,
+    61.81
+   ]
+  },
+  "98": {
+   "value": [
+    255,
+    0,
+    19,
+    38,
+    18,
+    14,
+    29,
+    13
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 4620,
+   "chunks": 6,
+   "fitBlocks": 1012,
+   "fitChunks": 6,
+   "references": "LS",
+   "error": [
+    30.65,
+    9.71,
+    9.1,
+    9.71
+   ]
+  },
+  "104": {
+   "value": [
+    255,
+    6,
+    13,
+    27,
+    13,
+    8,
+    17,
+    8
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    96.26,
+    260.77,
+    262.05,
+    275.33
+   ]
+  },
+  "109": {
+   "value": [
+    254,
+    4,
+    15,
+    27,
+    11,
+    3,
+    4,
+    2
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 3310,
+   "chunks": 5,
+   "fitBlocks": 1005,
+   "fitChunks": 5,
+   "references": "LS",
+   "error": [
+    106.26,
+    80.38,
+    75.29,
+    79.97
+   ]
+  },
+  "112": {
+   "value": [
+    117,
+    39,
+    21,
+    41,
+    21,
+    1,
+    3,
+    1
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    70.13,
+    632.2,
+    712.54,
+    632.2
+   ]
+  },
+  "126": {
+   "value": [
+    170,
+    119,
+    16,
+    31,
+    16,
+    15,
+    30,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 269,
+   "chunks": 1,
+   "fitBlocks": 269,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    28.75,
+    162.71,
+    156.08,
+    162.71
+   ]
+  },
+  "138": {
+   "value": [
+    122,
+    121,
+    14,
+    29,
+    14,
+    13,
+    27,
+    13
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 1,
+   "chunks": 1,
+   "fitBlocks": 1,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    2.63,
+    13.74,
+    8.26,
+    13.74
+   ]
+  },
+  "139": {
+   "value": [
+    247,
+    1,
+    15,
+    28,
+    13,
+    9,
+    16,
+    7
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 14,
+   "chunks": 2,
+   "fitBlocks": 14,
+   "fitChunks": 2,
+   "references": "L",
+   "error": [
+    1129.29,
+    89.18,
+    82.92,
+    89.01
+   ]
+  },
+  "153": {
+   "value": [
+    105,
+    126,
+    2,
+    7,
+    4,
+    1,
+    3,
+    2
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 12642,
+   "chunks": 2,
+   "fitBlocks": 501,
+   "fitChunks": 2,
+   "references": "L",
+   "error": [
+    12.46,
+    13.97,
+    12.8,
+    13.97
+   ]
+  },
+  "154": {
+   "value": [
+    93,
+    100,
+    20,
+    40,
+    20,
+    15,
+    30,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 1315,
+   "chunks": 3,
+   "fitBlocks": 578,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    80.71,
+    100.48,
+    92.03,
+    100.68
+   ]
+  },
+  "166": {
+   "value": [
+    91,
+    99,
+    17,
+    35,
+    17,
+    15,
+    30,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 2875,
+   "chunks": 2,
+   "fitBlocks": 508,
+   "fitChunks": 2,
+   "references": "LS",
+   "error": [
+    14.03,
+    9.79,
+    7.75,
+    9.79
+   ]
+  },
+  "167": {
+   "value": [
+    155,
+    99,
+    16,
+    33,
+    16,
+    15,
+    31,
+    15
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 2,
+   "chunks": 1,
+   "fitBlocks": 2,
+   "fitChunks": 1,
+   "references": "L",
+   "error": [
+    7.4,
+    27.79,
+    21.42,
+    27.79
+   ]
+  },
+  "177": {
+   "value": [
+    255,
+    255,
+    13,
+    24,
+    12,
+    11,
+    23,
+    10
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 1232,
+   "chunks": 1,
+   "fitBlocks": 500,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    26.65,
+    18.53,
+    12.17,
+    19.19
+   ]
+  },
+  "185": {
+   "value": [
+    254,
+    255,
+    10,
+    17,
+    7,
+    2,
+    3,
+    1
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 15509,
+   "chunks": 3,
+   "fitBlocks": 1500,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    17.53,
+    47.32,
+    43.88,
+    47.31
+   ]
+  },
+  "197": {
+   "value": [
+    253,
+    255,
+    11,
+    20,
+    9,
+    6,
+    11,
+    4
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 149,
+   "chunks": 2,
+   "fitBlocks": 149,
+   "fitChunks": 2,
+   "references": "LS",
+   "error": [
+    670.65,
+    60.37,
+    38.12,
+    41.25
+   ]
+  },
+  "210": {
+   "value": [
+    254,
+    255,
+    5,
+    10,
+    5,
+    1,
+    2,
+    1
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 4057,
+   "chunks": 5,
+   "fitBlocks": 1083,
+   "fitChunks": 5,
+   "references": "L",
+   "error": [
+    53.01,
+    29.15,
+    26.85,
+    29.15
+   ]
+  },
+  "220": {
+   "value": [
+    255,
+    255,
+    11,
+    20,
+    9,
+    9,
+    17,
+    7
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 66213,
+   "chunks": 2,
+   "fitBlocks": 1000,
+   "fitChunks": 2,
+   "references": "S",
+   "error": [
+    53.69,
+    32.67,
+    17.16,
+    22.08
+   ],
+   "orderRule": {
+    "previous": [
+     255,
+     255,
+     11,
+     20,
+     9,
+     9,
+     18,
+     7
+    ],
+    "note": "refitted with colour order c0 >= c1 as a hard constraint (bc3order2.py)",
+    "cost": 71956.0,
+    "freeCost": 71905.1
+   }
+  },
+  "225": {
+   "value": [
+    106,
+    113,
+    24,
+    39,
+    23,
+    0,
+    13,
+    0
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 50,
+   "chunks": 1,
+   "fitBlocks": 50,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    38.43,
+    153.36,
+    56.96,
+    207.18
+   ]
+  },
+  "226": {
+   "value": [
+    1,
+    255,
+    8,
+    15,
+    7,
+    5,
+    10,
+    4
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 66825,
+   "chunks": 3,
+   "fitBlocks": 503,
+   "fitChunks": 2,
+   "references": "LS",
+   "error": [
+    160.08,
+    3.5,
+    3.17,
+    3.5
+   ]
+  },
+  "230": {
+   "value": [
+    1,
+    2,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 8082,
+   "chunks": 3,
+   "fitBlocks": 1032,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    3.26,
+    4.52,
+    3.9,
+    4.52
+   ],
+   "exactColour": {
+    "value": [
+     0,
+     1,
+     1,
+     0,
+     0,
+     0
+    ],
+    "votes": 4096,
+    "trusted": false,
+    "note": "flat-copy votes from a mip pair without its own check; equal to the fitted value"
+   }
+  },
+  "232": {
+   "value": [
+    140,
+    131,
+    16,
+    31,
+    16,
+    15,
+    34,
+    16
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 142,
+   "chunks": 1,
+   "fitBlocks": 142,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    3.82,
+    7.54,
+    6.17,
+    7.54
+   ]
+  },
+  "237": {
+   "value": [
+    255,
+    254,
+    5,
+    11,
+    5,
+    4,
+    9,
+    3
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 761,
+   "chunks": 1,
+   "fitBlocks": 500,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    1.52,
+    3.0,
+    2.74,
+    3.0
+   ]
+  },
+  "244": {
+   "value": [
+    255,
+    255,
+    1,
+    1,
+    1,
+    0,
+    0,
+    0
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 162,
+   "chunks": 1,
+   "fitBlocks": 162,
+   "fitChunks": 1,
+   "references": "S",
+   "error": [
+    6.53,
+    8.26,
+    9.22,
+    8.26
+   ]
+  },
+  "246": {
+   "value": [
+    253,
+    254,
+    3,
+    5,
+    2,
+    1,
+    2,
+    1
+   ],
+   "confirmed": false,
+   "source": "pooled",
+   "blocks": 20490,
+   "chunks": 3,
+   "fitBlocks": 1012,
+   "fitChunks": 3,
+   "references": "LS",
+   "error": [
+    10.39,
+    6.48,
+    6.1,
+    6.48
+   ],
+   "exactColour": {
+    "value": [
+     3,
+     5,
+     2,
+     1,
+     2,
+     1
+    ],
+    "votes": 37,
+    "trusted": false,
+    "note": "flat-copy votes from a mip pair without its own check; equal to the fitted value"
+   }
+  }
+ }
+}

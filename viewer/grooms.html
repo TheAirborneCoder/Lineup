@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Grooms · Lineup</title>
+    <link rel="stylesheet" href="/world.css" />
+    <link rel="stylesheet" href="/textures.css" />
+    <link rel="stylesheet" href="/models.css" />
+    <script defer src="/model-view.js"></script>
+    <script defer src="/grooms.js"></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/"><span class="brandmark">◇</span>Lineup</a
+      ><span class="divider"></span>
+      <a class="nav" href="/">Characters</a
+      ><a class="nav active" href="/grooms" title="Strand hair, beards, brows, lashes and fur" aria-current="page">Grooms</a>
+    </header>
+    <div class="layout models-layout">
+      <aside class="rail">
+        <div class="rail-head"><h2>Grooms</h2><span id="count" class="pill"></span></div>
+        <div class="group stack" id="filters">
+          <label title="Part of an item name (brows, beardfull), the archive offset of any LOD (0x...), or the asset number"
+            >Search<input id="q" placeholder="Item name, 0x offset or number" spellcheck="false" autocomplete="off"
+          /></label>
+          <div class="row2">
+            <label title="Source archive">Archive<select id="archive"><option value="">All</option></select></label>
+            <label title="List order"
+              >Sort<select id="sort">
+                <option value="order">Archive order</option>
+                <option value="strands">Strand count</option>
+                <option value="guides">Guide detail</option>
+                <option value="length">Longest guide</option>
+                <option value="size">Stored size</option>
+              </select></label
+            >
+          </div>
+        </div>
+        <div class="rail-scroll">
+          <nav id="tree" class="cat-tree" aria-label="Placement classes"></nav>
+          <div id="list" class="model-list" aria-label="Grooms"></div>
+        </div>
+        <div class="pager">
+          <button id="prev" aria-label="Previous page">‹</button><span id="pageLabel"></span
+          ><button id="next" aria-label="Next page">›</button>
+        </div>
+      </aside>
+      <main>
+        <div class="heading">
+          <div>
+            <div class="crumb" id="crumb">Grooms</div>
+            <h1 id="title">Strand hair grooms</h1>
+            <div class="subtitle" id="subtitle">Hair, beards, brows, lashes, body hair and fur. Choose a class, then a groom.</div>
+          </div>
+          <div class="head-actions">
+            <a id="downloadCurves" class="btn primary" hidden download title="All shown strands and guides as glTF line strips, for Blender and other tools">Curves GLB</a>
+            <a id="downloadGlb" class="btn" hidden download title="The viewport geometry: strands and guides as thin tubes">Tube GLB</a>
+          </div>
+        </div>
+        <div class="toolbar" id="toolbar">
+          <span class="seg" id="modes" role="group" aria-label="Viewport display mode">
+            <button data-mode="wire" title="Edges only">Wireframe</button
+            ><button data-mode="solid" title="Neutral shaded surfaces">Solid</button
+            ><button data-mode="material" aria-pressed="true" title="One color per part">Parts</button>
+          </span>
+          <span class="seg" id="lods" role="group" aria-label="Level of detail" hidden></span>
+          <label title="Most strands drawn per strand class. The asset's own total is shown in the inspector."
+            >Strands
+            <select id="strands" aria-label="Strand limit"></select>
+          </label>
+          <label title="Ground grid"><input type="checkbox" id="grid" checked /> Grid</label>
+          <label title="Stored bounding box"><input type="checkbox" id="box" /> Bounds</label>
+          <label title="Slowly orbit the camera"><input type="checkbox" id="spin" /> Spin</label>
+          <span class="seg" id="views" role="group" aria-label="Camera presets">
+            <button data-view="iso" title="3/4 view">3/4</button
+            ><button data-view="front" title="Front view">Front</button
+            ><button data-view="side" title="Side view">Side</button
+            ><button data-view="top" title="Top view">Top</button
+            ><button id="fit" title="Frame the groom">Fit</button>
+          </span>
+        </div>
+        <div class="stage" id="stage">
+          <canvas id="view" tabindex="0" aria-label="3D viewport. Drag to orbit, right-drag or shift-drag to pan, scroll to zoom."></canvas>
+          <div id="load" role="status" hidden></div>
+          <div id="empty" class="empty">No groom selected.</div>
+        </div>
+        <div class="mapstatus"><span id="legend"></span><span id="stats"></span></div>
+      </main>
+      <aside class="inspector" id="inspect" aria-label="Groom details"></aside>
+    </div>
+    <footer><span id="status" role="status">Opening the groom index…</span></footer>
+  </body>
+</html>
