@@ -100,6 +100,7 @@ def archive_path(name):
     """Resolve an archive name stored in a database. Refuses anything outside the game folder."""
     root = GAME.resolve()
     path = (root / name).resolve()
-    if not path.is_relative_to(root) or path.suffix != ".rpf":
+    # Stored names always use forward slashes; a backslash is a separator on Windows only, so refuse it everywhere.
+    if "\\" in str(name) or not path.is_relative_to(root) or path.suffix != ".rpf":
         raise ValueError("unknown archive")
     return path
