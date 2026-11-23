@@ -68,11 +68,11 @@ are in `tests/` (see [How it works](#how-it-works)).
 |---|---|
 | Windows 11 | Tested with Python 3.14. |
 | Windows 10 | Expected to work (same code); not run. |
-| Linux | Written for, **not run**. Untested: the search for the game folder, the optional C build with `gcc` or `clang`, the folder dialog, `launch.sh`. |
-| macOS | Written for, **not run**. The same parts are untested, plus `Launch.command`. |
+| Linux | The unit tests and the optional C build pass in CI (GitHub's Ubuntu runner). The full build and the viewer have **not been run** against a game copy. Also untested: the search for the game folder on a real machine, the folder dialog, `launch.sh`. |
+| macOS | The same: unit tests and the C build pass in CI (GitHub's macOS runner); the full build and the viewer have **not been run**. `Launch.command` is untested. |
 
-Python 3.10 is the lowest version the code appears to need (judged by reading and a static check). Only Python 3.14
-has been run.
+Python 3.10 is the lowest supported version: the unit tests pass on 3.10 and on the newest Python in CI, on all three
+platforms. The full build and the viewer have only been run with Python 3.14.
 
 ## How to use
 
