@@ -151,8 +151,7 @@ screenshots of extracted assets or generated databases to an issue or a pull req
 
 ## Credits
 
-Lineup's code, decoders and research are this project's own work. The repository layout and the "built from your own
-copy" approach follow the Leonida project (<https://github.com/ItsNotRexed/Leonida>).
+Lineup's code, decoders and research are this project's own work.
 
 Grand Theft Auto and all related names are trademarks of their owners. This project is not affiliated with or endorsed by them.
 
