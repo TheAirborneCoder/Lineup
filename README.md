@@ -4,7 +4,7 @@
 
 <h1 align="center">Lineup</h1>
 
-<p align="center">A character viewer for Grand Theft Auto VI (Xbox Series), built on your PC from your own copy.</p>
+<p align="center">A character viewer, built on your PC from your own copy.</p>
 
 <p align="center">
   <a href="#what-you-can-do">What you can do</a> ·
